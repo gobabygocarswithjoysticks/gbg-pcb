@@ -1914,168 +1914,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -3266,6 +3104,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "library:D78B05T-1.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at -15.24 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "D78B05T-1.0"
+				(at -15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kicad libraries:D78B05T-1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/diwell-electronics/D78B05T-1-0/16572065"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC DC CONVERTER 5V 1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D78B05T-1.0_0_0"
+				(rectangle
+					(start -15.24 -7.62)
+					(end 15.24 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "+VOUT/GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "GND/-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "library:LM2104DR"
 			(pin_names
 				(offset 0.254)
@@ -3845,182 +3805,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "library:TPS54202HDDCR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 11.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TPS54202HDDCR"
-				(at -12.7 -14.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "kicad libraries:SOT95P280X110-6N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS54202HDDCR_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "FB"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5812,16 +5596,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "remove 12V indicator? (D1 and R4)"
-		(exclude_from_sim no)
-		(at 342.646 236.474 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "467a1e63-bd4b-46e9-867c-7e73f1b946a6")
-	)
 	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
 		(at 282.194 186.944 0)
@@ -5852,7 +5626,7 @@
 		)
 		(uuid "a14c4867-cc76-496a-88b2-e08e5782cdf1")
 	)
-	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n\nI put two mosfets in parallel. is that ok? can IC1 handle that?"
+	(text "PSMN2R6-30YLC,115 0.0028Ohm, 50 K/W, sqrt(2W/rds)=26A\n\nI put two mosfets in parallel. is that ok? can IC1 handle that?"
 		(exclude_from_sim no)
 		(at 315.468 193.294 0)
 		(effects
@@ -5907,10 +5681,10 @@
 		(uuid "19fd504c-67be-42d2-bc1a-191b2ac82c47")
 	)
 	(junction
-		(at 113.03 218.44)
+		(at 83.82 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2223b6d5-ef98-42ea-8728-7361f6d507c4")
+		(uuid "304a8179-35eb-4f55-8716-4c16385ac446")
 	)
 	(junction
 		(at 309.88 226.06)
@@ -5937,12 +5711,6 @@
 		(uuid "4880fb07-01ac-4f64-811b-76998c5867ab")
 	)
 	(junction
-		(at 102.87 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55177b8a-0fd9-43aa-8c42-982008e2e65b")
-	)
-	(junction
 		(at 350.52 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5965,12 +5733,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
-	)
-	(junction
-		(at 91.44 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66e43a72-7bf6-4351-9136-732863b7efc2")
 	)
 	(junction
 		(at 312.42 204.47)
@@ -5997,12 +5759,6 @@
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
 	)
 	(junction
-		(at 113.03 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "929c5c6a-5154-4eef-a9a8-e2eee25433a3")
-	)
-	(junction
 		(at 161.29 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6025,12 +5781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2a93a99-4f33-419f-b0ac-d731551d09ee")
-	)
-	(junction
-		(at 102.87 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8419210-03ee-470b-a47d-c33154e08f0d")
 	)
 	(junction
 		(at 381 160.02)
@@ -6087,7 +5837,7 @@
 		(uuid "df559a63-4a9d-4dea-8559-e05c58ec62e6")
 	)
 	(junction
-		(at 35.56 210.82)
+		(at 35.56 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e16e4a17-ba29-4ba0-8647-01bf43bda5d0")
@@ -6144,10 +5894,6 @@
 		(at 99.06 35.56)
 		(uuid "97da288f-587a-451a-af42-b87fbf967351")
 	)
-	(no_connect
-		(at 43.18 205.74)
-		(uuid "ae8c518d-69ae-4792-8c7e-88fd273bd9ef")
-	)
 	(wire
 		(pts
 			(xy 133.35 83.82) (xy 133.35 81.28)
@@ -6157,6 +5903,16 @@
 			(type default)
 		)
 		(uuid "020f1e74-61c3-45dc-9375-c9b4b88e3d12")
+	)
+	(wire
+		(pts
+			(xy 68.58 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a89c56-a594-4c77-b683-87a639fdcbe8")
 	)
 	(wire
 		(pts
@@ -6200,13 +5956,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 218.44) (xy 113.03 219.71)
+			(xy 101.6 208.28) (xy 135.89 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bf30fe8-9a62-4259-8521-7a4930c83a1b")
+		(uuid "07335fc3-dd90-4421-bf7d-1f87ddcf9f10")
 	)
 	(wire
 		(pts
@@ -6217,16 +5973,6 @@
 			(type default)
 		)
 		(uuid "0c594470-11cc-43c0-ab6f-0b211176a615")
-	)
-	(wire
-		(pts
-			(xy 102.87 218.44) (xy 93.98 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da3423d-9127-47dd-9e74-53f0d09d54e6")
 	)
 	(wire
 		(pts
@@ -6380,7 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 210.82) (xy 43.18 210.82)
+			(xy 35.56 208.28) (xy 60.96 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6480,16 +6226,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 217.17) (xy 102.87 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "403dac17-1e84-40c8-a028-6d9204b35149")
-	)
-	(wire
-		(pts
 			(xy 226.06 215.9) (xy 232.41 215.9)
 		)
 		(stroke
@@ -6507,16 +6243,6 @@
 			(type default)
 		)
 		(uuid "416a11e0-7a43-41bb-b45a-bbb17ea3d17d")
-	)
-	(wire
-		(pts
-			(xy 93.98 218.44) (xy 93.98 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4223e0d1-9ad6-433b-9353-361ebfa67772")
 	)
 	(wire
 		(pts
@@ -6570,7 +6296,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 210.82) (xy 35.56 213.36)
+			(xy 35.56 208.28) (xy 35.56 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6637,16 +6363,6 @@
 			(type default)
 		)
 		(uuid "5917730c-c064-436f-8c82-80c55afebc0e")
-	)
-	(wire
-		(pts
-			(xy 78.74 208.28) (xy 91.44 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4310fd-6938-49bb-b90e-5c6961148156")
 	)
 	(wire
 		(pts
@@ -6730,26 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 208.28) (xy 102.87 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ec690b6-b0ef-4c4b-a2ba-8915a89967ae")
-	)
-	(wire
-		(pts
-			(xy 78.74 219.71) (xy 78.74 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb50925-8823-4e5a-9c09-478d7cdb9148")
-	)
-	(wire
-		(pts
 			(xy 271.78 132.08) (xy 287.02 132.08)
 		)
 		(stroke
@@ -6757,16 +6453,6 @@
 			(type default)
 		)
 		(uuid "6002d901-a93b-4db6-9b2d-f766780845f8")
-	)
-	(wire
-		(pts
-			(xy 93.98 213.36) (xy 60.96 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60dfca9e-7373-4386-b362-7f23f25c461d")
 	)
 	(wire
 		(pts
@@ -6830,6 +6516,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 213.36) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c4733d-96eb-42ac-b9cd-eda412829c1f")
+	)
+	(wire
+		(pts
 			(xy 116.84 63.5) (xy 99.06 63.5)
 		)
 		(stroke
@@ -6840,23 +6536,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 222.25) (xy 35.56 220.98)
+			(xy 35.56 219.71) (xy 35.56 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69d022bd-e45f-4e7e-a6f2-026e39f14aed")
-	)
-	(wire
-		(pts
-			(xy 113.03 209.55) (xy 113.03 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8aba5c-069d-4b73-b425-58c41841a73c")
 	)
 	(wire
 		(pts
@@ -6910,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 208.28) (xy 26.67 210.82)
+			(xy 26.67 205.74) (xy 26.67 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6960,26 +6646,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 209.55) (xy 43.18 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2b1912-14de-4903-b7ba-3c1e5cd5f204")
-	)
-	(wire
-		(pts
-			(xy 91.44 208.28) (xy 93.98 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb10219-dc20-48c7-825d-0d3bbc320412")
-	)
-	(wire
-		(pts
 			(xy 129.54 78.74) (xy 137.16 78.74)
 		)
 		(stroke
@@ -7000,16 +6666,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 217.17) (xy 113.03 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8289feb8-7712-4614-adca-1e7ea6cf8198")
-	)
-	(wire
-		(pts
 			(xy 271.78 147.32) (xy 271.78 132.08)
 		)
 		(stroke
@@ -7027,6 +6683,16 @@
 			(type default)
 		)
 		(uuid "842a2be4-8f0b-463b-bfb0-ef07f0fa4812")
+	)
+	(wire
+		(pts
+			(xy 68.58 153.67) (xy 83.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873a82d8-b9ba-4e7d-ad89-2e2e21eab680")
 	)
 	(wire
 		(pts
@@ -7120,16 +6786,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 204.47) (xy 91.44 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9217eb75-0a21-4aa9-b714-960f75aa569e")
-	)
-	(wire
-		(pts
 			(xy 264.16 116.84) (xy 264.16 135.89)
 		)
 		(stroke
@@ -7137,16 +6793,6 @@
 			(type default)
 		)
 		(uuid "92a910ad-4160-42d9-9ac9-92cadd55458d")
-	)
-	(wire
-		(pts
-			(xy 113.03 218.44) (xy 102.87 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "945bcd51-eb14-40e3-ae90-ed83dfad5a0c")
 	)
 	(wire
 		(pts
@@ -7210,6 +6856,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 226.06) (xy 106.68 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6c6a10-d6f1-43fc-ae3e-779ce276274e")
+	)
+	(wire
+		(pts
 			(xy 99.06 99.06) (xy 99.06 101.6)
 		)
 		(stroke
@@ -7267,16 +6923,6 @@
 			(type default)
 		)
 		(uuid "aca34c3a-1f0e-493a-ab0c-94241dc15dc5")
-	)
-	(wire
-		(pts
-			(xy 82.55 204.47) (xy 78.74 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8ac92c-f3bd-425e-9254-fa4239c9969e")
 	)
 	(wire
 		(pts
@@ -7390,16 +7036,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 204.47) (xy 78.74 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10cdaa3-f45f-4333-b43e-d8a1f3253056")
-	)
-	(wire
-		(pts
 			(xy 381 157.48) (xy 381 160.02)
 		)
 		(stroke
@@ -7410,16 +7046,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 213.36) (xy 60.96 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37a57a3-8cd2-4958-b328-ae0a8b622eec")
-	)
-	(wire
-		(pts
 			(xy 232.41 226.06) (xy 233.68 226.06)
 		)
 		(stroke
@@ -7427,16 +7053,6 @@
 			(type default)
 		)
 		(uuid "c46326c0-65e6-47cb-92fa-784b124ff8d9")
-	)
-	(wire
-		(pts
-			(xy 102.87 208.28) (xy 113.03 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bc20c3-237c-480c-b1cd-6b542c4785f0")
 	)
 	(wire
 		(pts
@@ -7530,16 +7146,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 208.28) (xy 135.89 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fcf25e-045b-436c-b16a-b5859f945526")
-	)
-	(wire
-		(pts
 			(xy 354.33 224.79) (xy 354.33 226.06)
 		)
 		(stroke
@@ -7597,16 +7203,6 @@
 			(type default)
 		)
 		(uuid "dd7df973-6ec2-476c-8308-e23ec66ab526")
-	)
-	(wire
-		(pts
-			(xy 60.96 209.55) (xy 43.18 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de84d989-47b1-4fd9-bf5a-1e8534be2f94")
 	)
 	(wire
 		(pts
@@ -7680,7 +7276,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 210.82) (xy 35.56 210.82)
+			(xy 26.67 208.28) (xy 35.56 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7730,16 +7326,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 208.28) (xy 91.44 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3ebe5c8-9e35-4d43-99d3-36a8a082c5a2")
-	)
-	(wire
-		(pts
 			(xy 322.58 204.47) (xy 330.2 204.47)
 		)
 		(stroke
@@ -7757,16 +7343,6 @@
 			(type default)
 		)
 		(uuid "f7c46f9e-8093-4f7e-adcb-06379edce3c8")
-	)
-	(wire
-		(pts
-			(xy 102.87 208.28) (xy 102.87 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7de0ba9-bdd7-4758-a126-94bfd05bff20")
 	)
 	(wire
 		(pts
@@ -8570,7 +8146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+		(property "Datasheet" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8579,7 +8155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8588,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8597,7 +8173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+		(property "Manufacturer_Part_Number" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8606,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "price" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8615,7 +8191,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1276-1106-1-ND"
+		(property "digikey_part_number" ""
 			(at 293.37 212.09 0)
 			(effects
 				(font
@@ -8682,7 +8258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 247.65 48.26 0)
 			(effects
 				(font
@@ -8709,7 +8285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8718,7 +8294,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8727,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8736,7 +8312,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -9324,7 +8900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 266.7 48.26 0)
 			(effects
 				(font
@@ -9351,7 +8927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9360,7 +8936,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9369,7 +8945,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9378,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9447,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X6S1A476M160AC/2443488"
+		(property "Datasheet" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9456,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor"
+		(property "Description" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9465,7 +9041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9474,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C3216X6S1A476M160AC"
+		(property "Manufacturer_Part_Number" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9483,7 +9059,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".87"
+		(property "price" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9492,7 +9068,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "445-6010-1-ND"
+		(property "digikey_part_number" ""
 			(at 135.89 218.44 0)
 			(effects
 				(font
@@ -9520,119 +9096,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 97.79 208.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c003d7-f617-47ed-8420-644fb74e1c3d")
-		(property "Reference" "L1"
-			(at 97.79 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15uH"
-			(at 97.79 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:IND_SRP6540-150M"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRP6540-150M/3986100"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns Inc."
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SRP6540-150M"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1.1"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SRP6540-150MCT-ND"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 97.79 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de354b02-ec5b-4eb7-8332-10236f4ae488")
-		)
-		(pin "2"
-			(uuid "d355daa2-7e08-4d75-ad06-b28a1a5050ab")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9857,7 +9320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM2104DR"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/LM2104DR/22106918"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -9867,13 +9330,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2104DR"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "296-LM2104DRCT-ND"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".61"
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -9904,6 +9407,121 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 68.58 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f360183-6876-4cba-a92e-44f5a01bdd51")
+		(property "Reference" "C3"
+			(at 72.39 155.3209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 72.39 157.8609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
+			(at 69.5452 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d4bd1fe-3121-4e3c-9984-45490dcc2fda")
+		)
+		(pin "1"
+			(uuid "fb925738-2241-41b8-a653-847c8329a747")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9983,7 +9601,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "321de2fc-a420-47e0-a981-1d74df0c8955")
 		(property "Reference" "J6"
 			(at 21.082 91.694 0)
@@ -10347,7 +9965,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 217.17 0)
+		(at 35.56 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10355,7 +9973,7 @@
 		(dnp no)
 		(uuid "374aba3e-8f42-4163-836a-104d9c2e6da5")
 		(property "Reference" "C20"
-			(at 38.354 215.9 0)
+			(at 38.354 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +9982,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 38.354 218.44 0)
+			(at 38.354 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +9991,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 36.5252 220.98 0)
+			(at 36.5252 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,8 +9999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X6S1A476M160AC/2443488"
-			(at 35.56 217.17 0)
+		(property "Datasheet" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,8 +10008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor"
-			(at 35.56 217.17 0)
+		(property "Description" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,8 +10017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
-			(at 35.56 217.17 0)
+		(property "Manufacturer_Name" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,8 +10026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C3216X6S1A476M160AC"
-			(at 35.56 217.17 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,8 +10035,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".87"
-			(at 35.56 217.17 0)
+		(property "price" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,8 +10044,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "445-6010-1-ND"
-			(at 35.56 217.17 0)
+		(property "digikey_part_number" ""
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10054,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 35.56 217.17 0)
+			(at 35.56 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +10430,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 222.25 0)
+		(at 35.56 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10821,7 +10439,7 @@
 		(fields_autoplaced yes)
 		(uuid "453d88a4-50dc-4ba2-825f-92005d270708")
 		(property "Reference" "#PWR036"
-			(at 35.56 228.6 0)
+			(at 35.56 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,7 +10448,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 227.33 0)
+			(at 35.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +10456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 222.25 0)
+			(at 35.56 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10847,7 +10465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 222.25 0)
+			(at 35.56 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10856,7 +10474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 222.25 0)
+			(at 35.56 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +10643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 247.65 160.02 0)
 			(effects
 				(font
@@ -11052,7 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11061,7 +10679,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11070,7 +10688,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11079,7 +10697,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11195,7 +10813,7 @@
 				)
 			)
 		)
-		(property "Value" "PSMN1R2-25YLDX"
+		(property "Value" "PSMN2R6-30YLC,115"
 			(at 317.5 200.66 90)
 			(effects
 				(font
@@ -11212,7 +10830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 304.8 207.01 0)
 			(effects
 				(font
@@ -11239,7 +10857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -11248,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1727-2496-1-ND"
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -11266,7 +10884,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".74"
+		(property "price" ".47"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -11691,7 +11309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 247.65 124.46 0)
 			(effects
 				(font
@@ -11718,7 +11336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11727,7 +11345,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11736,7 +11354,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11745,7 +11363,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -12335,7 +11953,7 @@
 				)
 			)
 		)
-		(property "Value" "PSMN1R2-25YLDX"
+		(property "Value" "PSMN2R6-30YLC,115"
 			(at 317.5 200.66 90)
 			(effects
 				(font
@@ -12352,7 +11970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 304.8 207.01 0)
 			(effects
 				(font
@@ -12379,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12388,7 +12006,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1727-2496-1-ND"
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12406,7 +12024,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".74"
+		(property "price" ".47"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12447,7 +12065,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "79065539-58c9-4ac6-9216-7be50ca6625c")
 		(property "Reference" "J3"
 			(at 153.67 97.79 0)
@@ -12616,121 +12234,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b9b986b-6b07-4d78-a7f9-16376d3f1e3d")
-		(property "Reference" "R1"
-			(at 115.57 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 115.57 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 111.252 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD100K/2240403"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RNCP1206FTD100K"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.02"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "738-RNCP1206FTD100KCT-ND"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 113.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f3d9f65-9531-44a2-bcc3-8e6a1aa6d164")
-		)
-		(pin "1"
-			(uuid "ea8a3601-8c61-47ac-9e3a-390c3780d66b")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13048,72 +12551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fb9fa4c-d346-4d58-93f1-69612d5617a3")
-		(property "Reference" "#PWR035"
-			(at 78.74 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db15a90f-5d1f-4ccb-8089-b472253efb1d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 55.88 90)
 		(unit 1)
@@ -13328,119 +12765,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 86.36 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "965033d2-a960-4744-aee6-6ff7a4c3c2a6")
-		(property "Reference" "C15"
-			(at 86.36 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 86.36 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 90.17 203.5048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411248?s=N4IgTCBcDaIMIEYwAYBsjkBYDSBWASgIJwAqAqiALoC%2BQA"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C1206C104K5RACTU"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".05"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "399-C1206C104K5RACTUCT-ND"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 86.36 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c733992-547f-49ab-96c5-61e0b3aad783")
-		)
-		(pin "2"
-			(uuid "fc2b9c38-1661-4935-83b7-8bac47e80bfc")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13976,7 +13300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM2104DR"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/LM2104DR/22106918"
 			(at 325.12 46.99 0)
 			(effects
 				(font
@@ -13986,13 +13310,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 325.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2104DR"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "296-LM2104DRCT-ND"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".61"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -14062,7 +13426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -14089,7 +13453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14098,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14107,7 +13471,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14116,7 +13480,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14433,7 +13797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM2104DR"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/LM2104DR/22106918"
 			(at 327.66 124.46 0)
 			(effects
 				(font
@@ -14443,13 +13807,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 327.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2104DR"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "296-LM2104DRCT-ND"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".61"
+			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -14480,120 +13884,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb5663a0-0688-48a3-81d9-c918e83a3453")
-		(property "Reference" "C16"
-			(at 105.664 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68pF"
-			(at 105.664 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 103.8352 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C680J5HACTU/7950604"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C1206C680J5HACTU"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".07"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "399-C1206C680J5HACTUCT-ND"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 102.87 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ab3cdd0-adb8-4381-9289-1d3be5647797")
-		)
-		(pin "2"
-			(uuid "28443f1d-291f-4f1e-96c7-5da96240edfd")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14700,7 +13990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 266.7 83.82 0)
 			(effects
 				(font
@@ -14727,7 +14017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14736,7 +14026,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14745,7 +14035,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14754,7 +14044,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14782,6 +14072,72 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16a554e-70bc-400a-bfb0-62d291a171ed")
+		(property "Reference" "#PWR038"
+			(at 106.68 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a054202-f360-4171-ab1e-69651ff8e3aa")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15114,7 +14470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 266.7 160.02 0)
 			(effects
 				(font
@@ -15141,7 +14497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15150,7 +14506,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15159,7 +14515,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15168,7 +14524,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15657,7 +15013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM2104DR"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/LM2104DR/22106918"
 			(at 179.07 49.53 0)
 			(effects
 				(font
@@ -15667,13 +15023,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "half bridge driver"
 			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM2104DR"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "296-LM2104DRCT-ND"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".61"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -15828,72 +15224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 113.03 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae2f103-523d-42f1-a34f-cefad522f4f0")
-		(property "Reference" "#PWR038"
-			(at 113.03 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09f71cac-3277-479a-bf09-54629cc429bb")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 208.28 180)
 		(unit 1)
@@ -15929,7 +15259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+		(property "Datasheet" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -15938,7 +15268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -15947,7 +15277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -15956,7 +15286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+		(property "Manufacturer_Part_Number" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -15965,7 +15295,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "price" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -15974,7 +15304,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1276-1106-1-ND"
+		(property "digikey_part_number" ""
 			(at 252.73 208.28 0)
 			(effects
 				(font
@@ -16139,132 +15469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:TPS54202HDDCR")
-		(at 60.96 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e65bdb53-4bb5-45b8-8ca1-d4885eb626c0")
-		(property "Reference" "U6"
-			(at 60.96 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS54202HDDCR"
-			(at 60.96 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:SOT95P280X110-6N"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/TPS54202HDDCR/6026259"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "buck regulator"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS54202HDDCR"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".69"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "296-44396-1-ND"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d1440b6-1b96-441f-b2fe-6f0e38d07326")
-		)
-		(pin "6"
-			(uuid "cf37bea4-ecf1-45b3-99af-d0a49902ef6c")
-		)
-		(pin "5"
-			(uuid "162842d5-7f9b-40ed-baa7-a11cb33bb534")
-		)
-		(pin "1"
-			(uuid "56c14351-2eb6-474b-974d-16c4b14af884")
-		)
-		(pin "3"
-			(uuid "63efda9d-b957-4325-b1a1-2de2683438af")
-		)
-		(pin "4"
-			(uuid "5f473203-2921-43df-924d-bfe4f5a87092")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 375.92 215.9 0)
 		(mirror y)
@@ -16379,7 +15583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN2R6-30YLC-115/2675451?s=N4IgTCBcDaIAoGUCyA5MAlAbAWgMwAYBNAGQGEAaARkoFYQBdAXyA"
 			(at 266.7 124.46 0)
 			(effects
 				(font
@@ -16406,7 +15610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "PSMN2R6-30YLC,115"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16415,7 +15619,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "1727-5300-1-ND"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16424,7 +15628,7 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" ""
+		(property "mount_type" "smd"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16433,7 +15637,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" ".47"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16484,7 +15688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "~"
 			(at 102.616 155.448 0)
 			(effects
 				(font
@@ -16502,7 +15706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
+		(property "Datasheet" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16511,7 +15715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16520,7 +15724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16529,7 +15733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
+		(property "Manufacturer_Part_Number" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16538,7 +15742,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
+		(property "price" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16547,7 +15751,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1276-1106-1-ND"
+		(property "digikey_part_number" ""
 			(at 102.87 157.48 0)
 			(effects
 				(font
@@ -16640,6 +15844,118 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:D78B05T-1.0")
+		(at 81.28 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed550917-f7b1-40c7-89d9-7d42ce906f26")
+		(property "Reference" "PS1"
+			(at 81.28 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D78B05T-1.0"
+			(at 81.28 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad libraries:D78B05T-1.0"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diwell-electronics/D78B05T-1-0/16572065"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC DC CONVERTER 5V 1A"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diwell Electronics"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "D78B05T-1.0"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "4369-D78B05T-1.0-ND"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.81"
+			(at 81.28 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc1bcaec-12d5-45c3-a8c1-8f633d8b5962")
+		)
+		(pin "3"
+			(uuid "74388430-a2ee-4579-81f4-845ce11d7df1")
+		)
+		(pin "2"
+			(uuid "133d161c-34fe-4346-8860-367e8970480f")
+		)
+		(instances
+			(project ""
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -16765,7 +16081,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 26.67 208.28 0)
+		(at 26.67 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16773,7 +16089,7 @@
 		(dnp no)
 		(uuid "f06c171a-dcd5-456e-b846-f88cd4a89311")
 		(property "Reference" "#PWR034"
-			(at 26.67 212.09 0)
+			(at 26.67 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16098,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 27.94 204.724 0)
+			(at 27.94 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16790,7 +16106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 208.28 0)
+			(at 26.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,7 +16115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 208.28 0)
+			(at 26.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16808,7 +16124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 26.67 208.28 0)
+			(at 26.67 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16823,121 +16139,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f424ba00-0310-4513-a96c-335d0c0eef8f")
-		(property "Reference" "R2"
-			(at 115.57 222.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13.7k"
-			(at 115.57 224.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 111.252 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT13K7/1759069"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RMCF1206FT13K7"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "738-RMCF1206FT13K7CT-ND"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 113.03 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f3d9f65-9531-44a2-bcc3-8e6a1aa6d165")
-		)
-		(pin "1"
-			(uuid "ea8a3601-8c61-47ac-9e3a-390c3780d66c")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R2")
 					(unit 1)
 				)
 			)

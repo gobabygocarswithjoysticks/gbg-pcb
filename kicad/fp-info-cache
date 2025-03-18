@@ -1,4 +1,4 @@
-24766963963099359
+24768706290801728
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99539,6 +99539,13 @@ OSTTC022162
 0
 2
 2
+kicad libraries
+D78B05T-1.0
+
+
+0
+3
+3
 kicad libraries
 DPAK_0031EL_GE3_VIS
 
