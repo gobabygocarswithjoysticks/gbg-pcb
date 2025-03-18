@@ -1351,113 +1351,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -1854,174 +1747,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3541,7 +3266,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "library:IFX007TAUMA1"
+		(symbol "library:LM2104DR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3556,7 +3281,7 @@
 					)
 				)
 			)
-			(property "Value" "IFX007TAUMA1"
+			(property "Value" "LM2104DR"
 				(at 20.32 7.62 0)
 				(effects
 					(font
@@ -3564,7 +3289,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3574,7 +3299,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
+			(property "Datasheet" "LM2104DR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3593,7 +3318,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "IFX007TAUMA1"
+			(property "ki_keywords" "LM2104DR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3602,7 +3327,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PG-TO263-7-1_INF PG-TO263-7-1_INF-M PG-TO263-7-1_INF-L"
+			(property "ki_fp_filters" "SOIC8_D_TEX SOIC8_D_TEX-M SOIC8_D_TEX-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3611,7 +3336,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IFX007TAUMA1_0_1"
+			(symbol "LM2104DR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -12.7)
@@ -3663,7 +3388,7 @@
 				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
-					(name "GND"
+					(name "GVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3699,7 +3424,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "INH"
+					(name "*SD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3714,10 +3439,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 0 -7.62 0)
 					(length 7.62)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3732,10 +3457,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 40.64 0 180)
 					(length 7.62)
-					(name "OUT"
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3750,10 +3475,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin output line
 					(at 40.64 -2.54 180)
 					(length 7.62)
-					(name "VS"
+					(name "GH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3768,10 +3493,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "IS"
+					(name "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3786,10 +3511,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 40.64 -7.62 180)
 					(length 7.62)
-					(name "SR"
+					(name "GL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6087,16 +5812,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SR to ground gives fastest switching time\nit is the most efficient (and easiest to wire), but could make more electrical noise\nMaybe it would also increase voltage spikes from inductors in motors so maybe review this?"
-		(exclude_from_sim no)
-		(at 280.924 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2f9968f0-e30a-4bc5-9a0d-76da08de61d8")
-	)
 	(text "remove 12V indicator? (D1 and R4)"
 		(exclude_from_sim no)
 		(at 342.646 236.474 0)
@@ -6109,7 +5824,7 @@
 	)
 	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
-		(at 276.098 185.166 0)
+		(at 282.194 186.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6167,32 +5882,6 @@
 		)
 		(uuid "ce922220-317e-4e29-ae15-b6527ebd52f5")
 	)
-	(text "check continuous current of the half bridges - I'm worried about thermal limits\n"
-		(exclude_from_sim no)
-		(at 235.712 165.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d39252f0-0195-4e15-9420-fe305d30675a")
-	)
-	(text "ok to leave disconnected?"
-		(exclude_from_sim no)
-		(at 204.47 74.422 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dac7f151-f119-4fb3-8263-bd8cb321fefc")
-	)
-	(junction
-		(at 207.01 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e5571d-9732-47ed-8830-6a29f028b0e7")
-	)
 	(junction
 		(at 354.33 204.47)
 		(diameter 0)
@@ -6200,22 +5889,16 @@
 		(uuid "036568e5-5720-4347-b761-fa4a6b639b9b")
 	)
 	(junction
-		(at 302.26 147.32)
+		(at 83.82 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09f2eebb-d43b-4381-be1f-274a7c43780d")
+		(uuid "090c7fa7-c727-457f-bc26-c86340af762a")
 	)
 	(junction
 		(at 135.89 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f9ec78b-b482-4398-8e1d-f99ef0ec220f")
-	)
-	(junction
-		(at 194.31 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19e4e799-d38b-46d0-9511-21f639c02da7")
 	)
 	(junction
 		(at 311.15 204.47)
@@ -6230,12 +5913,6 @@
 		(uuid "2223b6d5-ef98-42ea-8728-7361f6d507c4")
 	)
 	(junction
-		(at 209.55 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2413a9fc-5fa4-494c-bafb-74ce0bdd7ee0")
-	)
-	(junction
 		(at 309.88 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6248,16 +5925,10 @@
 		(uuid "3d16c070-1d3a-4e7e-9651-fec4be87f90f")
 	)
 	(junction
-		(at 283.21 31.75)
+		(at 264.16 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4711b153-eed3-4555-b7ee-eb8dd69b046e")
-	)
-	(junction
-		(at 203.2 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48382975-73cc-40f1-8407-efaa85cdb614")
+		(uuid "45cec379-9622-49fa-9b21-d3ec2edadd28")
 	)
 	(junction
 		(at 381 114.3)
@@ -6284,12 +5955,6 @@
 		(uuid "5d52bae1-c4df-4378-ade3-484080cb7a92")
 	)
 	(junction
-		(at 302.26 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d97c032-48f5-4983-87b5-e94fc4ef432e")
-	)
-	(junction
 		(at 381 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6300,12 +5965,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
-	)
-	(junction
-		(at 284.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "665c24af-0dcd-4650-9fb7-79dc70c785f9")
 	)
 	(junction
 		(at 91.44 208.28)
@@ -6320,34 +5979,10 @@
 		(uuid "68a73e69-8729-4760-af8d-e8105f047041")
 	)
 	(junction
-		(at 213.36 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "749a7d89-c3a9-4295-adad-fd319015b6ef")
-	)
-	(junction
 		(at 265.43 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c11b0a0-efdb-46c1-9b2a-c0c2f4b0ad59")
-	)
-	(junction
-		(at 218.44 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bbb5f9-faf4-45a7-955e-f16865c7b310")
-	)
-	(junction
-		(at 308.61 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ee6a1e-42e8-4045-9295-047b7e961a1f")
-	)
-	(junction
-		(at 308.61 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86cbe05c-3904-4778-87b2-9425227b1ea0")
 	)
 	(junction
 		(at 252.73 204.47)
@@ -6380,12 +6015,6 @@
 		(uuid "99659a16-9aa6-4a75-bc51-2cad18e5bcc0")
 	)
 	(junction
-		(at 283.21 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b05a2ff-f51f-4af3-b377-9e7ea4d49a2f")
-	)
-	(junction
 		(at 322.58 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6404,22 +6033,16 @@
 		(uuid "a8419210-03ee-470b-a47d-c33154e08f0d")
 	)
 	(junction
-		(at 194.31 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9511b72-4fbc-43be-8274-abf7958d2748")
-	)
-	(junction
 		(at 381 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab3aee45-c5bf-4ff6-90f5-0d64b573eaac")
 	)
 	(junction
-		(at 308.61 62.23)
+		(at 250.19 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ade269ce-5279-417e-8b5f-c1489c9d466f")
+		(uuid "ac513883-2c09-4383-9547-55a10596ebca")
 	)
 	(junction
 		(at 99.06 109.22)
@@ -6434,16 +6057,16 @@
 		(uuid "b505ecb4-5162-4ef3-8d24-863a233876d6")
 	)
 	(junction
+		(at 250.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce5d797b-e386-4184-8fc2-da5211e8399a")
+	)
+	(junction
 		(at 99.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ed9a04-ec71-4263-895f-b6d4cc1b4c3e")
-	)
-	(junction
-		(at 217.17 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d960586f-d33b-4c21-9200-5c664e6f69f1")
 	)
 	(junction
 		(at 341.63 204.47)
@@ -6470,16 +6093,22 @@
 		(uuid "e16e4a17-ba29-4ba0-8647-01bf43bda5d0")
 	)
 	(junction
+		(at 264.16 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e12411-0341-4f8d-a850-bfa5252bd503")
+	)
+	(junction
 		(at 99.06 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e263f171-e8ec-4225-8e69-0040a975864c")
 	)
 	(junction
-		(at 302.26 116.84)
+		(at 96.52 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e812c60a-713b-43e3-ad2e-febc44212052")
+		(uuid "e35a2200-c48a-4797-98a3-dd85898a27e9")
 	)
 	(junction
 		(at 317.5 212.09)
@@ -6494,40 +6123,10 @@
 		(uuid "e935a090-c5e3-40f2-8ef5-237f1a4514a6")
 	)
 	(junction
-		(at 207.01 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea1c4e6b-77bc-4d67-b7e1-4bde99d8db5a")
-	)
-	(junction
-		(at 283.21 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edca8645-f36f-4442-9c06-fca67ffdd767")
-	)
-	(junction
-		(at 210.82 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1e6bc1d-5bb1-48dc-9018-f8428ae91d27")
-	)
-	(junction
 		(at 381 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f91318d0-2a70-4035-a25e-803163d37d82")
-	)
-	(junction
-		(at 302.26 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8656bc-65e2-4619-a552-522bf3e62e34")
-	)
-	(junction
-		(at 308.61 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd987bc1-6228-4519-9e74-dba98cd3b332")
 	)
 	(no_connect
 		(at 48.26 48.26)
@@ -6536,10 +6135,6 @@
 	(no_connect
 		(at 48.26 50.8)
 		(uuid "3ded510d-3ce7-4d1c-b0fc-72f496e0a753")
-	)
-	(no_connect
-		(at 219.71 72.39)
-		(uuid "54b2679a-9f6a-4ed7-800e-621756d27fc4")
 	)
 	(no_connect
 		(at 99.06 43.18)
@@ -6553,18 +6148,6 @@
 		(at 43.18 205.74)
 		(uuid "ae8c518d-69ae-4792-8c7e-88fd273bd9ef")
 	)
-	(no_connect
-		(at 219.71 130.81)
-		(uuid "b2784794-09e9-4719-ae29-61046680c56b")
-	)
-	(no_connect
-		(at 218.44 157.48)
-		(uuid "bd0a4288-38d5-4302-bdc0-4d9361d26a01")
-	)
-	(no_connect
-		(at 220.98 46.99)
-		(uuid "dcea496a-eba7-41f4-b878-1acfca751b59")
-	)
 	(wire
 		(pts
 			(xy 133.35 83.82) (xy 133.35 81.28)
@@ -6574,26 +6157,6 @@
 			(type default)
 		)
 		(uuid "020f1e74-61c3-45dc-9375-c9b4b88e3d12")
-	)
-	(wire
-		(pts
-			(xy 200.66 39.37) (xy 203.2 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02cc0b8b-0853-49b3-8c91-128e27b6ea72")
-	)
-	(wire
-		(pts
-			(xy 312.42 34.29) (xy 312.42 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0308e8e6-f2a4-47cb-b10b-bea37de60e9e")
 	)
 	(wire
 		(pts
@@ -6637,26 +6200,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 149.86) (xy 218.44 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "097042f7-5e89-4d5f-bfdc-f7606a45e556")
-	)
-	(wire
-		(pts
-			(xy 283.21 30.48) (xy 283.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09d8bd0d-d581-4ad6-ad31-a0d08ecad53d")
-	)
-	(wire
-		(pts
 			(xy 113.03 218.44) (xy 113.03 219.71)
 		)
 		(stroke
@@ -6674,16 +6217,6 @@
 			(type default)
 		)
 		(uuid "0c594470-11cc-43c0-ab6f-0b211176a615")
-	)
-	(wire
-		(pts
-			(xy 261.62 130.81) (xy 260.35 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c7b0ce1-fd8c-443b-8c0f-0030849dfab4")
 	)
 	(wire
 		(pts
@@ -6707,6 +6240,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 135.89) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12273813-b020-431b-8eb7-2be5418847d8")
+	)
+	(wire
+		(pts
 			(xy 123.19 55.88) (xy 121.92 55.88)
 		)
 		(stroke
@@ -6714,6 +6257,26 @@
 			(type default)
 		)
 		(uuid "151967b2-fc12-4a00-878b-3da97265fed7")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 83.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174969ef-83fc-401f-8862-b811f99a1850")
+	)
+	(wire
+		(pts
+			(xy 264.16 59.69) (xy 264.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175f66e1-58d9-470a-9cc0-a4c0fad23cb9")
 	)
 	(wire
 		(pts
@@ -6727,23 +6290,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 207.01 111.76)
+			(xy 242.57 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1845bb33-f4b5-4afa-9b58-71b54a65a72f")
-	)
-	(wire
-		(pts
-			(xy 260.35 64.77) (xy 267.97 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191185a3-73e1-4230-8ba3-1afb7824b59f")
+		(uuid "1a2df087-5c27-424c-a927-57cdc0c24d4c")
 	)
 	(wire
 		(pts
@@ -6767,23 +6320,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 73.66) (xy 261.62 72.39)
+			(xy 250.19 59.69) (xy 255.27 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ca6ea1c-e95b-4914-af35-a9001ff4a191")
-	)
-	(wire
-		(pts
-			(xy 302.26 124.46) (xy 302.26 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "221f60e2-07fd-488a-8dc2-01b484caf5f3")
+		(uuid "2350a5f1-5c77-45a7-9678-0d2fed9f520e")
 	)
 	(wire
 		(pts
@@ -6817,16 +6360,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 29.21) (xy 218.44 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a65b53f-9c42-4484-9eb4-756e88d47319")
-	)
-	(wire
-		(pts
 			(xy 226.06 226.06) (xy 232.41 226.06)
 		)
 		(stroke
@@ -6837,13 +6370,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 157.48) (xy 259.08 157.48)
+			(xy 250.19 59.69) (xy 250.19 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30f70376-3bf7-4808-94b6-31c606c795cc")
+		(uuid "30e41a1a-717b-4236-8d0d-0e1d957b53b1")
 	)
 	(wire
 		(pts
@@ -6867,16 +6400,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 154.94) (xy 259.08 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c4aa29-a3c9-4c6a-8faa-98f931f8e995")
-	)
-	(wire
-		(pts
 			(xy 370.84 218.44) (xy 370.84 224.79)
 		)
 		(stroke
@@ -6887,33 +6410,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 30.48) (xy 203.2 29.21)
+			(xy 271.78 49.53) (xy 271.78 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "340e20ec-522d-41f3-80a8-e0b4b8ad6e05")
+		(uuid "34d44a8d-04d7-4883-ac3f-feb404fe008b")
 	)
 	(wire
 		(pts
-			(xy 262.89 48.26) (xy 262.89 46.99)
+			(xy 219.71 52.07) (xy 242.57 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36977af2-1120-4f87-8886-aec46c39c4a9")
-	)
-	(wire
-		(pts
-			(xy 261.62 39.37) (xy 267.97 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36debb16-d023-4018-822b-7538cc8bf3cc")
+		(uuid "34e6d7a7-761d-451c-901f-609f86ebbfed")
 	)
 	(wire
 		(pts
@@ -6954,36 +6467,6 @@
 			(type default)
 		)
 		(uuid "3d190892-3ddc-4947-9c02-2dc1cbc4dacd")
-	)
-	(wire
-		(pts
-			(xy 261.62 41.91) (xy 270.51 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d73bd1c-9daf-4d75-9402-88023ab41f5d")
-	)
-	(wire
-		(pts
-			(xy 207.01 121.92) (xy 217.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e734823-63f4-492b-b8a0-3dfb5db3f83a")
-	)
-	(wire
-		(pts
-			(xy 308.61 30.48) (xy 308.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea6d1f0-fa15-4623-aff1-f369efa28b3c")
 	)
 	(wire
 		(pts
@@ -7037,56 +6520,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 58.42) (xy 316.23 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438e5ca0-a50f-4cb3-addd-645b501e246a")
-	)
-	(wire
-		(pts
-			(xy 267.97 31.75) (xy 283.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4435c77a-8e40-437c-94e6-f36e69304020")
-	)
-	(wire
-		(pts
-			(xy 194.31 128.27) (xy 194.31 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4436f5c1-ee32-44c9-b146-e74f33d1891d")
-	)
-	(wire
-		(pts
-			(xy 313.69 116.84) (xy 309.88 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d402df-a0a0-4d8f-b119-1fba3b8e6fae")
-	)
-	(wire
-		(pts
-			(xy 283.21 113.03) (xy 302.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "471161bd-e457-475c-9a55-717e94abfa29")
-	)
-	(wire
-		(pts
 			(xy 99.06 83.82) (xy 129.54 83.82)
 		)
 		(stroke
@@ -7104,26 +6537,6 @@
 			(type default)
 		)
 		(uuid "499474b6-6193-45eb-97b0-9891fda7b6aa")
-	)
-	(wire
-		(pts
-			(xy 312.42 27.94) (xy 308.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1a3b02-aec5-4e4a-9af9-cba0af181368")
-	)
-	(wire
-		(pts
-			(xy 267.97 31.75) (xy 267.97 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae4d05b-3cf2-438f-a1dd-b22318e1c6aa")
 	)
 	(wire
 		(pts
@@ -7177,43 +6590,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 29.21) (xy 210.82 29.21)
+			(xy 250.19 40.64) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52eb4237-f9d1-45f4-8145-75e57404bf2b")
-	)
-	(wire
-		(pts
-			(xy 261.62 72.39) (xy 260.35 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5386ce35-310e-4d67-9f98-072a1d7ef81c")
-	)
-	(wire
-		(pts
-			(xy 312.42 139.7) (xy 309.88 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54737c61-5007-4254-bfb1-783834de4878")
-	)
-	(wire
-		(pts
-			(xy 308.61 36.83) (xy 308.61 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5536f918-8ec7-47d3-9e64-0c8010db33c7")
+		(uuid "500267d8-4c5f-441f-bf91-023670922f51")
 	)
 	(wire
 		(pts
@@ -7224,16 +6607,6 @@
 			(type default)
 		)
 		(uuid "554bfd78-5868-4f4a-af02-13d7059f0fb5")
-	)
-	(wire
-		(pts
-			(xy 189.23 135.89) (xy 194.31 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554e002f-57b4-4f7b-a87c-fe60a893f01b")
 	)
 	(wire
 		(pts
@@ -7277,13 +6650,33 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 69.85) (xy 260.35 69.85)
+			(xy 259.08 135.89) (xy 264.16 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae566f5-e305-4ed8-adaf-1e7535c6ef63")
+		(uuid "5b011ed7-07ce-4dec-b133-ced432b4cfba")
+	)
+	(wire
+		(pts
+			(xy 264.16 40.64) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8deee4-7e82-4988-9e1f-35db847faa48")
+	)
+	(wire
+		(pts
+			(xy 264.16 135.89) (xy 264.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b943952-d25d-438a-83da-ce72a836ef49")
 	)
 	(wire
 		(pts
@@ -7357,6 +6750,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 132.08) (xy 287.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6002d901-a93b-4db6-9b2d-f766780845f8")
+	)
+	(wire
+		(pts
 			(xy 93.98 213.36) (xy 60.96 213.36)
 		)
 		(stroke
@@ -7397,33 +6800,33 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 269.24 67.31)
+			(xy 242.57 57.15) (xy 242.57 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6547c892-a1e4-4eca-abeb-546004148559")
+		(uuid "66d40cb3-f301-4c15-90be-233ae5c220fa")
 	)
 	(wire
 		(pts
-			(xy 203.2 38.1) (xy 203.2 39.37)
+			(xy 96.52 161.29) (xy 102.87 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "655e403e-3cc7-43ce-9b66-ab0c3e06171f")
+		(uuid "6723eaf2-44d2-4fa2-b57d-4b064517f811")
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 194.31 50.8)
+			(xy 284.48 49.53) (xy 271.78 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6578fce4-0484-4320-8f27-052dacbc0334")
+		(uuid "67afb076-282e-4a39-97f2-d158dadd0879")
 	)
 	(wire
 		(pts
@@ -7467,13 +6870,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 111.76) (xy 217.17 111.76)
+			(xy 219.71 57.15) (xy 242.57 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aff9970-46b0-42b3-a8f5-eeeb219f43a1")
+		(uuid "6af5645a-1f40-4f86-832e-e4a6c21324f3")
 	)
 	(wire
 		(pts
@@ -7487,36 +6890,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 134.62) (xy 302.26 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d697744-b60f-4f91-b289-2913047307d6")
-	)
-	(wire
-		(pts
-			(xy 217.17 111.76) (xy 217.17 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d94647f-43f1-4f7b-9fcd-52a9fddb375a")
-	)
-	(wire
-		(pts
-			(xy 218.44 29.21) (xy 210.82 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e909ad6-01b8-4d79-abc2-616764c86b55")
-	)
-	(wire
-		(pts
 			(xy 308.61 231.14) (xy 330.2 231.14)
 		)
 		(stroke
@@ -7524,26 +6897,6 @@
 			(type default)
 		)
 		(uuid "6eb7728e-95ee-4a77-8ab7-d9a72afbcf95")
-	)
-	(wire
-		(pts
-			(xy 199.39 64.77) (xy 207.01 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "700cc1aa-3caf-4e52-b618-891df359234f")
-	)
-	(wire
-		(pts
-			(xy 219.71 128.27) (xy 194.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72685b94-2ecb-4fd1-8444-e29ede414528")
 	)
 	(wire
 		(pts
@@ -7564,26 +6917,6 @@
 			(type default)
 		)
 		(uuid "734b14a3-e910-42da-9970-8d1871beab1a")
-	)
-	(wire
-		(pts
-			(xy 267.97 63.5) (xy 284.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c289e4-a1f4-4ebd-92cb-d37d1af68c7a")
-	)
-	(wire
-		(pts
-			(xy 189.23 50.8) (xy 194.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a35dc2-ff77-46bb-a403-bfc21870bd53")
 	)
 	(wire
 		(pts
@@ -7614,26 +6947,6 @@
 			(type default)
 		)
 		(uuid "7928f4d1-e69b-4f19-a2ac-d4a4a10affb0")
-	)
-	(wire
-		(pts
-			(xy 217.17 120.65) (xy 217.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7946e851-ca5e-49e3-b4bb-b71cf97779f9")
-	)
-	(wire
-		(pts
-			(xy 308.61 46.99) (xy 308.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794eb1b8-3264-4e20-9969-c6befed78a42")
 	)
 	(wire
 		(pts
@@ -7677,16 +6990,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 63.5) (xy 267.97 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802586e7-b0c5-4b84-a861-57dd88bdf2f6")
-	)
-	(wire
-		(pts
 			(xy 99.06 55.88) (xy 105.41 55.88)
 		)
 		(stroke
@@ -7707,33 +7010,23 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 46.99) (xy 261.62 46.99)
+			(xy 271.78 147.32) (xy 271.78 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8398f280-07b3-4c68-8b94-ae1e696e7baf")
+		(uuid "834961dd-f231-4fb4-b2ff-8617baebad18")
 	)
 	(wire
 		(pts
-			(xy 261.62 132.08) (xy 261.62 130.81)
+			(xy 242.57 133.35) (xy 236.22 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84ee5acc-7d5b-4a02-94cf-ee655220b78a")
-	)
-	(wire
-		(pts
-			(xy 259.08 152.4) (xy 271.78 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e7811d-a7ca-44da-927a-ddd7a48338d9")
+		(uuid "842a2be4-8f0b-463b-bfb0-ef07f0fa4812")
 	)
 	(wire
 		(pts
@@ -7754,6 +7047,16 @@
 			(type default)
 		)
 		(uuid "8ac95112-09e5-419a-86e1-4bd35586cbee")
+	)
+	(wire
+		(pts
+			(xy 250.19 116.84) (xy 250.19 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b287c9c-b5e8-4d10-ba5e-2533adbfae1b")
 	)
 	(wire
 		(pts
@@ -7797,26 +7100,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 113.03) (xy 302.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecaa237-8550-456a-b849-31aef6c583fb")
-	)
-	(wire
-		(pts
-			(xy 194.31 69.85) (xy 219.71 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f35dd24-2dce-4d02-a118-13558eb06a93")
-	)
-	(wire
-		(pts
 			(xy 370.84 224.79) (xy 354.33 224.79)
 		)
 		(stroke
@@ -7824,6 +7107,16 @@
 			(type default)
 		)
 		(uuid "90e7f2ab-e814-43cf-89ba-a9f9a6c01b39")
+	)
+	(wire
+		(pts
+			(xy 271.78 54.61) (xy 271.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910e1382-fc62-4c62-b50d-f61a2160ebfc")
 	)
 	(wire
 		(pts
@@ -7837,13 +7130,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 62.23) (xy 284.48 63.5)
+			(xy 264.16 116.84) (xy 264.16 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "929b43ce-eb10-44fc-8040-457376b29016")
+		(uuid "92a910ad-4160-42d9-9ac9-92cadd55458d")
 	)
 	(wire
 		(pts
@@ -7854,26 +7147,6 @@
 			(type default)
 		)
 		(uuid "945bcd51-eb14-40e3-ae90-ed83dfad5a0c")
-	)
-	(wire
-		(pts
-			(xy 260.35 158.75) (xy 260.35 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98100166-2821-426f-ba8b-cfe12242a938")
-	)
-	(wire
-		(pts
-			(xy 269.24 113.03) (xy 269.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a496433-87ff-49c4-8354-b3dae9fa51bd")
 	)
 	(wire
 		(pts
@@ -7927,16 +7200,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 30.48) (xy 308.61 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c7e072d-2346-4790-a5fb-a2776ffc3c48")
-	)
-	(wire
-		(pts
 			(xy 116.84 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -7957,26 +7220,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 207.01 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a025563b-6c0b-4a0e-b3c2-26d3aafb09c1")
-	)
-	(wire
-		(pts
-			(xy 205.74 149.86) (xy 209.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05b6afa-93c1-4a9b-9a27-c34418bd0b7d")
-	)
-	(wire
-		(pts
 			(xy 233.68 219.71) (xy 232.41 219.71)
 		)
 		(stroke
@@ -7987,33 +7230,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 273.05 125.73)
+			(xy 250.19 135.89) (xy 250.19 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4cecd0c-9c88-473f-85dd-5f316aab2d61")
-	)
-	(wire
-		(pts
-			(xy 269.24 147.32) (xy 269.24 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f070c5-82dc-4b4c-b55e-3fa8f6b2489e")
-	)
-	(wire
-		(pts
-			(xy 259.08 149.86) (xy 269.24 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54c1a02-9d32-4434-b67d-baf462792965")
+		(uuid "a79571ac-4b82-42f9-9831-aae792830c49")
 	)
 	(wire
 		(pts
@@ -8077,26 +7300,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 128.27) (xy 260.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15c388c-78eb-4c04-89c9-76927d2f7f27")
-	)
-	(wire
-		(pts
-			(xy 207.01 64.77) (xy 219.71 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e0e8be-c948-47e0-b7c4-1e2dbec4ea02")
-	)
-	(wire
-		(pts
 			(xy 289.56 212.09) (xy 278.13 212.09)
 		)
 		(stroke
@@ -8104,6 +7307,16 @@
 			(type default)
 		)
 		(uuid "b351108f-78e7-4d21-92e0-bf95907ea31e")
+	)
+	(wire
+		(pts
+			(xy 242.57 111.76) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bee8f6-b441-448d-b686-fb384b8e65fe")
 	)
 	(wire
 		(pts
@@ -8187,26 +7400,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 113.03) (xy 283.21 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12d41fe-47cb-4ded-94f4-c87c8f1ef100")
-	)
-	(wire
-		(pts
-			(xy 302.26 147.32) (xy 283.21 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c139e45e-3e92-40e0-9977-e12e28da6bbc")
-	)
-	(wire
-		(pts
 			(xy 381 157.48) (xy 381 160.02)
 		)
 		(stroke
@@ -8234,16 +7427,6 @@
 			(type default)
 		)
 		(uuid "c46326c0-65e6-47cb-92fa-784b124ff8d9")
-	)
-	(wire
-		(pts
-			(xy 302.26 139.7) (xy 302.26 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4640403-a579-4194-b574-a06679f321c7")
 	)
 	(wire
 		(pts
@@ -8277,16 +7460,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 26.67) (xy 312.42 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca508818-2f65-4afa-859b-3cdc2b057ca8")
-	)
-	(wire
-		(pts
 			(xy 265.43 218.44) (xy 265.43 231.14)
 		)
 		(stroke
@@ -8294,26 +7467,6 @@
 			(type default)
 		)
 		(uuid "cb1b1b0e-6afe-4b2c-9931-cc8fef380ca4")
-	)
-	(wire
-		(pts
-			(xy 308.61 58.42) (xy 308.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb35dfd4-0d09-4fb4-949e-2f158652e979")
-	)
-	(wire
-		(pts
-			(xy 219.71 41.91) (xy 220.98 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb7c83c-1870-4c61-ad40-718a14c3c541")
 	)
 	(wire
 		(pts
@@ -8337,16 +7490,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 26.67) (xy 320.04 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf08757-b6bb-42bc-8578-ebc60e1a8f25")
-	)
-	(wire
-		(pts
 			(xy 135.89 208.28) (xy 161.29 208.28)
 		)
 		(stroke
@@ -8364,16 +7507,6 @@
 			(type default)
 		)
 		(uuid "d253b887-0071-43cb-87a2-a9c500b48401")
-	)
-	(wire
-		(pts
-			(xy 217.17 121.92) (xy 219.71 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a1fdc1-5f0f-4abf-90e9-5a873cb211b7")
 	)
 	(wire
 		(pts
@@ -8407,16 +7540,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 67.31) (xy 219.71 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93fe27a-e4c6-4749-ac5b-6e9449c2ac29")
-	)
-	(wire
-		(pts
 			(xy 354.33 224.79) (xy 354.33 226.06)
 		)
 		(stroke
@@ -8437,16 +7560,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 123.19) (xy 269.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab38dbc-aee7-4226-9fcc-ad70138c408f")
-	)
-	(wire
-		(pts
 			(xy 350.52 203.2) (xy 350.52 204.47)
 		)
 		(stroke
@@ -8457,13 +7570,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 121.92) (xy 219.71 123.19)
+			(xy 271.78 54.61) (xy 284.48 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc03621a-5317-4e16-a835-68b7d29235f0")
+		(uuid "dcb136bb-ec74-4fd1-9a41-a91ab973becf")
 	)
 	(wire
 		(pts
@@ -8517,13 +7630,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 218.44 39.37)
+			(xy 287.02 127) (xy 271.78 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df39af27-b85e-4e6f-88f0-4c96c1f7f583")
+		(uuid "e1acec40-a9d1-4fd9-9a07-5f330ce9cc1f")
 	)
 	(wire
 		(pts
@@ -8537,16 +7650,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 50.8) (xy 194.31 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c47eff-80ea-4702-adf9-91170c0c2398")
-	)
-	(wire
-		(pts
 			(xy 311.15 226.06) (xy 311.15 204.47)
 		)
 		(stroke
@@ -8557,23 +7660,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 147.32) (xy 269.24 147.32)
+			(xy 242.57 147.32) (xy 242.57 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5e97f58-ea6e-498f-b08d-857fe5d02ca1")
-	)
-	(wire
-		(pts
-			(xy 220.98 44.45) (xy 194.31 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e779029a-8227-4d66-a8d9-ddd92651d11c")
+		(uuid "e8fe42d1-257a-49f4-a546-4bd133ebf44c")
 	)
 	(wire
 		(pts
@@ -8584,16 +7677,6 @@
 			(type default)
 		)
 		(uuid "e9bfa85f-e1a0-4278-81d2-3f79c1f5cdcd")
-	)
-	(wire
-		(pts
-			(xy 203.2 39.37) (xy 218.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6f5daf-b4c9-40bc-b71f-7fc50c11cabc")
 	)
 	(wire
 		(pts
@@ -8617,6 +7700,26 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 59.69) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf203c0-a6a8-4e63-ae9a-44c829206e96")
+	)
+	(wire
+		(pts
+			(xy 83.82 161.29) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee726edc-3646-4c6a-beea-3f0146992a4d")
+	)
+	(wire
+		(pts
 			(xy 381 134.62) (xy 381 137.16)
 		)
 		(stroke
@@ -8624,56 +7727,6 @@
 			(type default)
 		)
 		(uuid "ee89030e-cebd-4ae0-9279-05859eafe8cf")
-	)
-	(wire
-		(pts
-			(xy 194.31 135.89) (xy 194.31 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13a7a2f-9a5c-4984-895f-5438fa5216a8")
-	)
-	(wire
-		(pts
-			(xy 308.61 66.04) (xy 308.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1ab7e15-c73a-4a28-b250-c50296f0b545")
-	)
-	(wire
-		(pts
-			(xy 207.01 111.76) (xy 213.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f236d6dd-117f-4f87-8f60-a0b74812f895")
-	)
-	(wire
-		(pts
-			(xy 308.61 27.94) (xy 308.61 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23efa0c-ec72-41ae-81f2-76c18c4d8b3f")
-	)
-	(wire
-		(pts
-			(xy 194.31 154.94) (xy 218.44 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3be1bcb-afab-46db-b8a7-3d85ca5aa8b7")
 	)
 	(wire
 		(pts
@@ -8687,36 +7740,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 44.45) (xy 261.62 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4702583-1ca6-42ea-b30a-4ca8ddc6b99a")
-	)
-	(wire
-		(pts
-			(xy 218.44 39.37) (xy 220.98 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5277735-55bb-4d2c-85f2-5cbc8727a3bd")
-	)
-	(wire
-		(pts
-			(xy 284.48 62.23) (xy 308.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f52ebe8c-d214-4546-8265-f49d3de3a120")
-	)
-	(wire
-		(pts
 			(xy 322.58 204.47) (xy 330.2 204.47)
 		)
 		(stroke
@@ -8724,6 +7747,16 @@
 			(type default)
 		)
 		(uuid "f63157bf-6ab5-4b47-96b1-bb3e26ca4ed5")
+	)
+	(wire
+		(pts
+			(xy 83.82 153.67) (xy 102.87 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c46f9e-8093-4f7e-adcb-06379edce3c8")
 	)
 	(wire
 		(pts
@@ -8747,23 +7780,23 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 116.84) (xy 302.26 124.46)
+			(xy 242.57 52.07) (xy 242.57 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9362c78-c589-46d2-890b-e75ee9e577c6")
+		(uuid "f9c3db7b-492c-4b4e-b695-a7559b54024a")
 	)
 	(wire
 		(pts
-			(xy 312.42 36.83) (xy 308.61 36.83)
+			(xy 271.78 127) (xy 271.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa215cbc-624c-4c7f-a806-c283c4c3c5d6")
+		(uuid "fa81a55f-48f1-4c62-b48c-7c96739275db")
 	)
 	(wire
 		(pts
@@ -8784,16 +7817,6 @@
 			(type default)
 		)
 		(uuid "fb7182a7-ac5a-40e7-bb89-41d3d8ca3d82")
-	)
-	(wire
-		(pts
-			(xy 316.23 67.31) (xy 316.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb732d61-809d-40f9-88a3-8a79af78b85e")
 	)
 	(wire
 		(pts
@@ -8871,28 +7894,6 @@
 			)
 		)
 	)
-	(global_label "right_2"
-		(shape input)
-		(at 218.44 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "256b3a18-7794-49ff-a0df-3cb508125dc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.863 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "bt2"
 		(shape input)
 		(at 48.26 60.96 180)
@@ -8950,50 +7951,6 @@
 		(uuid "3bb08efb-7ee6-43c3-a308-cbdd62066871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.1906 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "left_2"
-		(shape input)
-		(at 218.44 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "445abf69-2b4b-45b1-8a99-b78ad6dec142")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.0725 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "right_en"
-		(shape input)
-		(at 189.23 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "509be861-e14b-499c-9c4b-402264bb8f1e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6249 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,28 +8070,6 @@
 			)
 		)
 	)
-	(global_label "right_1"
-		(shape input)
-		(at 219.71 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73565320-3237-441f-a855-a75806fd77e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.133 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "left_2"
 		(shape input)
 		(at 116.84 78.74 0)
@@ -9153,28 +8088,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "left_en"
-		(shape input)
-		(at 189.23 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9332ce40-e7bf-436a-b5d3-15107feaed30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.8344 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9263,28 +8176,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "left_1"
-		(shape input)
-		(at 219.71 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef867c4f-a294-4a05-982b-89c47d1c10ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.3425 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9457,120 +8348,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 207.01 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "057282ec-4b42-41b1-b89a-98ba8ea7bc44")
-		(property "Reference" "C10"
-			(at 208.026 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 207.772 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 207.9752 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90e46762-20c7-4539-98f5-8b8e1910be7d")
-		)
-		(pin "1"
-			(uuid "669a6d7f-adf6-4e85-a640-886b40674c5a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9758,136 +8535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 261.62 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0df4c9cb-1c21-45cd-a653-a4801ffc416a")
-		(property "Reference" "#PWR049"
-			(at 261.62 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.382 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b7825f8-d376-489e-9f05-3aa98d55a13a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 269.24 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e77cb25-fa6a-4f1b-98ae-2f7a78d89080")
-		(property "Reference" "#PWR011"
-			(at 269.24 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 272.288 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 269.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73641e2e-2579-4edf-b52d-40f9d938e128")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 293.37 212.09 90)
 		(unit 1)
@@ -10002,13 +8649,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 247.65 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12c050bf-43bf-4751-963b-41e6bfc2272d")
+		(property "Reference" "Q3"
+			(at 256.286 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 254 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 252.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nmos"
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 247.65 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d13a192-17b4-4615-b6ca-f379dab692eb")
+		)
+		(pin "2"
+			(uuid "3c4cb674-5f0c-431b-98e5-d43e6e9ccd5d")
+		)
+		(pin "4"
+			(uuid "c9c90a29-259e-4da1-99a3-98c5217e6baa")
+		)
+		(pin "5"
+			(uuid "50d82396-3132-4a96-88fe-5f48bf306a86")
+		)
+		(pin "3"
+			(uuid "6a107e3a-5123-476e-bb4b-939b4b6cc63c")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:STX-3000")
 		(at 381 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "13d0daf3-973f-4d4d-88f4-2b264b7d1a7c")
 		(property "Reference" "B5"
@@ -10229,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 203.2 34.29 0)
+		(at 83.82 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10238,7 +9006,7 @@
 		(fields_autoplaced yes)
 		(uuid "1854a681-8d9e-47f6-8eb1-2699d4068941")
 		(property "Reference" "C2"
-			(at 207.01 32.1309 0)
+			(at 87.63 155.3209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +9015,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 207.01 34.6709 0)
+			(at 87.63 157.8609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +9024,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 204.1652 38.1 0)
+			(at 84.7852 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +9033,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +9042,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +9051,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +9060,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +9069,7 @@
 			)
 		)
 		(property "price" "1"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,7 +9078,7 @@
 			)
 		)
 		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +9087,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 203.2 34.29 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +9102,7 @@
 			(uuid "5e00e272-0e88-49e8-889c-ad3f10aeecd9")
 		)
 		(instances
-			(project ""
+			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C2")
 					(unit 1)
@@ -10522,148 +9290,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 283.21 27.94 270)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 266.7 35.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1de3a018-97f5-47a5-b385-329580ad18ea")
-		(property "Reference" "D4"
-			(at 285.75 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 29.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "863490d6-e752-4cee-a120-7d6c945acc9c")
-		)
-		(pin "1"
-			(uuid "eb85a3b2-5d2c-48a7-bd11-a8d049a1fd98")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 284.48 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24435c34-21a8-437d-b3e1-ba019dc6b2d7")
-		(property "Reference" "#PWR055"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 284.226 52.324 0)
+		(uuid "1d3a96dc-6ad4-46c3-a7c5-727b03dda7b2")
+		(property "Reference" "Q5"
+			(at 258.064 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 284.48 55.88 0)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 260.35 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 261.62 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +9325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 55.88 0)
+			(at 266.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,8 +9333,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 284.48 55.88 0)
+		(property "Description" "nmos"
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,260 +9388,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "c739b0f8-f065-429b-9338-692675735061")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 283.21 143.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24b15c66-5de8-422e-a721-9849b5ce5432")
-		(property "Reference" "D10"
-			(at 285.75 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "9d50b66f-75c3-425f-84ea-d3db7b01b7e3")
 		)
 		(pin "2"
-			(uuid "7f13ed80-bfe2-49d8-9632-2dc23cf919e7")
-		)
-		(pin "1"
-			(uuid "09e75f54-36ed-47c8-9474-f0e249f42758")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:IFX007TAUMA1")
-		(at 219.71 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25901808-4cac-4874-8651-06faa3d03fc7")
-		(property "Reference" "U4"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IFX007TAUMA1"
-			(at 240.03 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "half bridge driver"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "2.6"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 219.71 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2783f9f-cc89-4f9c-bfd0-058ff41f4ef1")
-		)
-		(pin "2"
-			(uuid "5b63c8d6-93d8-4ae7-af18-22cc80dda4a4")
-		)
-		(pin "8"
-			(uuid "3ad5ea3f-227b-465f-aca0-550464f313f2")
-		)
-		(pin "7"
-			(uuid "2dd77111-0626-4c4d-8e3a-5a947b9ae4ce")
-		)
-		(pin "1"
-			(uuid "14b0ecc2-f33a-4df2-9d9d-7e7a1d163a69")
+			(uuid "d7e4dc91-b11d-4815-bbfd-9eee3e8baf6f")
 		)
 		(pin "4"
-			(uuid "ddbc899b-fec1-411d-ac5a-1ef2b88a7062")
-		)
-		(pin "6"
-			(uuid "349bf3ae-2064-441b-ad46-b96b7c2da7d9")
+			(uuid "a6346579-5167-432d-89a7-fcfa65d6aa87")
 		)
 		(pin "5"
-			(uuid "fed051d5-7726-4092-b633-88030862ec84")
+			(uuid "ffeaf0ed-a018-41e1-88c4-20a39f104c08")
+		)
+		(pin "3"
+			(uuid "a24aba69-5766-4273-8cd9-6b7a6a23b034")
 		)
 		(instances
-			(project ""
+			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -11249,7 +9711,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2aa5a8b2-fd14-4e53-b6b6-9b55bcb16903")
 		(property "Reference" "B2"
 			(at 360.68 53.34 0)
@@ -11360,100 +9822,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 207.01 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ccb4be4-76c9-44c2-bbb3-1c8fe9ef3bd1")
-		(property "Reference" "#PWR08"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 210.058 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aace974-b3a9-4442-bce8-9a481d8596df")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 209.55 146.05 0)
+		(lib_id "library:LM2104DR")
+		(at 195.58 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f92f82f-0625-495e-b5d6-65656f748585")
-		(property "Reference" "C13"
-			(at 213.36 144.7799 0)
+		(uuid "2d5fd9d7-1ab1-4d8e-be64-993f84d7be18")
+		(property "Reference" "U4"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM2104DR"
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "220nF"
-			(at 213.36 147.3199 0)
+		(property "Datasheet" "LM2104DR"
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 210.5152 149.86 0)
+		(property "Description" ""
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,79 +9876,34 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "f8965b41-6027-445b-8017-7ccc00f31c12")
 		)
 		(pin "1"
-			(uuid "2f73445b-510e-4cb0-9bb5-f8c5d8e14926")
+			(uuid "797cd626-caaa-4f2c-b71e-1a8fe31521eb")
 		)
 		(pin "2"
-			(uuid "4ba75d1b-510e-4540-a8a9-7be1f0a452b7")
+			(uuid "1e327c7e-52f9-4eba-8233-eca75d188f8e")
+		)
+		(pin "3"
+			(uuid "7ade6732-f59c-450b-982c-0c8829caf4a1")
+		)
+		(pin "5"
+			(uuid "286cb3a3-2ea9-46da-8094-8c6ae5c377f4")
+		)
+		(pin "8"
+			(uuid "6f37e9da-94ff-4432-ab02-8435f59e346e")
+		)
+		(pin "6"
+			(uuid "a3e2b8fa-2fd3-4381-8da9-dae6388f1fc9")
+		)
+		(pin "7"
+			(uuid "51ec94af-32ec-4618-9788-1391b37e307a")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C13")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12198,136 +10568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 209.55 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c0b7dca-0481-4500-9c81-ffab64ebb8bf")
-		(property "Reference" "#PWR027"
-			(at 209.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 212.598 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 209.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3626b2ae-5772-47a9-8ca8-fc585337fdb6")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 283.21 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d9a6701-6526-43c3-853b-8d232e8848e0")
-		(property "Reference" "#PWR054"
-			(at 283.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 283.972 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "564b270c-0fc4-4438-98ac-4859bb717932")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 227.33 0)
 		(unit 1)
@@ -12637,136 +10877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "460749c8-0ce4-4e8e-8324-0e01083feb37")
-		(property "Reference" "#PWR023"
-			(at 207.01 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.772 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37f7a9a7-a9da-4da3-9b49-f37c9bcd694a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 323.85 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4767bf04-5162-4b5a-b8bf-dbbd5d0f6ad5")
-		(property "Reference" "#PWR01"
-			(at 323.85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 323.596 23.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 323.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "201fcd5f-ed37-4e34-b52e-1aec78c0baac")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 179.07 213.36 90)
 		(unit 1)
@@ -12882,33 +10992,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 283.21 154.94 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 247.65 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47927725-578a-4d38-980e-d817980dd4e1")
-		(property "Reference" "#PWR060"
-			(at 283.21 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 283.972 158.75 0)
+		(uuid "490cbd9c-74c5-4907-9a38-1646d255c511")
+		(property "Reference" "Q8"
+			(at 256.286 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 283.21 154.94 0)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 254 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +11026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 154.94 0)
+			(at 247.65 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12925,8 +11034,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 154.94 0)
+		(property "Description" "nmos"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 247.65 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,12 +11089,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbb4f4d9-41c5-420d-8727-51c4a92e42dc")
+			(uuid "01577997-a0cc-40f3-a6c8-8b81f996d55b")
+		)
+		(pin "2"
+			(uuid "8309bc10-e376-48f0-945f-1e74d8cac86f")
+		)
+		(pin "4"
+			(uuid "9b05f0d9-3ab2-49e2-a645-12957d2f39eb")
+		)
+		(pin "5"
+			(uuid "88d7764f-4533-4d43-94a3-8c0248ff6e41")
+		)
+		(pin "3"
+			(uuid "12d85e20-b5c6-474f-b90b-198b39af72e4")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR060")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13134,204 +11300,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:IFX007TAUMA1")
-		(at 220.98 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d003b01-08f3-4404-a761-3ce8b6ed8509")
-		(property "Reference" "U1"
-			(at 241.3 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IFX007TAUMA1"
-			(at 241.3 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "half bridge driver"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "2.6"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 220.98 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2783f9f-cc89-4f9c-bfd0-058ff41f4ef2")
-		)
-		(pin "2"
-			(uuid "5b63c8d6-93d8-4ae7-af18-22cc80dda4a5")
-		)
-		(pin "8"
-			(uuid "3ad5ea3f-227b-465f-aca0-550464f313f3")
-		)
-		(pin "7"
-			(uuid "2dd77111-0626-4c4d-8e3a-5a947b9ae4cf")
-		)
-		(pin "1"
-			(uuid "14b0ecc2-f33a-4df2-9d9d-7e7a1d163a6a")
-		)
-		(pin "4"
-			(uuid "ddbc899b-fec1-411d-ac5a-1ef2b88a7063")
-		)
-		(pin "6"
-			(uuid "349bf3ae-2064-441b-ad46-b96b7c2da7da")
-		)
-		(pin "5"
-			(uuid "fed051d5-7726-4092-b633-88030862ec85")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 273.05 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f77f5fe-2786-4e3c-b050-e27adf0d6a50")
-		(property "Reference" "#PWR025"
-			(at 273.05 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 272.796 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cdb39fad-77d1-444d-94cc-b1fe4e8b3b90")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 27.94 72.39 0)
 		(unit 1)
@@ -13391,201 +11359,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fdfed6e-c984-4fa0-b2f7-44eb94450adc")
-		(property "Reference" "#PWR010"
-			(at 199.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 200.152 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06038a34-94b8-427c-bf91-1394c26fed14")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 309.88 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "525b7b6a-4d79-4f9a-8ce5-378d6364fe17")
-		(property "Reference" "#PWR024"
-			(at 309.88 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 310.642 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22f33a37-d5dc-4cb9-8408-de4ed581cbbb")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 312.42 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "532f5683-a834-46e8-a157-791b0e65a77b")
-		(property "Reference" "#PWR026"
-			(at 312.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 312.166 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 312.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f53e04a3-93ac-4221-8b2d-66ea463a7be0")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13652,319 +11425,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 213.36 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "558ec2f6-2385-451f-80d4-ed57a407f834")
-		(property "Reference" "#PWR019"
-			(at 213.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 216.408 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 213.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9b82442-36f9-4fa7-a31d-110aafcde77b")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:IFX007TAUMA1")
-		(at 218.44 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "568716e4-d92f-4d69-85cb-6ea2258bf792")
-		(property "Reference" "U5"
-			(at 238.76 139.7 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IFX007TAUMA1"
-			(at 238.76 142.24 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "half bridge driver"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "2.6"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 218.44 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2783f9f-cc89-4f9c-bfd0-058ff41f4ef3")
-		)
-		(pin "2"
-			(uuid "5b63c8d6-93d8-4ae7-af18-22cc80dda4a6")
-		)
-		(pin "8"
-			(uuid "3ad5ea3f-227b-465f-aca0-550464f313f4")
-		)
-		(pin "7"
-			(uuid "2dd77111-0626-4c4d-8e3a-5a947b9ae4d0")
-		)
-		(pin "1"
-			(uuid "14b0ecc2-f33a-4df2-9d9d-7e7a1d163a6b")
-		)
-		(pin "4"
-			(uuid "ddbc899b-fec1-411d-ac5a-1ef2b88a7064")
-		)
-		(pin "6"
-			(uuid "349bf3ae-2064-441b-ad46-b96b7c2da7db")
-		)
-		(pin "5"
-			(uuid "fed051d5-7726-4092-b633-88030862ec86")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 218.44 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "589ec3ca-c4bf-426f-adbd-ef653508a3c7")
-		(property "Reference" "C3"
-			(at 222.25 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 222.25 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 219.4052 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 218.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec8f1cde-e976-4707-b4dd-41578e9da542")
-		)
-		(pin "2"
-			(uuid "6a45a2a1-99a6-41b0-a6f8-a6cc27c2a7fe")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -14084,34 +11544,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 306.07 147.32 90)
+		(lib_id "library:1017514")
+		(at 259.08 128.27 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bcfd62a-dfaa-4179-b0a3-d7849c913e42")
-		(property "Reference" "C14"
-			(at 304.292 146.304 0)
+		(uuid "5b67a919-2953-4eef-837b-1730dbd7667a")
+		(property "Reference" "J9"
+			(at 252.984 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "220nF"
-			(at 308.102 147.066 0)
+		(property "Value" "1017514"
+			(at 262.89 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 309.88 146.3548 0)
+		(property "Footprint" "kicad libraries:PHOENIX_1017514"
+			(at 259.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14119,8 +11588,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 306.07 147.32 0)
+		(property "Description" "screwless alternative is 1017521"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,8 +11597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 306.07 147.32 0)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,8 +11606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 306.07 147.32 0)
+		(property "Manufacturer_Part_Number" "1017514"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,8 +11615,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 306.07 147.32 0)
+		(property "price" ".87"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,8 +11624,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
-			(at 306.07 147.32 0)
+		(property "digikey_part_number" "277-17504-ND"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,78 +11633,57 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 306.07 147.32 0)
+		(property "mount_type" "tht"
+			(at 259.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "mount_type" "smd"
-			(at 306.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c88d6e3-0cc4-42b1-b5bd-116fd97c8d05")
 		)
 		(pin "2"
-			(uuid "bedcf4b1-c758-457b-a5bb-0625d11aa325")
+			(uuid "475e4bd7-bbfc-4543-bb57-2805e1046304")
+		)
+		(pin "1"
+			(uuid "c36acb58-dca8-4485-b7dc-8578d5c98173")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C14")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 44.45 270)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 247.65 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63a4674c-57f9-40bd-8d60-90da08b6aa3f")
-		(property "Reference" "TP1"
-			(at 267.97 43.1799 90)
+		(uuid "5e861f0e-2219-4efb-89f3-a66f46c19844")
+		(property "Reference" "Q7"
+			(at 256.286 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 267.97 45.7199 90)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 254 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 262.89 49.53 0)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 252.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,8 +11691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 262.89 44.45 0)
+		(property "Datasheet" ""
+			(at 247.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14252,8 +11700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "DNP"
-			(at 262.89 44.45 0)
+		(property "Description" "nmos"
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,8 +11709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 262.89 44.45 0)
+		(property "Manufacturer_Name" ""
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14270,8 +11718,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0"
-			(at 262.89 44.45 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,8 +11727,8 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "DNP"
-			(at 262.89 44.45 0)
+		(property "digikey_part_number" ""
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14288,8 +11736,17 @@
 				(hide yes)
 			)
 		)
-		(property "mount_type" "DNP"
-			(at 262.89 44.45 0)
+		(property "mount_type" ""
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 247.65 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14298,12 +11755,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b55f948d-9698-49da-a9ec-7874141c8e7b")
+			(uuid "4947303e-8ae8-4404-b19a-e3eff72da2be")
+		)
+		(pin "2"
+			(uuid "0c521337-cc86-4409-931c-71cf62b04589")
+		)
+		(pin "4"
+			(uuid "ecb53593-3ad3-44b2-a9af-69f94f11d623")
+		)
+		(pin "5"
+			(uuid "9eef1cfc-4b62-4116-92f6-5968ceb91afb")
+		)
+		(pin "3"
+			(uuid "82380e5d-8393-4c8d-97c3-6a9aca9082bc")
 		)
 		(instances
-			(project ""
+			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP1")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -14316,7 +11785,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65b94904-13ab-48aa-b2fd-2fedd1d88507")
 		(property "Reference" "B1"
@@ -14422,121 +11891,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 283.21 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69a1d199-44ec-4f29-8c4c-7ef07dbfbc2f")
-		(property "Reference" "D5"
-			(at 285.75 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d503d2e6-7583-437c-96d8-fa6d302dec2e")
-		)
-		(pin "1"
-			(uuid "fffe3ea6-5c67-49e4-97db-1e64e576cd5d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14899,236 +12253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 283.21 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70c27ab1-6fd6-4937-aa6f-f8bd57a5207c")
-		(property "Reference" "D8"
-			(at 285.75 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83bbd718-bb66-4080-87ff-5b6d6b50f7bb")
-		)
-		(pin "1"
-			(uuid "72b8b810-471e-4dfb-b2f9-549db2b51fcc")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 284.48 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76bdb034-68a3-4a17-b716-a8b29d703fc7")
-		(property "Reference" "D7"
-			(at 287.02 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 287.02 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 284.48 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "498dcb84-4867-4c43-8bf6-00deb881e68c")
-		)
-		(pin "1"
-			(uuid "a3132eb5-81c6-48e5-a40c-b3415ba28b8c")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 55.88 0)
 		(unit 1)
@@ -15188,71 +12312,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 313.69 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7796328c-ed68-49da-b376-d35f5195f66e")
-		(property "Reference" "#PWR020"
-			(at 313.69 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 313.436 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 313.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd47f7b6-b2c9-432e-80e2-0c524ef3ba81")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15563,185 +12622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ad0b055-1efb-4f1f-92ce-d7b392a0fa73")
-		(property "Reference" "C8"
-			(at 218.186 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 217.424 118.872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 218.1352 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 217.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d492998-9a7f-48c1-8edf-af9507d3d56c")
-		)
-		(pin "2"
-			(uuid "bfc0212b-2204-4d5d-b3ce-626cf83f224d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 271.78 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b79b33e-bddf-441d-a109-c93da8a4867c")
-		(property "Reference" "#PWR031"
-			(at 271.78 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 274.828 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae44988d-2242-4a98-9635-30375e28653e")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 113.03 213.36 0)
 		(unit 1)
@@ -15988,186 +12868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 283.21 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81fa402a-c8b8-4112-bd12-c589b1ebf260")
-		(property "Reference" "#PWR057"
-			(at 283.21 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 282.956 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 283.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a863fb2-6ac5-47c1-874b-bacf07b2660c")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 283.21 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85f9b5cd-4b54-4cdd-98e6-ffebfd48c87f")
-		(property "Reference" "D9"
-			(at 285.75 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92f9821b-f8e1-459c-b64f-5d520327861b")
-		)
-		(pin "1"
-			(uuid "e59f6cd3-9a57-4089-a352-0d6aad463405")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 381 114.3 0)
 		(unit 1)
@@ -16228,120 +12928,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 312.42 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8de208f1-0597-4568-941c-0fd95776e0bb")
-		(property "Reference" "C7"
-			(at 310.642 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 314.452 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 316.23 65.0748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e0940c7-57a6-4f96-bd60-9015df4210fb")
-		)
-		(pin "2"
-			(uuid "a5d0eb99-afd9-4bff-977b-854b05af160b")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16456,120 +13042,6 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 306.07 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8eb83634-29eb-4a87-967c-e1753a000d3c")
-		(property "Reference" "C12"
-			(at 304.292 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 308.102 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 309.88 138.7348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 306.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93428efa-ccd0-4632-922f-61bd813377e6")
-		)
-		(pin "2"
-			(uuid "ab7a0c3b-ecf2-441e-b837-5777aab6dfa6")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16748,250 +13220,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 306.07 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90a841a1-2827-4d33-bf46-558a6d086c47")
-		(property "Reference" "C11"
-			(at 304.292 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 308.102 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 309.88 123.4948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 306.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d29db5ea-6abc-47a6-a6db-16d733394366")
-		)
-		(pin "2"
-			(uuid "5dd7a67c-2b60-451a-9e70-40688b557f32")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 318.77 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91cf4e48-a7a0-46a4-b00a-256aca731e4c")
-		(property "Reference" "#PWR09"
-			(at 318.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 318.516 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 318.77 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bba6cf6-035c-4a4d-bd9b-ff509c6ab88a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 283.21 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "943d58b7-8a01-4b50-98a0-4ceae8644532")
-		(property "Reference" "#PWR053"
-			(at 283.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 282.956 20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 283.21 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5560e1c1-6ba1-4c59-a162-49b876662efd")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17414,71 +13642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 210.82 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a7f4d70-3562-4ab2-86cb-0833d2d5a1d4")
-		(property "Reference" "#PWR02"
-			(at 210.82 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 213.868 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 210.82 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c189424c-ee6e-4b97-bc8a-b2cf7973f72a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 227.33 0)
 		(unit 1)
@@ -17665,8 +13828,8 @@
 	)
 	(symbol
 		(lib_id "library:1017514")
-		(at 294.64 132.08 0)
-		(mirror y)
+		(at 257.81 52.07 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17674,7 +13837,7 @@
 		(dnp no)
 		(uuid "a325e662-4f47-4658-b597-8d46a69f4bf2")
 		(property "Reference" "J4"
-			(at 294.132 128.27 0)
+			(at 251.714 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17682,7 +13845,7 @@
 			)
 		)
 		(property "Value" "1017514"
-			(at 294.132 125.73 0)
+			(at 261.62 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17690,7 +13853,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17700,7 +13863,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17709,7 +13872,7 @@
 			)
 		)
 		(property "Description" "screwless alternative is 1017521"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17718,7 +13881,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17727,7 +13890,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017514"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17736,7 +13899,7 @@
 			)
 		)
 		(property "price" ".87"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +13908,7 @@
 			)
 		)
 		(property "digikey_part_number" "277-17504-ND"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +13917,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 294.64 132.08 0)
+			(at 257.81 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,16 +13941,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 283.21 139.7 0)
+		(lib_id "library:LM2104DR")
+		(at 325.12 46.99 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ac4b461f-cfea-4d6d-a251-cceb26bd9e0a")
-		(property "Reference" "#PWR059"
-			(at 283.21 143.51 0)
+		(uuid "a8be72da-1869-4a79-a2a8-703943982910")
+		(property "Reference" "U2"
+			(at 304.8 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM2104DR"
+			(at 304.8 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LM2104DR"
+			(at 325.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17795,16 +13995,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 282.956 136.144 0)
+		(pin "4"
+			(uuid "8af44a68-99df-40b9-b683-6f189aad7fc0")
+		)
+		(pin "1"
+			(uuid "dd30d310-e8a3-49e1-a4e8-b0cef9d10748")
+		)
+		(pin "2"
+			(uuid "79ac2655-5402-4ffd-9c7a-8c9c8a17eba6")
+		)
+		(pin "3"
+			(uuid "169a8057-cf19-4688-9ff8-a4f13be745af")
+		)
+		(pin "5"
+			(uuid "55093c6f-b4a7-4575-b177-6496dbcb5dfb")
+		)
+		(pin "8"
+			(uuid "a27965b3-1187-49d3-97c8-9dd4e30759ad")
+		)
+		(pin "6"
+			(uuid "9bca04aa-6bcf-46fd-96c9-4ba9ae6f5cf4")
+		)
+		(pin "7"
+			(uuid "bb61d337-1983-4ea9-be7f-c8857d5d3b6f")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 247.65 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0c24fb7-0f15-4b34-8e08-01875319de9c")
+		(property "Reference" "Q4"
+			(at 256.286 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 283.21 139.7 0)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 254 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 252.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17813,7 +14063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 139.7 0)
+			(at 247.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17821,8 +14071,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 283.21 139.7 0)
+		(property "Description" "nmos"
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 247.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17831,127 +14126,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e85bd30-8223-4fc1-b416-ddd268c3f2b0")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 284.48 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03d34b6-8a76-4e71-957f-57e55eb9d8d3")
-		(property "Reference" "D6"
-			(at 287.02 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 287.02 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 284.48 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "d1290bac-8c5e-4416-8308-5ea807bb7ef5")
 		)
 		(pin "2"
-			(uuid "b9a6b018-6799-4749-bc96-ba8557ebe55c")
+			(uuid "a1173bd5-157b-4561-bf95-f2fde00c2390")
 		)
-		(pin "1"
-			(uuid "5213d5ed-5f2a-49dc-852e-f0c2b55a9fb9")
+		(pin "4"
+			(uuid "6f31c06f-7734-483e-9393-c7d8e726a7b2")
+		)
+		(pin "5"
+			(uuid "9b9af735-3755-4c3c-8d00-85e15e6bc138")
+		)
+		(pin "3"
+			(uuid "216130d2-9c1b-43d5-8813-4749a38500aa")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -18023,120 +14215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 316.23 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1a39763-6fb8-4780-89a8-878ce903a27d")
-		(property "Reference" "C1"
-			(at 314.452 25.654 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 318.262 26.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 320.04 25.7048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 316.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "402c640c-c777-47f2-a322-90e76732e9ba")
-		)
-		(pin "2"
-			(uuid "266d1c97-aae8-4e38-a7a6-643b14c6ad4a")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 135.89 77.47 0)
 		(unit 1)
@@ -18202,78 +14280,13 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 200.66 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3aa7828-79ae-4bdc-8b89-179550942b30")
-		(property "Reference" "#PWR04"
-			(at 200.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.422 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dcbd52e-058a-49bb-9b17-2d9efdaf2d44")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:STX-3000")
 		(at 381 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b6c6f7da-f62f-422c-9cd2-50807d59df32")
 		(property "Reference" "B4"
@@ -18385,63 +14398,53 @@
 		)
 	)
 	(symbol
-		(lib_id "library:1017514")
-		(at 300.99 44.45 0)
+		(lib_id "library:LM2104DR")
+		(at 327.66 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b8bde797-6a9b-4414-b18b-7ff2ccd43e36")
-		(property "Reference" "J1"
-			(at 294.64 44.4499 0)
+		(uuid "b8dd88c4-65f5-4fb4-89bb-0306c10688a2")
+		(property "Reference" "U5"
+			(at 307.34 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1017514"
-			(at 294.64 46.9899 0)
+		(property "Value" "LM2104DR"
+			(at 307.34 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 300.99 44.45 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 327.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 300.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "screwless alternative is 1017521"
-			(at 300.99 44.45 0)
+		(property "Datasheet" "LM2104DR"
+			(at 327.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 300.99 44.45 0)
+		(property "Description" ""
+			(at 327.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18449,182 +14452,34 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1017514"
-			(at 300.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".87"
-			(at 300.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "277-17504-ND"
-			(at 300.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 300.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "2b4b7acd-a7b1-4e38-ba7b-b30cac315954")
 		)
 		(pin "1"
-			(uuid "b2a4844f-2268-4a76-9ea2-4820da595f20")
+			(uuid "26d93c00-da3b-4c94-acf6-4d2571a04b06")
 		)
 		(pin "2"
-			(uuid "6ad57082-afc7-4a1e-8c62-1babd74bd372")
+			(uuid "41a3a840-f6d6-4f35-a7bc-e3a989042fd1")
 		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
+		(pin "3"
+			(uuid "767883da-8771-465a-8f25-f9806c53e5e4")
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba8e11f3-74d7-450d-9662-89a07d33030a")
-		(property "Reference" "#PWR050"
-			(at 260.35 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "86844368-ec41-4f5a-b7d8-6d3c16f6c3a2")
 		)
-		(property "Value" "GND"
-			(at 261.112 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "8"
+			(uuid "e9669c19-9ddf-4c75-b139-f8f1ba4b17dc")
 		)
-		(property "Footprint" ""
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "4de2f85d-ab6e-43e2-bd8d-4979be28155e")
 		)
-		(property "Datasheet" ""
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8e1e513-2fda-45c0-8101-cbe52e5c7863")
+		(pin "7"
+			(uuid "f53670a2-3abb-40b4-8ef6-f4ebc578de42")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 270.51 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb317a4d-1f64-4fe6-aa2d-04b04c371cf9")
-		(property "Reference" "#PWR05"
-			(at 270.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 273.558 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 270.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd09ecfa-9edd-4de7-a922-565bde04d345")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR05")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -18811,33 +14666,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 316.23 67.31 0)
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 266.7 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd18dc8b-00d8-4bc9-916b-4d12576ded8d")
-		(property "Reference" "#PWR012"
-			(at 316.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 316.992 71.12 0)
+		(uuid "bf5b400a-82d7-4505-89a4-46b38510cbdd")
+		(property "Reference" "Q6"
+			(at 258.064 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 316.23 67.31 0)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 260.35 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 261.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18846,7 +14701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 67.31 0)
+			(at 266.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18854,8 +14709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 67.31 0)
+		(property "Description" "nmos"
+			(at 266.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,29 +14718,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "78daecfe-3929-420d-b9d9-9de64c5e43b7")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 284.48 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "becd819c-51d7-411d-bcff-083452afb493")
-		(property "Reference" "#PWR056"
-			(at 284.48 77.47 0)
+		(property "Manufacturer_Name" ""
+			(at 266.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18893,16 +14727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 285.242 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 71.12 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18910,8 +14736,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 284.48 71.12 0)
+		(property "digikey_part_number" ""
+			(at 266.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18919,8 +14745,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 71.12 0)
+		(property "mount_type" ""
+			(at 266.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 266.7 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18929,127 +14764,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "c055043f-840b-4b16-b0c0-e3e8f0932e19")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 207.01 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c67ecdbf-de1c-45c0-bd4d-dd2ce24575aa")
-		(property "Reference" "C6"
-			(at 210.82 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 210.82 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 207.9752 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "988b208c-24db-491a-8f88-5fe43c01faf6")
+			(uuid "4414b076-8af0-425b-b85a-58cc565cefbd")
 		)
 		(pin "2"
-			(uuid "d0f97b47-d16a-4b7d-9f9e-cd0ab9cf2a8e")
+			(uuid "d950fde1-9af5-4df5-bd06-4ef719517226")
+		)
+		(pin "4"
+			(uuid "ff1fd1e0-5959-4c36-aa10-8d1750000616")
+		)
+		(pin "5"
+			(uuid "77e00f0d-9eaf-441f-8a96-46287817382e")
+		)
+		(pin "3"
+			(uuid "94b7ecae-4cdc-469c-b91c-4e9245119b2c")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C6")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -19057,15 +14789,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 34.29 0)
+		(at 96.52 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c729e51f-8da3-46d1-a000-36d7f8ffb3bb")
-		(property "Reference" "#PWR03"
-			(at 320.04 40.64 0)
+		(uuid "c76da52f-797b-4b4e-a1bf-1ae31539b959")
+		(property "Reference" "#PWR019"
+			(at 96.52 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19074,7 +14806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.802 38.1 0)
+			(at 97.282 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +14814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 34.29 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19091,7 +14823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 34.29 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,7 +14832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 34.29 0)
+			(at 96.52 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19109,127 +14841,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a91dd287-5ec8-485a-8bda-0752706c8ea3")
+			(uuid "e1459c14-d11d-4206-bc1a-0447c0209b3f")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 283.21 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc6820e0-f0cf-4351-968f-383b16da942c")
-		(property "Reference" "D11"
-			(at 285.75 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Diode"
-			(at 285.75 152.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad libraries:D_PowerDI-5"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/SBR10E45P5-7/5371864"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "flyback"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SBR10E45P5-7"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".27"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "SBR10E45P5-7DICT-ND"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 283.21 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "680aa441-4ccb-46ba-bbb1-0e40a5fa98b4")
-		)
-		(pin "1"
-			(uuid "d754de03-a91f-4fc0-8837-9ab1eaf24e90")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D11")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -19457,6 +15074,128 @@
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 266.7 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf9a5055-1c40-42eb-9d6d-7a7d7b51d4e0")
+		(property "Reference" "Q10"
+			(at 258.064 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 260.35 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 261.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nmos"
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "decb71f0-39fb-44a6-b7af-2840465c24a2")
+		)
+		(pin "2"
+			(uuid "02893ec9-65ff-4154-8023-f33aadeb5622")
+		)
+		(pin "4"
+			(uuid "3eb34033-11a5-4eb2-aaa2-22810be78d8f")
+		)
+		(pin "5"
+			(uuid "fb2419d1-cf82-4612-bc5b-61d5e780d320")
+		)
+		(pin "3"
+			(uuid "d67371c3-4dbd-4619-9a72-9202a4506701")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -19771,71 +15510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 283.21 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d51e8f2c-669b-48d9-9840-c6a2ade8d57b")
-		(property "Reference" "#PWR058"
-			(at 283.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 283.972 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 283.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 283.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b73082b7-5e1a-427c-9d29-fd1444eccb36")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 231.14 245.11 0)
 		(unit 1)
@@ -19948,35 +15622,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 261.62 69.85 270)
+		(lib_id "library:LM2104DR")
+		(at 179.07 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d98b1b34-895f-44df-adf5-ad08dfa3c87c")
-		(property "Reference" "TP2"
-			(at 266.7 68.5799 90)
+		(uuid "d795a9a1-275e-4377-a21e-89d12c187000")
+		(property "Reference" "U1"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM2104DR"
+			(at 199.39 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 266.7 71.1199 90)
+		(property "Datasheet" "LM2104DR"
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 74.93 0)
+		(property "Description" ""
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19984,76 +15676,34 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DNP"
-			(at 261.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 261.62 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "4c24dfed-6186-47c1-8884-c20e2e5eb235")
 		)
 		(pin "1"
-			(uuid "eafa50af-c0f7-4a91-9082-b7aa4d86c641")
+			(uuid "773e06d0-a186-4f33-a5ab-51b8039acd74")
+		)
+		(pin "2"
+			(uuid "6341ceb1-8d95-46c7-82a1-dc07430fefaf")
+		)
+		(pin "3"
+			(uuid "428fc2e8-8db5-4675-b529-9d78e75b8851")
+		)
+		(pin "5"
+			(uuid "8e3fb8e7-1608-4ffe-9c13-850678e4d4cf")
+		)
+		(pin "8"
+			(uuid "e94b1f6a-a67f-4c0b-bffc-795524ac63c8")
+		)
+		(pin "6"
+			(uuid "78357129-a8ba-4970-a96b-d8b5eea36837")
+		)
+		(pin "7"
+			(uuid "f0827b27-5d9e-47ba-bfda-a7efb7f4c054")
 		)
 		(instances
-			(project "gbg-pcb"
+			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20066,7 +15716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d9fb7da6-657c-4b27-abb9-344b39164ad0")
 		(property "Reference" "B6"
@@ -20244,118 +15894,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 261.62 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de810fbc-e16b-4393-84c3-dbc9ed2dcd5e")
-		(property "Reference" "TP3"
-			(at 266.7 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 266.7 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 261.62 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e080c6d3-dbfc-47ce-932b-effff8a9e21d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 252.73 208.28 180)
 		(unit 1)
@@ -20470,16 +16008,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 149.86 0)
+		(lib_id "power:+BATT")
+		(at 83.82 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1e71d24-4326-44ed-ae65-60eb9efd23c6")
-		(property "Reference" "#PWR030"
-			(at 205.74 156.21 0)
+		(uuid "e2931cb9-69d6-45b6-8263-5c10bee1e769")
+		(property "Reference" "#PWR040"
+			(at 83.82 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20487,8 +16025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 206.502 153.67 0)
+		(property "Value" "+BATT"
+			(at 85.09 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20496,7 +16034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 149.86 0)
+			(at 83.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20505,7 +16043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 149.86 0)
+			(at 83.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20513,8 +16051,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 83.82 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20523,12 +16061,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34b3fcd5-ab09-46e6-91d2-f44e70df32b8")
+			(uuid "2800f375-4814-4365-a8cd-63f186952e1b")
 		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20727,120 +16265,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 312.42 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e6d00197-c6b4-4f45-b070-f733eae97f2e")
-		(property "Reference" "C5"
-			(at 310.642 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 314.452 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 316.23 57.4548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d28673a1-de82-41db-97e2-a5305cf79149")
-		)
-		(pin "2"
-			(uuid "36177a0d-1d3b-4549-a5b6-9605c730b9e6")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 375.92 215.9 0)
 		(mirror y)
@@ -20921,8 +16345,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 266.7 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e788bcc9-57ab-42be-ad03-4513a25595ad")
+		(property "Reference" "Q9"
+			(at 258.064 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PSMN2R6-30YLC,115"
+			(at 260.35 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
+			(at 261.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "nmos"
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b438e39-0170-4f1d-bd7b-0e264c4610f8")
+		)
+		(pin "2"
+			(uuid "b8e49e67-a85b-46f4-97fa-3b1b69c4419e")
+		)
+		(pin "4"
+			(uuid "52705b0c-3997-4c54-a3c0-1d1a75c88944")
+		)
+		(pin "5"
+			(uuid "78835796-5a83-4b9e-bf98-34ec9265011e")
+		)
+		(pin "3"
+			(uuid "94bb537b-171d-4ebe-a5b5-75964992e5e6")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 316.23 34.29 90)
+		(at 102.87 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20930,7 +16476,7 @@
 		(dnp no)
 		(uuid "e8a8884f-b222-462d-96df-21f119518dc8")
 		(property "Reference" "C4"
-			(at 314.452 33.274 0)
+			(at 101.854 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20939,7 +16485,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 318.262 34.036 0)
+			(at 102.616 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20948,7 +16494,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 320.04 33.3248 0)
+			(at 101.9048 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20957,7 +16503,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20966,7 +16512,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20975,7 +16521,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20984,7 +16530,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20993,7 +16539,7 @@
 			)
 		)
 		(property "price" "0.03"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21002,7 +16548,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21011,7 +16557,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 316.23 34.29 0)
+			(at 102.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21029,118 +16575,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e908bdb9-2370-4c96-8747-f01deee5982e")
-		(property "Reference" "TP4"
-			(at 265.43 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 265.43 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "DNP"
-			(at 260.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "DNP"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DNP"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "DNP"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "DNP"
-			(at 260.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ed82db1-f6de-4745-8345-fa83658c3797")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21212,127 +16646,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 306.07 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee88e219-009b-4d9f-bb42-7488f7e9a408")
-		(property "Reference" "C9"
-			(at 304.292 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 308.102 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 309.88 115.8748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.03"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 306.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "086b39b4-b456-4e18-81b6-dbda91e12e10")
-		)
-		(pin "2"
-			(uuid "eafa00ba-8d8c-49ac-8fd5-12019bc5d38d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:STX-3000")
 		(at 381 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eeac8323-d0ed-414b-bb1e-b4edb9b89b25")
 		(property "Reference" "B3"
@@ -21444,139 +16764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:IFX007TAUMA1")
-		(at 219.71 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eede49d7-913c-4377-97b5-0c796a85a129")
-		(property "Reference" "U2"
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IFX007TAUMA1"
-			(at 240.03 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "half bridge driver"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "2.6"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b2783f9f-cc89-4f9c-bfd0-058ff41f4ef4")
-		)
-		(pin "2"
-			(uuid "5b63c8d6-93d8-4ae7-af18-22cc80dda4a7")
-		)
-		(pin "8"
-			(uuid "3ad5ea3f-227b-465f-aca0-550464f313f5")
-		)
-		(pin "7"
-			(uuid "2dd77111-0626-4c4d-8e3a-5a947b9ae4d1")
-		)
-		(pin "1"
-			(uuid "14b0ecc2-f33a-4df2-9d9d-7e7a1d163a6c")
-		)
-		(pin "4"
-			(uuid "ddbc899b-fec1-411d-ac5a-1ef2b88a7065")
-		)
-		(pin "6"
-			(uuid "349bf3ae-2064-441b-ad46-b96b7c2da7dc")
-		)
-		(pin "5"
-			(uuid "fed051d5-7726-4092-b633-88030862ec87")
-		)
-		(instances
-			(project ""
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 26.67 208.28 0)
 		(unit 1)
@@ -21636,71 +16823,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 309.88 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f41d398c-a99a-4d4e-bc43-c313bada5636")
-		(property "Reference" "#PWR029"
-			(at 309.88 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 310.642 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a10a88d-7928-4a5b-a78e-f13674e8378f")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -21989,136 +17111,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f98a4def-307f-419e-8011-29500cc867c1")
-		(property "Reference" "#PWR047"
-			(at 261.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.382 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcc0238b-08c4-4721-a783-21a7faf9e8de")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 262.89 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc1a2e3c-008b-4d9b-b21f-9e5b2fa9dd36")
-		(property "Reference" "#PWR048"
-			(at 262.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 263.652 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7263a6f-205d-476f-9de5-34f2fcdb9855")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
