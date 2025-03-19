@@ -2478,7 +2478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2528,7 +2528,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2554,7 +2554,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3185,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3222,7 +3222,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3235,7 +3235,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3261,7 +3261,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6042,7 +6042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6066,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6079,7 +6079,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6118,7 +6118,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11148,7 +11148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11172,7 +11172,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11185,7 +11185,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11198,7 +11198,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11224,7 +11224,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14805,7 +14805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14829,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14842,7 +14842,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14855,7 +14855,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14881,7 +14881,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15468,7 +15468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15492,7 +15492,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15505,7 +15505,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15518,7 +15518,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15544,7 +15544,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16131,7 +16131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16155,7 +16155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16168,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16181,7 +16181,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16207,7 +16207,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16811,7 +16811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16835,7 +16835,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16848,7 +16848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16861,7 +16861,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16887,7 +16887,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17208,7 +17208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17232,7 +17232,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17245,7 +17245,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17258,7 +17258,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17284,7 +17284,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17605,7 +17605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17629,7 +17629,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17642,7 +17642,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17655,7 +17655,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17681,7 +17681,7 @@
 				)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23889,272 +23889,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-		(layer "F.Cu")
-		(uuid "cadca7ce-9ae1-4f07-b7f5-e53554df4f12")
-		(at 52.7935 91.313)
-		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor handsolder")
-		(property "Reference" "C4"
-			(at 0 -1.85 0)
-			(layer "F.SilkS")
-			(uuid "23cdd66f-0302-4a35-aa14-044b0c13f82d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.85 0)
-			(layer "F.Fab")
-			(uuid "3932d336-f76a-41a0-85b6-02d30a80b6d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b30f2ab2-7220-48a4-8619-46eca350a336")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "efb6e025-6f56-4c15-8329-29987cb13add")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a09d21a1-a1be-4699-9aa1-61c9ddc46342")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "835a72c2-60c0-4c6e-ad1d-736e43c0f7a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "price" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f938b96a-cb44-4ee9-b028-e248b915e231")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikey_part_number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "621645a1-f6c3-4d06-b666-ec6a7a302382")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "928e2959-c212-4fac-bc6e-14c119b3ed8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/e8a8884f-b222-462d-96df-21f119518dc8")
-		(sheetname "/")
-		(sheetfile "gbg-pcb.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.711252 -0.91)
-			(end 0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1495f69c-ba24-40ff-8fc9-71c160dd936d")
-		)
-		(fp_line
-			(start -0.711252 0.91)
-			(end 0.711252 0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f83644a-57fa-4f7b-9062-6871f7f6fd2b")
-		)
-		(fp_line
-			(start -2.48 -1.15)
-			(end 2.48 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8043ec7d-2924-473d-8899-b2b59825264a")
-		)
-		(fp_line
-			(start -2.48 1.15)
-			(end -2.48 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9852178f-0814-440d-8d15-9ea09a474c0c")
-		)
-		(fp_line
-			(start 2.48 -1.15)
-			(end 2.48 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "59d4b160-6271-4f60-be15-3d5709f91fb8")
-		)
-		(fp_line
-			(start 2.48 1.15)
-			(end -2.48 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "07268a5a-d0ae-4144-a3c5-b654133a8cdc")
-		)
-		(fp_line
-			(start -1.6 -0.8)
-			(end 1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7484a7c3-a526-4e68-9e3d-48afb8f947f9")
-		)
-		(fp_line
-			(start -1.6 0.8)
-			(end -1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ac9ac1cd-0249-4dd3-8cb0-9f5830419842")
-		)
-		(fp_line
-			(start 1.6 -0.8)
-			(end 1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d5b32a40-a039-4d06-9454-be22ccc8eef7")
-		)
-		(fp_line
-			(start 1.6 0.8)
-			(end -1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "87f4be4e-3c85-495e-9f89-c06d731fffcc")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "c62e9ddc-1afa-4744-892b-38f5ea680227")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.5625 0)
-			(size 1.325 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.188679)
-			(net 2 "GND")
-			(pintype "passive")
-			(uuid "d806ee27-958a-4da2-a5af-d8cc7c6412f7")
-		)
-		(pad "2" smd roundrect
-			(at 1.5625 0)
-			(size 1.325 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.188679)
-			(net 1 "+BATT")
-			(pintype "passive")
-			(uuid "1ec1c504-65ef-4a72-9496-83269593df53")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

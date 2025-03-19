@@ -8603,7 +8603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 247.65 48.26 0)
 			(effects
 				(font
@@ -8621,7 +8621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8630,7 +8630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8639,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -8657,7 +8657,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -9267,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 266.7 48.26 0)
 			(effects
 				(font
@@ -9285,7 +9285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9294,7 +9294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 266.7 35.56 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 247.65 160.02 0)
 			(effects
 				(font
@@ -11073,7 +11073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11082,7 +11082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11091,7 +11091,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 247.65 147.32 0)
 			(effects
 				(font
@@ -11686,7 +11686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 247.65 124.46 0)
 			(effects
 				(font
@@ -11704,7 +11704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11713,7 +11713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11722,7 +11722,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -11740,7 +11740,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 247.65 111.76 0)
 			(effects
 				(font
@@ -12369,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 304.8 207.01 0)
 			(effects
 				(font
@@ -12387,7 +12387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12396,7 +12396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12405,7 +12405,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -12423,7 +12423,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -14097,7 +14097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -14115,7 +14115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14124,7 +14124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14133,7 +14133,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14151,7 +14151,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -14489,7 +14489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 304.8 207.01 0)
 			(effects
 				(font
@@ -14507,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -14516,7 +14516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -14525,7 +14525,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -14543,7 +14543,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 317.5 207.01 0)
 			(effects
 				(font
@@ -14832,7 +14832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 266.7 83.82 0)
 			(effects
 				(font
@@ -14850,7 +14850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14859,7 +14859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14868,7 +14868,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -14886,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 266.7 71.12 0)
 			(effects
 				(font
@@ -15334,7 +15334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 266.7 160.02 0)
 			(effects
 				(font
@@ -15352,7 +15352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15361,7 +15361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15370,7 +15370,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -15388,7 +15388,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -16539,7 +16539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/umw/IRLB3034/24889382"
 			(at 266.7 124.46 0)
 			(effects
 				(font
@@ -16557,7 +16557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "UMW"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16566,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "IRLB3034"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16575,7 +16575,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" ""
+		(property "digikey_part_number" "4518-IRLB3034-ND"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -16593,7 +16593,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ""
+		(property "price" "1.137"
 			(at 266.7 111.76 0)
 			(effects
 				(font
