@@ -5640,16 +5640,6 @@
 		)
 		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
-	(text "change to larger capacitance?"
-		(exclude_from_sim no)
-		(at 66.294 157.226 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7da67970-4a52-42bc-b31e-f24e414c5828")
-	)
 	(text "check car-code led for pico and pico W"
 		(exclude_from_sim no)
 		(at 120.142 48.768 0)
@@ -5700,6 +5690,16 @@
 		)
 		(uuid "ce922220-317e-4e29-ae15-b6527ebd52f5")
 	)
+	(text "bypass caps?"
+		(exclude_from_sim no)
+		(at 107.188 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2011483-6864-482e-b9c3-10b9792692a4")
+	)
 	(junction
 		(at 354.33 204.47)
 		(diameter 0)
@@ -5741,6 +5741,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34bf18cc-4a2d-4b6b-91ae-683f533420e4")
+	)
+	(junction
+		(at 83.82 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398c2d6d-8ca5-4650-aef3-fb9bab627dfa")
 	)
 	(junction
 		(at 317.5 212.09)
@@ -6738,6 +6744,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dff559d-2f03-4cf9-90ed-dba08e4a07f5")
+	)
+	(wire
+		(pts
 			(xy 129.54 78.74) (xy 137.16 78.74)
 		)
 		(stroke
@@ -7345,6 +7361,16 @@
 			(type default)
 		)
 		(uuid "ded026a4-00a3-4d2e-b7ce-64f4af0a9599")
+	)
+	(wire
+		(pts
+			(xy 68.58 153.67) (xy 83.82 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e171a012-affd-41d5-b665-08aa513022e3")
 	)
 	(wire
 		(pts
@@ -13922,6 +13948,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 68.58 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa6838b-624c-4196-b7ff-f802729ca991")
+		(property "Reference" "C3"
+			(at 72.39 155.3209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 72.39 157.8609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
+			(at 69.5452 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" "1"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea43110a-6963-42e6-893f-fe6e08724379")
+		)
+		(pin "1"
+			(uuid "3b6dd3f8-6506-4fd1-a121-a806497c8cda")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 247.65 71.12 0)
 		(unit 1)
@@ -16501,120 +16642,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8a8884f-b222-462d-96df-21f119518dc8")
-		(property "Reference" "C4"
-			(at 101.854 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 102.616 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 101.9048 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" ""
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "smd"
-			(at 102.87 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7544da13-b292-4255-b4fc-c976c2d88a2a")
-		)
-		(pin "2"
-			(uuid "9acad629-d9de-4b5c-866a-867f24bdb817")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C4")
 					(unit 1)
 				)
 			)
