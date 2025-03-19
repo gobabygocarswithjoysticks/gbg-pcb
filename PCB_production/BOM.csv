@@ -1,6 +1,6 @@
 "Reference","Value","Footprint","Manufacturer_Name","Manufacturer_Part_Number","digikey_part_number","mount_type","QUANTITY"
-"C2","1000uF","Capacitor_THT:CP_Radial_D10.0mm_P7.50mm","KEMET","A750MV108M1EAAE014","399-A750MV108M1EAAE014-ND","tht","1"
-"C4,C19-C21,C23,Q2-Q11","220nF,47uF,nmos,~","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,Package_TO_SOT_THT:TO-220-3_Vertical","","","","smd,tht","15"
+"C2,C3","1000uF","Capacitor_THT:CP_Radial_D10.0mm_P7.50mm","KEMET","A750MV108M1EAAE014","399-A750MV108M1EAAE014-ND","tht","2"
+"C19-C21,C23,Q2-Q11","220nF,47uF,nmos","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,Package_TO_SOT_THT:TO-220-3_Vertical","","","","smd,tht","14"
 "D1-D3","green","LED_THT:LED_D5.0mm","Everlight Electronics Co Ltd","333-2SYGT/S530-E2(DGK)","1080-333-2SYGT/S530-E2(DGK)-ND","tht","3"
 "D12","D_Schottky","Diode_SMD:D_SOD-123F","Good-Ark Semiconductor","FS26","4786-FS26CT-ND","smd","1"
 "D13","blue","LED_THT:LED_D5.0mm_Clear","American Bright Optoelectronics Corporation","BL-BBX1V4V-2-B02","2007-BL-BBX1V4V-2-B02-ND","tht","1"
