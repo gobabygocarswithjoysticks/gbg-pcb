@@ -172,7 +172,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x09_Pin"
+		(symbol "Connector:Conn_01x10_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -188,8 +188,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x10_Pin"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -214,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated"
+			(property "Description" "Generic connector, single row, 01x10, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -249,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x09_Pin_1_1"
+			(symbol "Conn_01x10_Pin_1_1"
 				(rectangle
 					(start 0.8636 10.287)
 					(end 0 10.033)
@@ -341,6 +341,17 @@
 				(rectangle
 					(start 0.8636 -10.033)
 					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -448,6 +459,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -612,6 +635,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5599,6 +5640,16 @@
 		)
 		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
+	(text "change to larger capacitance?"
+		(exclude_from_sim no)
+		(at 66.294 157.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7da67970-4a52-42bc-b31e-f24e414c5828")
+	)
 	(text "check car-code led for pico and pico W"
 		(exclude_from_sim no)
 		(at 120.142 48.768 0)
@@ -5684,12 +5735,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d981b9b-0463-4a40-8710-c32a2359d584")
-	)
-	(junction
-		(at 83.82 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "304a8179-35eb-4f55-8716-4c16385ac446")
 	)
 	(junction
 		(at 309.88 226.06)
@@ -5923,16 +5968,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 161.29) (xy 83.82 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a89c56-a594-4c77-b683-87a639fdcbe8")
-	)
-	(wire
-		(pts
 			(xy 317.5 212.09) (xy 317.5 228.6)
 		)
 		(stroke
@@ -5980,6 +6015,16 @@
 			(type default)
 		)
 		(uuid "07335fc3-dd90-4421-bf7d-1f87ddcf9f10")
+	)
+	(wire
+		(pts
+			(xy 26.67 66.04) (xy 39.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9c27f9-6110-4121-a3f7-7f60871be709")
 	)
 	(wire
 		(pts
@@ -6730,16 +6775,6 @@
 			(type default)
 		)
 		(uuid "842a2be4-8f0b-463b-bfb0-ef07f0fa4812")
-	)
-	(wire
-		(pts
-			(xy 68.58 153.67) (xy 83.82 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873a82d8-b9ba-4e7d-ad89-2e2e21eab680")
 	)
 	(wire
 		(pts
@@ -9745,121 +9780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 68.58 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f360183-6876-4cba-a92e-44f5a01bdd51")
-		(property "Reference" "C3"
-			(at 72.39 155.3209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 72.39 157.8609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 69.5452 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "1"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 68.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d4bd1fe-3121-4e3c-9984-45490dcc2fda")
-		)
-		(pin "1"
-			(uuid "fb925738-2241-41b8-a653-847c8329a747")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 381 68.58 0)
 		(unit 1)
@@ -9926,7 +9846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
+		(lib_id "Connector:Conn_01x10_Pin")
 		(at 21.59 78.74 0)
 		(mirror x)
 		(unit 1)
@@ -9943,7 +9863,7 @@
 				)
 			)
 		)
-		(property "Value" "9   2.54mm pitch header pins"
+		(property "Value" "10   2.54mm pitch header pins"
 			(at 16.256 68.326 0)
 			(effects
 				(font
@@ -9952,7 +9872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -9961,7 +9881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC030SAAN-RC/2775224"
+		(property "Datasheet" "~"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -9970,7 +9890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9   2.54mm pitch header pins"
+		(property "Description" ""
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -9979,7 +9899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Sullins Connector Solutions"
+		(property "Manufacturer_Name" ""
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -9988,7 +9908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PRPC030SAAN-RC"
+		(property "Manufacturer_Part_Number" "f"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -9997,7 +9917,7 @@
 				(hide yes)
 			)
 		)
-		(property "price" ".76"
+		(property "price" ""
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -10006,7 +9926,7 @@
 				(hide yes)
 			)
 		)
-		(property "digikey_part_number" "S1011EC-30-ND"
+		(property "digikey_part_number" ""
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -10050,6 +9970,9 @@
 		)
 		(pin "9"
 			(uuid "613439d8-ffb8-4337-b317-dd3c7be9b8e5")
+		)
+		(pin "10"
+			(uuid "3a5746c0-b1bf-449f-9a38-b0b4bca2564a")
 		)
 		(instances
 			(project "gbg-pcb"
@@ -12705,6 +12628,71 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81461731-9d83-4a4d-83ea-6055d88beeae")
+		(property "Reference" "#PWR053"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.132 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ee69118-e41e-4bef-95b4-2f3bc7703944")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
