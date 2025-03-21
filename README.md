@@ -4,6 +4,8 @@
 ## A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
+open with KiCAD 9.0
+
 * 2 motor drivers
 * screw terminals for joystick or button input
 * Raspberry Pi Pico
