@@ -5770,6 +5770,16 @@
 		)
 		(uuid "a75592d1-d9ee-4538-bbc3-6f09e5c66c6a")
 	)
+	(text "left\n"
+		(exclude_from_sim no)
+		(at 301.498 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9c58914-b392-4e3b-8a6a-ece04f625c20")
+	)
 	(text "add fuse?\nhttps://www.digikey.com/en/products/detail/optifuse/ACB2-PL-35A/11578424"
 		(exclude_from_sim no)
 		(at 224.79 193.802 0)
@@ -5809,6 +5819,16 @@
 			)
 		)
 		(uuid "dac7f151-f119-4fb3-8263-bd8cb321fefc")
+	)
+	(text "right"
+		(exclude_from_sim no)
+		(at 291.338 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eedc900e-5d7b-44d6-9106-bace94c15216")
 	)
 	(junction
 		(at 207.01 121.92)
