@@ -1,4 +1,4 @@
-24766963963099359
+24770437528505288
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99540,6 +99540,13 @@ OSTTC022162
 2
 2
 kicad libraries
+D78B05T-1.0
+
+
+0
+3
+3
+kicad libraries
 DPAK_0031EL_GE3_VIS
 
 SQD40031EL_GE3 
@@ -99637,3 +99644,10 @@ THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm^2 drill 
 0
 4
 4
+kicad libraries
+TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
+wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
