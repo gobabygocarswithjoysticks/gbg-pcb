@@ -5740,16 +5740,6 @@
 		)
 		(uuid "50cda290-df30-4ef4-ba53-4ae619743c64")
 	)
-	(text "check car-code led for pico and pico W"
-		(exclude_from_sim no)
-		(at 120.142 48.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9d6d93f4-3596-4ccb-b786-374d7d2e54a1")
-	)
 	(text "3 pins or just 2 pins?"
 		(exclude_from_sim no)
 		(at 138.684 66.294 0)
@@ -12112,6 +12102,7 @@
 	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 265.43 213.36 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15734,7 +15725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d33681c0-90b3-4fa9-b2a3-c3ea1b4f8612")
-		(property "Reference" "pwr1"
+		(property "Reference" "J9"
 			(at 359.664 211.836 0)
 			(effects
 				(font
@@ -15832,7 +15823,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "pwr1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
