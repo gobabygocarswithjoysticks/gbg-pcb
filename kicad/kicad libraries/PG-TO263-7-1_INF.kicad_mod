@@ -1,11 +1,11 @@
 (footprint "PG-TO263-7-1_INF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "IFX007TAUMA1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.016 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "467ec93f-474c-4574-aceb-8e83511a29e8")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "81341ec4-1a48-4d44-9b20-d88d3bc82b72")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -695,29 +683,6 @@
 		(layer "F.Fab")
 		(uuid "846eea65-371a-4594-9ef7-4aab9638c8db")
 	)
-	(fp_text user "*"
-		(at -5.08 8.7884 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4912c4c5-6f7d-457f-8587-591a4ba3a00a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -5.08 8.7884 0)
-		(layer "F.SilkS")
-		(uuid "67aea90d-f03e-4bbf-a0bd-a68ad02294d8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
@@ -730,77 +695,55 @@
 			)
 		)
 	)
-	(fp_text user "*"
-		(at -3.81 4.4704 0)
-		(layer "F.Fab")
-		(uuid "4d437648-d97a-4dc8-a4ca-8b2d1bb4600d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -3.81 4.4704 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "617a09b3-6f7e-4a75-93f8-2a4ea8dfdc61")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd rect
 		(at -3.81 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43ce7ff5-3aeb-44d5-9687-5a7e0835e15b")
 	)
 	(pad "2" smd rect
 		(at -2.54 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1ac10c2e-e2c3-4ed5-a61e-15d8164a1122")
 	)
 	(pad "3" smd rect
 		(at -1.27 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "370194d7-c254-4a69-b33f-1372cc1a2cba")
 	)
 	(pad "4" smd rect
 		(at 0 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "890379ed-78d4-4701-be77-f53a2b86d49d")
 	)
 	(pad "5" smd rect
 		(at 1.27 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5689198b-424e-4d95-b87d-05840504b898")
 	)
 	(pad "6" smd rect
 		(at 2.54 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e9800bc4-eff2-49aa-b523-8f09a1f0b613")
 	)
 	(pad "7" smd rect
 		(at 3.81 8.7884)
 		(size 0.762 3.7084)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e3966c72-02a0-489d-8b25-d3ba1ae99fcd")
 	)
 	(pad "8" smd rect
 		(at 0 -2.4257)
 		(size 8.5598 8.255)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "981aacd6-b508-4533-bf86-51bb0521fb29")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad libraries/IFX007TAUMA1.step"
 		(offset
 			(xyz 0 -2 0)

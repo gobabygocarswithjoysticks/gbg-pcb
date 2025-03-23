@@ -1,11 +1,11 @@
 (footprint "STX-3000_KYC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "STX-3000 ")
 	(property "Reference" "REF**"
-		(at 1.500124 0 0)
+		(at 1.524 -2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c3559738-bf9c-41e1-ac30-2957f2cf553e")
@@ -17,25 +17,13 @@
 		)
 	)
 	(property "Value" "STX-3000_KYC"
-		(at 1.500124 0 0)
+		(at 1.016 -5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bfe91b64-346a-4fe6-9ef7-c2615642aaa9")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "18181e76-3735-4671-bc37-63486d7319ae")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -385,57 +373,11 @@
 		(layer "F.Fab")
 		(uuid "4c5fc4b2-184d-4005-8240-f87f4cf9cebe")
 	)
-	(fp_text user "*"
-		(at -2.54 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3d3cd996-2eb9-46e3-8c99-69c180b0b10e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.54 0 0)
-		(layer "F.SilkS")
-		(uuid "57e4a9a8-8872-49a6-bb53-4c1103d9de1f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 1.500124 0 0)
+		(at 1.27 1.778 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "644fbf31-13ac-4392-96b0-23dc106fd9cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.54 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "67943967-b60e-491d-a6d8-1d8294a96de1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.54 0 0)
-		(layer "F.Fab")
-		(uuid "b6f842bb-ee12-44bb-b833-31326b588aef")
 		(effects
 			(font
 				(size 1 1)
@@ -484,6 +426,7 @@
 		(roundrect_rratio 0.5)
 		(uuid "c55454c6-124b-4c5d-abca-5cbb260afe8e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad libraries/STX-3000_rD3.IGS"
 		(offset
 			(xyz 5.1 6.2 0)

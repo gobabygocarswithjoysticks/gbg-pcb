@@ -1,7 +1,7 @@
 (footprint "CONN_OSTTC022162_OST"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "OSTTC022162 ")
 	(property "Reference" "REF**"
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "90fbc224-b3e0-4a80-a147-bd73d2997ea5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -65,17 +53,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center -5.0419 0)
-		(end -4.6609 0)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "3c683c8d-1ee6-4e81-8fe8-7130e143f4e8")
-	)
 	(fp_line
 		(start -3.2639 -4.326999)
 		(end -3.2639 3.420001)
@@ -117,13 +94,13 @@
 		(uuid "ee36001f-46a4-40bb-9e04-9c3b8696ebc6")
 	)
 	(fp_circle
-		(center -5.0419 0)
-		(end -4.6609 0)
+		(center -4.064 0)
+		(end -4.318 0)
 		(stroke
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bb8a6cd6-e8e2-46e7-bf42-3f9b1e11f7f2")
 	)
@@ -214,7 +191,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "62da4099-77b7-42d0-9677-a5dac1e24347")
 	)
@@ -246,6 +223,7 @@
 		(remove_unused_layers no)
 		(uuid "bb289140-c808-49e4-a5d5-cb4f68f0d2a6")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad libraries/OSTTC0201X2.stp"
 		(offset
 			(xyz -3 4 0)
