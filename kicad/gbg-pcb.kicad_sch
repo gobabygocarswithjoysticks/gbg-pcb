@@ -5855,7 +5855,7 @@
 	)
 	(text "check continuous current of the mosfets - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
-		(at 276.098 185.166 0)
+		(at 169.418 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5875,7 +5875,7 @@
 	)
 	(text "PSMN1R2-25YLDX 0.0015Ohm, 50 K/W, sqrt(2W/rds)=36A\n\nI put two mosfets in parallel. is that ok? can IC1 handle that?"
 		(exclude_from_sim no)
-		(at 315.468 193.294 0)
+		(at 208.788 195.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5895,7 +5895,7 @@
 	)
 	(text "add fuse?\nhttps://www.digikey.com/en/products/detail/optifuse/ACB2-PL-35A/11578424"
 		(exclude_from_sim no)
-		(at 224.79 193.802 0)
+		(at 118.11 196.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5905,7 +5905,7 @@
 	)
 	(text "power switch\n"
 		(exclude_from_sim no)
-		(at 333.756 199.39 0)
+		(at 227.076 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5915,7 +5915,7 @@
 	)
 	(text "check continuous current of the half bridges - I'm worried about thermal limits\n"
 		(exclude_from_sim no)
-		(at 235.712 165.862 0)
+		(at 244.602 165.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5935,7 +5935,7 @@
 	)
 	(text "right"
 		(exclude_from_sim no)
-		(at 291.338 139.7 0)
+		(at 300.228 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5944,37 +5944,43 @@
 		(uuid "eedc900e-5d7b-44d6-9106-bace94c15216")
 	)
 	(junction
-		(at 207.01 121.92)
+		(at 215.9 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01e5571d-9732-47ed-8830-6a29f028b0e7")
 	)
 	(junction
-		(at 354.33 204.47)
+		(at 247.65 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "036568e5-5720-4347-b761-fa4a6b639b9b")
 	)
 	(junction
-		(at 311.15 204.47)
+		(at 204.47 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19fd504c-67be-42d2-bc1a-191b2ac82c47")
 	)
 	(junction
-		(at 309.88 226.06)
+		(at 210.82 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d915f96-74f1-4368-9368-4d9427a951c7")
+	)
+	(junction
+		(at 203.2 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34bf18cc-4a2d-4b6b-91ae-683f533420e4")
 	)
 	(junction
-		(at 330.2 204.47)
+		(at 223.52 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d16c070-1d3a-4e7e-9651-fec4be87f90f")
 	)
 	(junction
-		(at 109.22 208.28)
+		(at 331.47 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45996fc8-37ed-456e-a262-befc38f1ed2a")
@@ -5992,19 +5998,19 @@
 		(uuid "4880fb07-01ac-4f64-811b-76998c5867ab")
 	)
 	(junction
-		(at 119.38 217.17)
+		(at 341.63 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49f0128a-60ba-4829-bfe8-c09ccd8f1bbf")
 	)
 	(junction
-		(at 350.52 204.47)
+		(at 243.84 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5773f028-faae-404e-ab67-3852015e8a2a")
 	)
 	(junction
-		(at 354.33 224.79)
+		(at 247.65 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d52bae1-c4df-4378-ade3-484080cb7a92")
@@ -6016,19 +6022,25 @@
 		(uuid "6393fa6e-5303-4202-81e3-041537c2960d")
 	)
 	(junction
-		(at 312.42 204.47)
+		(at 205.74 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a73e69-8729-4760-af8d-e8105f047041")
 	)
 	(junction
-		(at 265.43 204.47)
+		(at 228.6 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "764f9d7f-d891-4fb9-8c38-b7a262f7d3af")
+	)
+	(junction
+		(at 158.75 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c11b0a0-efdb-46c1-9b2a-c0c2f4b0ad59")
 	)
 	(junction
-		(at 252.73 204.47)
+		(at 146.05 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89103807-9973-40e1-b0b6-f752b5459216")
@@ -6040,7 +6052,13 @@
 		(uuid "8a263c8e-4913-4791-8747-f4562d721de5")
 	)
 	(junction
-		(at 161.29 208.28)
+		(at 350.52 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e07a6ff-9f90-438b-bc64-45fae9313b0f")
+	)
+	(junction
+		(at 383.54 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92adc33f-0c16-4ac3-8c9f-09c0b30db048")
@@ -6052,19 +6070,25 @@
 		(uuid "99659a16-9aa6-4a75-bc51-2cad18e5bcc0")
 	)
 	(junction
-		(at 322.58 204.47)
+		(at 215.9 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b43b32b-198b-4283-ac5d-8b9b10d513dc")
 	)
 	(junction
-		(at 232.41 215.9)
+		(at 215.9 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1cef052-8839-41a0-a779-40c863362f1c")
+	)
+	(junction
+		(at 125.73 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2a93a99-4f33-419f-b0ac-d731551d09ee")
 	)
 	(junction
-		(at 194.31 135.89)
+		(at 203.2 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9511b72-4fbc-43be-8274-abf7958d2748")
@@ -6088,10 +6112,22 @@
 		(uuid "b505ecb4-5162-4ef3-8d24-863a233876d6")
 	)
 	(junction
+		(at 224.79 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81dc13b-0378-4c09-985d-f4835bfbf46a")
+	)
+	(junction
 		(at 29.21 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceace0dc-4b7e-465d-944d-a3a23b650fbc")
+	)
+	(junction
+		(at 222.25 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d72e6596-05f3-47a5-a0fa-4145bda520f5")
 	)
 	(junction
 		(at 99.06 111.76)
@@ -6100,13 +6136,13 @@
 		(uuid "d8ed9a04-ec71-4263-895f-b6d4cc1b4c3e")
 	)
 	(junction
-		(at 341.63 204.47)
+		(at 234.95 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de02442f-17fe-46c1-b8a1-19a386055eec")
 	)
 	(junction
-		(at 232.41 226.06)
+		(at 125.73 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de2ce760-0ad3-454c-85b9-03df532a7201")
@@ -6124,7 +6160,7 @@
 		(uuid "e263f171-e8ec-4225-8e69-0040a975864c")
 	)
 	(junction
-		(at 317.5 212.09)
+		(at 210.82 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8d26759-cc23-4adb-b5eb-f723b2638d3c")
@@ -6134,6 +6170,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e935a090-c5e3-40f2-8ef5-237f1a4514a6")
+	)
+	(junction
+		(at 217.17 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeba3959-466a-4090-b41e-374d298bc7f1")
+	)
+	(junction
+		(at 365.76 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f422007a-67b3-4114-b2c3-6a1bb220afa3")
 	)
 	(junction
 		(at 381 45.72)
@@ -6150,7 +6198,7 @@
 		(uuid "3ded510d-3ce7-4d1c-b0fc-72f496e0a753")
 	)
 	(no_connect
-		(at 219.71 72.39)
+		(at 222.25 72.39)
 		(uuid "54b2679a-9f6a-4ed7-800e-621756d27fc4")
 	)
 	(no_connect
@@ -6162,11 +6210,11 @@
 		(uuid "97da288f-587a-451a-af42-b87fbf967351")
 	)
 	(no_connect
-		(at 219.71 130.81)
+		(at 228.6 130.81)
 		(uuid "b2784794-09e9-4719-ae29-61046680c56b")
 	)
 	(no_connect
-		(at 218.44 157.48)
+		(at 229.87 157.48)
 		(uuid "bd0a4288-38d5-4302-bdc0-4d9361d26a01")
 	)
 	(no_connect
@@ -6185,7 +6233,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 212.09) (xy 317.5 228.6)
+			(xy 210.82 214.63) (xy 210.82 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6195,7 +6243,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 212.09) (xy 278.13 226.06)
+			(xy 171.45 214.63) (xy 171.45 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6205,7 +6253,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 227.33) (xy 226.06 226.06)
+			(xy 119.38 229.87) (xy 119.38 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6215,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 217.17) (xy 119.38 217.17)
+			(xy 331.47 217.17) (xy 341.63 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 204.47) (xy 354.33 215.9)
+			(xy 247.65 207.01) (xy 247.65 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6235,7 +6283,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 130.81) (xy 260.35 130.81)
+			(xy 270.51 130.81) (xy 269.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6255,6 +6303,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 154.94) (xy 269.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c9d383-4cb9-43d7-86ba-4cae01a12863")
+	)
+	(wire
+		(pts
 			(xy 123.19 55.88) (xy 121.92 55.88)
 		)
 		(stroke
@@ -6262,6 +6320,16 @@
 			(type default)
 		)
 		(uuid "151967b2-fc12-4a00-878b-3da97265fed7")
+	)
+	(wire
+		(pts
+			(xy 210.82 29.21) (xy 217.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cee3d8-1339-4fb6-9b1a-4a0a728ab8b7")
 	)
 	(wire
 		(pts
@@ -6285,7 +6353,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 207.01 111.76)
+			(xy 215.9 113.03) (xy 215.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6295,7 +6363,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 64.77) (xy 267.97 64.77)
+			(xy 262.89 64.77) (xy 267.97 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6383,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 215.9) (xy 232.41 219.71)
+			(xy 125.73 218.44) (xy 125.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6335,6 +6403,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5b6389-55dc-44e3-9058-aa0c9c26e3da")
+	)
+	(wire
+		(pts
 			(xy 129.54 81.28) (xy 99.06 81.28)
 		)
 		(stroke
@@ -6342,6 +6420,16 @@
 			(type default)
 		)
 		(uuid "1e471462-597b-46f2-9349-2b4513675119")
+	)
+	(wire
+		(pts
+			(xy 224.79 149.86) (xy 229.87 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4f9eff-8bb2-47dc-affc-1af7dabc35c9")
 	)
 	(wire
 		(pts
@@ -6365,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 204.47) (xy 226.06 215.9)
+			(xy 119.38 207.01) (xy 119.38 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6375,7 +6463,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 226.06) (xy 232.41 226.06)
+			(xy 215.9 62.23) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a8ed7e-f38f-4490-aa9c-910a1592dd67")
+	)
+	(wire
+		(pts
+			(xy 119.38 228.6) (xy 125.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6385,17 +6483,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 157.48) (xy 259.08 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f70376-3bf7-4808-94b6-31c606c795cc")
-	)
-	(wire
-		(pts
-			(xy 341.63 205.74) (xy 341.63 204.47)
+			(xy 234.95 208.28) (xy 234.95 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6405,17 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 154.94) (xy 259.08 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c4aa29-a3c9-4c6a-8faa-98f931f8e995")
-	)
-	(wire
-		(pts
-			(xy 370.84 218.44) (xy 370.84 224.79)
+			(xy 264.16 220.98) (xy 264.16 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6455,6 +6533,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 152.4) (xy 227.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3856825b-8682-4493-a8e7-27b8e7196b72")
+	)
+	(wire
+		(pts
 			(xy 99.06 106.68) (xy 99.06 109.22)
 		)
 		(stroke
@@ -6465,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 212.09) (xy 309.88 212.09)
+			(xy 190.5 214.63) (xy 203.2 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6475,7 +6563,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 204.47) (xy 354.33 204.47)
+			(xy 264.16 207.01) (xy 247.65 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6505,7 +6593,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 121.92) (xy 219.71 121.92)
+			(xy 215.9 121.92) (xy 228.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6515,7 +6603,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 215.9) (xy 232.41 215.9)
+			(xy 119.38 218.44) (xy 125.73 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6545,7 +6633,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 128.27) (xy 194.31 135.89)
+			(xy 203.2 128.27) (xy 203.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6555,7 +6643,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 113.03) (xy 302.26 113.03)
+			(xy 278.13 113.03) (xy 311.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6565,7 +6653,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 134.62) (xy 302.26 147.32)
+			(xy 311.15 134.62) (xy 311.15 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6585,6 +6673,26 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 208.28) (xy 383.54 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e0a9ee-e01f-4d16-a696-37690fedb926")
+	)
+	(wire
+		(pts
+			(xy 365.76 209.55) (xy 365.76 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab73893-6a43-47c7-9b3d-29a3aec388e7")
+	)
+	(wire
+		(pts
 			(xy 267.97 31.75) (xy 267.97 39.37)
 		)
 		(stroke
@@ -6595,7 +6703,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 113.03) (xy 302.26 132.08)
+			(xy 311.15 113.03) (xy 311.15 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6605,7 +6713,17 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 204.47) (xy 350.52 204.47)
+			(xy 215.9 64.77) (xy 222.25 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d59afa7-cc18-48b7-b58d-20852a4663f5")
+	)
+	(wire
+		(pts
+			(xy 234.95 207.01) (xy 243.84 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6615,7 +6733,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 217.17) (xy 179.07 218.44)
+			(xy 224.79 147.32) (xy 224.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecab7a4-260e-409a-b1c1-ff4ac3a506e2")
+	)
+	(wire
+		(pts
+			(xy 401.32 217.17) (xy 401.32 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6655,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 72.39) (xy 260.35 72.39)
+			(xy 261.62 72.39) (xy 262.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6675,7 +6803,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 227.33) (xy 179.07 226.06)
+			(xy 401.32 227.33) (xy 401.32 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6685,7 +6813,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 135.89) (xy 194.31 135.89)
+			(xy 198.12 135.89) (xy 203.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6705,7 +6833,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 226.06) (xy 311.15 226.06)
+			(xy 203.2 228.6) (xy 204.47 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6715,7 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 215.9) (xy 233.68 217.17)
+			(xy 127 218.44) (xy 127 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6735,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 217.17) (xy 128.27 215.9)
+			(xy 350.52 217.17) (xy 350.52 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6745,7 +6873,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 69.85) (xy 260.35 69.85)
+			(xy 261.62 69.85) (xy 262.89 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6765,7 +6893,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 226.06) (xy 309.88 226.06)
+			(xy 201.93 228.6) (xy 203.2 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6775,13 +6903,23 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 218.44) (xy 354.33 224.79)
+			(xy 247.65 220.98) (xy 247.65 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ca31296-3878-4bdb-b39d-fc2a36685e27")
+	)
+	(wire
+		(pts
+			(xy 350.52 217.17) (xy 365.76 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8e9bef-406b-40aa-8cb6-3babf9bae08f")
 	)
 	(wire
 		(pts
@@ -6795,7 +6933,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 213.36) (xy 341.63 215.9)
+			(xy 234.95 215.9) (xy 234.95 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6815,7 +6953,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 204.47) (xy 341.63 204.47)
+			(xy 223.52 207.01) (xy 234.95 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6825,7 +6963,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 208.28) (xy 161.29 208.28)
+			(xy 386.08 208.28) (xy 383.54 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6835,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 269.24 67.31)
+			(xy 262.89 67.31) (xy 269.24 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6875,7 +7013,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 231.14) (xy 330.2 204.47)
+			(xy 223.52 233.68) (xy 223.52 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 217.17) (xy 161.29 218.44)
+			(xy 383.54 217.17) (xy 383.54 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6905,7 +7043,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 231.14) (xy 330.2 231.14)
+			(xy 201.93 233.68) (xy 223.52 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6915,7 +7053,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 64.77) (xy 219.71 64.77)
+			(xy 199.39 64.77) (xy 215.9 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6925,7 +7063,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 128.27) (xy 194.31 128.27)
+			(xy 228.6 128.27) (xy 203.2 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6935,7 +7073,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 222.25) (xy 232.41 222.25)
+			(xy 127 224.79) (xy 125.73 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6955,7 +7093,17 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 204.47) (xy 350.52 204.47)
+			(xy 209.55 54.61) (xy 215.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765a9df3-4ece-4f01-b8e3-adb4eeb6452e")
+	)
+	(wire
+		(pts
+			(xy 247.65 207.01) (xy 243.84 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6965,7 +7113,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 204.47) (xy 265.43 204.47)
+			(xy 146.05 207.01) (xy 158.75 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6995,7 +7143,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 217.17) (xy 128.27 217.17)
+			(xy 218.44 139.7) (xy 224.79 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b90b6e8-ed64-4fab-9252-069566d3e632")
+	)
+	(wire
+		(pts
+			(xy 341.63 217.17) (xy 350.52 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7045,7 +7203,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 132.08) (xy 261.62 130.81)
+			(xy 270.51 132.08) (xy 270.51 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7055,7 +7213,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 152.4) (xy 271.78 152.4)
+			(xy 270.51 152.4) (xy 280.67 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7065,7 +7223,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 226.06) (xy 341.63 223.52)
+			(xy 234.95 228.6) (xy 234.95 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7085,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 204.47) (xy 265.43 208.28)
+			(xy 158.75 207.01) (xy 158.75 210.82)
 		)
 		(stroke
 			(width 0)
@@ -7115,7 +7273,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 69.85) (xy 219.71 69.85)
+			(xy 194.31 69.85) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7125,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 224.79) (xy 354.33 224.79)
+			(xy 264.16 227.33) (xy 247.65 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7145,7 +7303,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 158.75) (xy 260.35 157.48)
+			(xy 270.51 157.48) (xy 270.51 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7155,7 +7313,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 113.03) (xy 269.24 123.19)
+			(xy 278.13 113.03) (xy 278.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7165,7 +7323,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 204.47) (xy 252.73 204.47)
+			(xy 119.38 207.01) (xy 146.05 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7185,6 +7343,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 119.38) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7bfd68-3b0d-41ac-91de-2c8696f292b5")
+	)
+	(wire
+		(pts
 			(xy 99.06 109.22) (xy 99.06 111.76)
 		)
 		(stroke
@@ -7195,7 +7363,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 212.09) (xy 309.88 226.06)
+			(xy 203.2 214.63) (xy 203.2 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7225,7 +7393,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 218.44) (xy 119.38 217.17)
+			(xy 341.63 218.44) (xy 341.63 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7245,7 +7413,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 120.65) (xy 207.01 121.92)
+			(xy 215.9 120.65) (xy 215.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7255,7 +7423,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 149.86) (xy 218.44 149.86)
+			(xy 214.63 149.86) (xy 224.79 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7275,7 +7443,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 219.71) (xy 232.41 219.71)
+			(xy 127 222.25) (xy 125.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7285,7 +7453,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 125.73) (xy 273.05 125.73)
+			(xy 269.24 125.73) (xy 281.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7295,7 +7463,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 147.32) (xy 269.24 149.86)
+			(xy 278.13 147.32) (xy 278.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7305,7 +7473,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 149.86) (xy 269.24 149.86)
+			(xy 270.51 149.86) (xy 278.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7325,7 +7493,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 215.9) (xy 233.68 215.9)
+			(xy 125.73 218.44) (xy 127 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7345,7 +7513,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 215.9) (xy 370.84 204.47)
+			(xy 264.16 218.44) (xy 264.16 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7385,7 +7553,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 128.27) (xy 260.35 128.27)
+			(xy 270.51 128.27) (xy 269.24 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7405,7 +7573,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 212.09) (xy 278.13 212.09)
+			(xy 182.88 214.63) (xy 171.45 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7435,7 +7603,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 222.25) (xy 232.41 226.06)
+			(xy 125.73 224.79) (xy 125.73 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7445,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 224.79) (xy 233.68 226.06)
+			(xy 127 227.33) (xy 127 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7475,7 +7643,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 231.14) (xy 278.13 231.14)
+			(xy 158.75 233.68) (xy 171.45 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7485,7 +7653,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 204.47) (xy 311.15 204.47)
+			(xy 158.75 207.01) (xy 204.47 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7495,7 +7663,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 147.32) (xy 302.26 147.32)
+			(xy 278.13 147.32) (xy 311.15 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7505,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 208.28) (xy 109.22 208.28)
+			(xy 321.31 208.28) (xy 331.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7515,7 +7683,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 226.06) (xy 233.68 226.06)
+			(xy 125.73 228.6) (xy 127 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7545,7 +7713,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 218.44) (xy 265.43 231.14)
+			(xy 158.75 220.98) (xy 158.75 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7585,7 +7753,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 208.28) (xy 161.29 208.28)
+			(xy 358.14 208.28) (xy 365.76 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7595,7 +7763,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 209.55) (xy 179.07 208.28)
+			(xy 401.32 209.55) (xy 401.32 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7605,7 +7773,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 245.11) (xy 226.06 248.92)
+			(xy 119.38 247.65) (xy 119.38 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7615,7 +7783,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 204.47) (xy 312.42 204.47)
+			(xy 204.47 207.01) (xy 205.74 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7625,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 67.31) (xy 219.71 67.31)
+			(xy 218.44 67.31) (xy 222.25 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7635,7 +7803,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 224.79) (xy 354.33 226.06)
+			(xy 247.65 227.33) (xy 247.65 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7665,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 123.19) (xy 269.24 123.19)
+			(xy 269.24 123.19) (xy 278.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7675,7 +7843,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 203.2) (xy 350.52 204.47)
+			(xy 243.84 205.74) (xy 243.84 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7685,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 121.92) (xy 219.71 123.19)
+			(xy 228.6 121.92) (xy 228.6 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7715,7 +7883,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 228.6) (xy 308.61 228.6)
+			(xy 210.82 231.14) (xy 201.93 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7745,7 +7913,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 209.55) (xy 109.22 208.28)
+			(xy 331.47 209.55) (xy 331.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7755,7 +7923,17 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 226.06) (xy 311.15 204.47)
+			(xy 217.17 39.37) (xy 220.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2be0b55-8aff-4dbc-b823-6b9c656908c0")
+	)
+	(wire
+		(pts
+			(xy 204.47 228.6) (xy 204.47 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7775,7 +7953,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 208.28) (xy 163.83 204.47)
+			(xy 217.17 36.83) (xy 217.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e840d6af-3898-4471-ac0b-73e294bf71f9")
+	)
+	(wire
+		(pts
+			(xy 386.08 208.28) (xy 386.08 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7795,7 +7983,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 135.89) (xy 194.31 154.94)
+			(xy 203.2 135.89) (xy 203.2 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7805,7 +7993,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 111.76) (xy 213.36 111.76)
+			(xy 215.9 111.76) (xy 222.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7815,7 +8003,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 154.94) (xy 218.44 154.94)
+			(xy 203.2 154.94) (xy 229.87 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7835,7 +8023,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 220.98 39.37)
+			(xy 203.2 39.37) (xy 217.17 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7845,7 +8033,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 204.47) (xy 330.2 204.47)
+			(xy 215.9 207.01) (xy 223.52 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7865,7 +8053,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 227.33) (xy 161.29 226.06)
+			(xy 383.54 227.33) (xy 383.54 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7875,7 +8063,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 208.28) (xy 120.65 208.28)
+			(xy 331.47 208.28) (xy 342.9 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7885,7 +8073,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 209.55) (xy 161.29 208.28)
+			(xy 383.54 209.55) (xy 383.54 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8027,7 +8215,7 @@
 	)
 	(global_label "right_en"
 		(shape input)
-		(at 189.23 135.89 180)
+		(at 198.12 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8037,7 +8225,7 @@
 		)
 		(uuid "2ca7ad3b-9b33-489b-ae2b-a177207370c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.6249 135.89 0)
+			(at 187.5149 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8303,7 @@
 	)
 	(global_label "right_2"
 		(shape input)
-		(at 218.44 152.4 180)
+		(at 227.33 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8125,7 +8313,7 @@
 		)
 		(uuid "6b21a408-ba21-403b-a70c-1889c33eae1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.863 152.4 0)
+			(at 217.753 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8435,7 @@
 	)
 	(global_label "right_1"
 		(shape input)
-		(at 219.71 125.73 180)
+		(at 228.6 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8257,7 +8445,7 @@
 		)
 		(uuid "e22911ed-60c5-437f-829d-678d0ccd2229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.133 125.73 0)
+			(at 219.023 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8523,7 @@
 	)
 	(symbol
 		(lib_id "library:AP74700QW6-7")
-		(at 278.13 226.06 0)
+		(at 171.45 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8344,7 +8532,7 @@
 		(fields_autoplaced yes)
 		(uuid "033367e9-921d-4d08-aafc-e0e4c823284b")
 		(property "Reference" "IC1"
-			(at 293.37 218.44 0)
+			(at 186.69 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8540,7 @@
 			)
 		)
 		(property "Value" "AP74700QW6-7"
-			(at 293.37 220.98 0)
+			(at 186.69 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 304.8 320.98 0)
+			(at 198.12 323.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8558,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP74700Q.pdf"
-			(at 304.8 420.98 0)
+			(at 198.12 423.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8568,7 @@
 			)
 		)
 		(property "Description" "Power Switch ICs - Power Distribution Load Switch SOT26 T&R 3K"
-			(at 278.13 226.06 0)
+			(at 171.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8577,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 304.8 920.98 0)
+			(at 198.12 923.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8587,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AP74700QW6-7"
-			(at 304.8 1020.98 0)
+			(at 198.12 1023.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +8597,7 @@
 			)
 		)
 		(property "digikey_part_number" "31-AP74700QW6-7CT-ND"
-			(at 278.13 226.06 0)
+			(at 171.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8606,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 278.13 226.06 0)
+			(at 171.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,7 +8615,7 @@
 			)
 		)
 		(property "price" "1.23"
-			(at 278.13 226.06 0)
+			(at 171.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,15 +8652,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 207.01 116.84 0)
+		(at 215.9 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "057282ec-4b42-41b1-b89a-98ba8ea7bc44")
-		(property "Reference" "C3"
-			(at 208.026 114.3 0)
+		(property "Reference" "C5"
+			(at 216.916 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8669,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 207.772 118.872 0)
+			(at 216.662 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8678,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
-			(at 207.9752 120.65 0)
+			(at 216.8652 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/A750MV108M1EAAE014/13420146"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +8696,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +8705,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +8714,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "A750MV108M1EAAE014"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +8723,7 @@
 			)
 		)
 		(property "price" "1"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8544,7 +8732,7 @@
 			)
 		)
 		(property "digikey_part_number" "399-A750MV108M1EAAE014-ND"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8553,7 +8741,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 207.01 116.84 0)
+			(at 215.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8758,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8578,7 +8766,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 213.36 90)
+		(at 383.54 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8587,7 +8775,7 @@
 		(fields_autoplaced yes)
 		(uuid "097afbec-245a-4e04-a48b-0d055f68e407")
 		(property "Reference" "5V1"
-			(at 165.1 213.6774 90)
+			(at 387.35 213.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8784,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 165.1 216.2174 90)
+			(at 387.35 216.2174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8793,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8811,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8632,7 +8820,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8829,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8838,7 @@
 			)
 		)
 		(property "price" ".18"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8847,7 @@
 			)
 		)
 		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8856,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 161.29 213.36 0)
+			(at 383.54 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0df4c9cb-1c21-45cd-a653-a4801ffc416a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR027"
 			(at 261.62 80.01 0)
 			(effects
 				(font
@@ -8750,7 +8938,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR049")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8765,7 +8953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e77cb25-fa6a-4f1b-98ae-2f7a78d89080")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR029"
 			(at 269.24 71.12 0)
 			(effects
 				(font
@@ -8815,7 +9003,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR011")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8823,15 +9011,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 293.37 212.09 90)
+		(at 186.69 214.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1102d994-48b8-45f3-b188-e3c34696ee94")
-		(property "Reference" "C23"
-			(at 291.592 211.074 0)
+		(property "Reference" "C2"
+			(at 184.912 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +9028,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 295.402 211.836 0)
+			(at 188.722 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +9037,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 297.18 211.1248 0)
+			(at 190.5 213.6648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9046,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,7 +9055,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +9064,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +9073,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,8 +9081,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
-			(at 293.37 212.09 0)
+		(property "price" ".03"
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +9091,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8912,7 +9100,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 293.37 212.09 0)
+			(at 186.69 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +9117,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C23")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8937,7 +9125,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 389.89 228.6 0)
+		(at 283.21 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8946,7 +9134,7 @@
 		(fields_autoplaced yes)
 		(uuid "18177c00-6148-4d14-901e-2da9bd0995cd")
 		(property "Reference" "H1"
-			(at 392.43 227.3299 0)
+			(at 285.75 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +9143,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 392.43 229.8699 0)
+			(at 285.75 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +9152,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +9161,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9170,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9179,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +9188,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +9197,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +9206,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9215,7 @@
 			)
 		)
 		(property "mount_type" ""
-			(at 389.89 228.6 0)
+			(at 283.21 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9053,7 +9241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1854a681-8d9e-47f6-8eb1-2699d4068941")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 207.01 32.1309 0)
 			(effects
 				(font
@@ -9152,7 +9340,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9160,15 +9348,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 226.06 0)
+		(at 234.95 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "19523bcb-3a6a-4d2d-970b-fc7d804c1955")
-		(property "Reference" "#PWR042"
-			(at 341.63 232.41 0)
+		(property "Reference" "#PWR024"
+			(at 234.95 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9365,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 342.392 229.87 0)
+			(at 235.712 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 226.06 0)
+			(at 234.95 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 226.06 0)
+			(at 234.95 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 226.06 0)
+			(at 234.95 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9405,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR042")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9225,16 +9413,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 213.36 0)
+		(at 365.76 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a35d62e-95aa-4add-b5af-4a91a8ee2184")
-		(property "Reference" "C1"
-			(at 113.03 212.0899 0)
+		(uuid "19680c3a-aaca-44e4-82d3-3a9a990ca52c")
+		(property "Reference" "C10"
+			(at 369.57 212.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,8 +9430,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 113.03 214.6299 0)
+		(property "Value" "22 uF"
+			(at 369.57 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9440,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 110.1852 217.17 0)
+			(at 366.7252 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,8 +9448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 213.36 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 365.76 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9458,167 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 213.36 0)
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 365.76 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43edb197-2e9a-44c4-88fe-c85f347c22b7")
+		)
+		(pin "2"
+			(uuid "08b03e70-1570-4686-8ba5-109b3f825325")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 331.47 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a35d62e-95aa-4add-b5af-4a91a8ee2184")
+		(property "Reference" "C9"
+			(at 335.28 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 335.28 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 332.4352 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 331.47 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 331.47 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9635,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9408,8 +9756,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 209.55 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f1cabd6-2aaa-4a6f-a377-30a295eaed18")
+		(property "Reference" "#PWR018"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 212.598 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "286aaf0b-43f9-4a83-8365-7409d74e38d1")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "library:IFX007TAUMA1")
-		(at 219.71 123.19 0)
+		(at 228.6 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9417,8 +9830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25901808-4cac-4874-8651-06faa3d03fc7")
-		(property "Reference" "U4"
-			(at 240.03 113.03 0)
+		(property "Reference" "U3"
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9426,7 +9839,7 @@
 			)
 		)
 		(property "Value" "IFX007TAUMA1"
-			(at 240.03 115.57 0)
+			(at 248.92 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9434,7 +9847,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9857,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9867,7 @@
 			)
 		)
 		(property "Description" "half bridge driver"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9876,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9885,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9894,7 @@
 			)
 		)
 		(property "price" "2.6"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9903,7 @@
 			)
 		)
 		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9912,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 219.71 123.19 0)
+			(at 228.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9947,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9733,7 +10146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3130a49d-e720-4fbb-9afa-c1f6ee438897")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR038"
 			(at 381 74.93 0)
 			(effects
 				(font
@@ -9783,7 +10196,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR013")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9799,7 +10212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "321de2fc-a420-47e0-a981-1d74df0c8955")
-		(property "Reference" "J0"
+		(property "Reference" "J1"
 			(at 21.082 89.154 0)
 			(effects
 				(font
@@ -9927,7 +10340,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J0")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9935,15 +10348,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 222.25 0)
+		(at 401.32 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3426afaa-4586-4f97-85e5-7bef55f761f6")
-		(property "Reference" "R7"
-			(at 184.404 222.25 90)
+		(property "Reference" "R4"
+			(at 406.654 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +10364,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 181.864 222.25 90)
+			(at 404.114 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 177.292 222.25 90)
+			(at 399.542 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9968,7 +10381,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206JR-13220RL/14286772"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9977,7 +10390,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +10399,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10408,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC1206JR-13220RL"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10417,7 @@
 			)
 		)
 		(property "price" "0.02"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10426,7 @@
 			)
 		)
 		(property "digikey_part_number" "13-RC1206JR-13220RLCT-ND"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +10435,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 179.07 222.25 0)
+			(at 401.32 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10452,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10047,7 +10460,7 @@
 	)
 	(symbol
 		(lib_id "library:VP0265840000G")
-		(at 233.68 224.79 0)
+		(at 127 227.33 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10055,8 +10468,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36882385-bf44-464d-82da-6f025a86ed54")
-		(property "Reference" "J5"
-			(at 246.888 226.06 0)
+		(property "Reference" "J3"
+			(at 140.208 228.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10065,7 +10478,7 @@
 			)
 		)
 		(property "Value" "VP0265840000G"
-			(at 238.252 228.854 0)
+			(at 131.572 231.394 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10074,7 +10487,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN04_VP026584_20P32X18P3_AMP"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10497,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-anytek/VP0265840000G/10378270"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10507,7 @@
 			)
 		)
 		(property "Description" "screw terminal 65A"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10516,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol Anytek"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +10525,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "VP0265840000G"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10534,7 @@
 			)
 		)
 		(property "price" "2.85"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10543,7 @@
 			)
 		)
 		(property "digikey_part_number" "1818-VP0265840000G-ND"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10552,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 233.68 224.79 0)
+			(at 127 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10575,122 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J5")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bae7a93-f996-4af0-b573-d3ddf98d88d1")
+		(property "Reference" "C4"
+			(at 219.71 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 219.71 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 216.8652 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd9662dd-ab5a-433c-a8d0-36089d2fbbbf")
+		)
+		(pin "2"
+			(uuid "b91da24b-9e5f-4f5e-815b-97078cc31040")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10170,7 +10698,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 389.89 234.95 0)
+		(at 283.21 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10179,7 +10707,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bfb0382-33a6-48b5-bc4a-b1c6645c6486")
 		(property "Reference" "H2"
-			(at 392.43 233.6799 0)
+			(at 285.75 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10716,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 392.43 236.2199 0)
+			(at 285.75 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10734,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10743,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10752,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10233,7 +10761,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10770,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10779,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10788,7 @@
 			)
 		)
 		(property "mount_type" ""
-			(at 389.89 234.95 0)
+			(at 283.21 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,15 +10806,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 227.33 0)
+		(at 119.38 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fad4063-a404-444b-a055-bbcebb3c00bb")
-		(property "Reference" "#PWR044"
-			(at 226.06 233.68 0)
+		(property "Reference" "#PWR07"
+			(at 119.38 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.822 231.14 0)
+			(at 120.142 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,7 +10831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 227.33 0)
+			(at 119.38 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 227.33 0)
+			(at 119.38 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10321,7 +10849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 227.33 0)
+			(at 119.38 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10863,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR044")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10343,15 +10871,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 222.25 0)
+		(at 383.54 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd37f9d-dcd2-4d1b-ad04-862bf266b833")
-		(property "Reference" "R5"
-			(at 166.624 222.25 90)
+		(property "Reference" "R3"
+			(at 388.874 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10887,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 164.084 222.25 90)
+			(at 386.334 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10895,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 159.512 222.25 90)
+			(at 381.762 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10904,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07680RL/729064"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10913,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10922,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10931,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC1206FR-07680RL"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10940,7 @@
 			)
 		)
 		(property "price" "0.017"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10949,7 @@
 			)
 		)
 		(property "digikey_part_number" "311-680FRCT-ND"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +10958,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 161.29 222.25 0)
+			(at 383.54 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +10975,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10463,7 +10991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446c0cb5-ae70-4b07-9a4d-ad4cf8458fde")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR04"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -10513,7 +11041,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10521,15 +11049,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 121.92 0)
+		(at 215.9 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "460749c8-0ce4-4e8e-8324-0e01083feb37")
-		(property "Reference" "#PWR023"
-			(at 207.01 128.27 0)
+		(property "Reference" "#PWR021"
+			(at 215.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +11066,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.772 125.73 0)
+			(at 216.662 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +11074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 121.92 0)
+			(at 215.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +11083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 121.92 0)
+			(at 215.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +11092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 121.92 0)
+			(at 215.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +11106,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10586,7 +11114,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 179.07 213.36 90)
+		(at 401.32 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10595,7 +11123,7 @@
 		(fields_autoplaced yes)
 		(uuid "4791acf3-c977-4116-bcf8-cc32c386a151")
 		(property "Reference" "3V1"
-			(at 182.88 213.6774 90)
+			(at 405.13 213.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +11132,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 182.88 216.2174 90)
+			(at 405.13 216.2174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,7 +11141,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +11150,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +11159,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,7 +11168,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +11177,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +11186,7 @@
 			)
 		)
 		(property "price" ".18"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +11195,7 @@
 			)
 		)
 		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +11204,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 179.07 213.36 0)
+			(at 401.32 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +11236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a1f4457-91cb-4b42-8d5c-986c19c9d20d")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR02"
 			(at 29.21 93.98 0)
 			(effects
 				(font
@@ -10758,7 +11286,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR064")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10766,7 +11294,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 317.5 207.01 270)
+		(at 210.82 209.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10775,7 +11303,7 @@
 		(dnp no)
 		(uuid "4bd1b40a-f93f-4c79-8c97-74fc9758499a")
 		(property "Reference" "Q1"
-			(at 315.976 198.374 90)
+			(at 209.296 200.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +11311,7 @@
 			)
 		)
 		(property "Value" "PSMN1R2-25YLDX"
-			(at 317.5 200.66 90)
+			(at 210.82 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +11319,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 320.04 201.93 0)
+			(at 213.36 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +11328,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
-			(at 304.8 207.01 0)
+			(at 198.12 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11337,7 @@
 			)
 		)
 		(property "Description" "nmos"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +11346,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +11355,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +11364,7 @@
 			)
 		)
 		(property "digikey_part_number" "1727-2496-1-ND"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +11373,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +11382,7 @@
 			)
 		)
 		(property "price" ".74"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,15 +11549,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 273.05 125.73 0)
+		(at 281.94 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f77f5fe-2786-4e3c-b050-e27adf0d6a50")
-		(property "Reference" "#PWR025"
-			(at 273.05 129.54 0)
+		(property "Reference" "#PWR034"
+			(at 281.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,7 +11566,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 272.796 122.174 0)
+			(at 281.686 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,7 +11574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 125.73 0)
+			(at 281.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,7 +11583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 125.73 0)
+			(at 281.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,7 +11592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 125.73 0)
+			(at 281.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +11606,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11093,7 +11621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fb4f834-25a2-4ebf-95dd-1d469b9c770f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR01"
 			(at 29.21 71.12 0)
 			(effects
 				(font
@@ -11143,7 +11671,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR052")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11158,7 +11686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fdfed6e-c984-4fa0-b2f7-44eb94450adc")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 199.39 71.12 0)
 			(effects
 				(font
@@ -11208,7 +11736,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR010")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11216,7 +11744,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 163.83 204.47 0)
+		(at 386.08 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11224,8 +11752,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539b3555-ef5e-4419-ae32-52fea9549d8e")
-		(property "Reference" "#PWR033"
-			(at 163.83 208.28 0)
+		(property "Reference" "#PWR042"
+			(at 386.08 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11762,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 163.83 199.39 0)
+			(at 386.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 204.47 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 204.47 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 204.47 0)
+			(at 386.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,7 +11802,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR033")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11282,15 +11810,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 213.36 111.76 0)
+		(at 222.25 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "558ec2f6-2385-451f-80d4-ed57a407f834")
-		(property "Reference" "#PWR019"
-			(at 213.36 115.57 0)
+		(property "Reference" "#PWR023"
+			(at 222.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11299,7 +11827,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 216.408 109.22 0)
+			(at 225.298 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11307,7 +11835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 111.76 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 111.76 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 213.36 111.76 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11339,7 +11867,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11347,15 +11875,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 218.44 0)
+		(at 341.63 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5602ae04-f38b-4244-8be3-2f401c70b531")
-		(property "Reference" "#PWR053"
-			(at 119.38 224.79 0)
+		(property "Reference" "#PWR036"
+			(at 341.63 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11364,7 +11892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.142 222.25 0)
+			(at 342.392 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +11900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 218.44 0)
+			(at 341.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11381,7 +11909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 218.44 0)
+			(at 341.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11390,7 +11918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 218.44 0)
+			(at 341.63 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11932,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR053")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11412,7 +11940,7 @@
 	)
 	(symbol
 		(lib_id "library:IFX007TAUMA1")
-		(at 218.44 149.86 0)
+		(at 229.87 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11420,8 +11948,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568716e4-d92f-4d69-85cb-6ea2258bf792")
-		(property "Reference" "U5"
-			(at 238.76 139.7 0)
+		(property "Reference" "U4"
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11429,7 +11957,7 @@
 			)
 		)
 		(property "Value" "IFX007TAUMA1"
-			(at 238.76 142.24 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11437,7 +11965,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +11975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +11985,7 @@
 			)
 		)
 		(property "Description" "half bridge driver"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11994,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,7 +12003,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +12012,7 @@
 			)
 		)
 		(property "price" "2.6"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +12021,7 @@
 			)
 		)
 		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +12030,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 218.44 149.86 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +12065,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11545,7 +12073,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 265.43 213.36 90)
+		(at 158.75 215.9 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11554,7 +12082,7 @@
 		(dnp no)
 		(uuid "58bc3570-2ccc-4409-af89-db31787ab5fe")
 		(property "Reference" "SW1"
-			(at 259.08 213.36 0)
+			(at 152.4 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11562,7 +12090,7 @@
 			)
 		)
 		(property "Value" "screw terminal"
-			(at 261.62 213.36 0)
+			(at 154.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +12098,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +12107,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +12116,7 @@
 			)
 		)
 		(property "Description" "switch"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +12125,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +12134,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OSTTC022162"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +12143,7 @@
 			)
 		)
 		(property "price" ".43"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,7 +12152,7 @@
 			)
 		)
 		(property "digikey_part_number" "ED2609-ND"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +12161,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 265.43 213.36 0)
+			(at 158.75 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +12194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a4674c-57f9-40bd-8d60-90da08b6aa3f")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 267.97 43.1799 90)
 			(effects
 				(font
@@ -11762,7 +12290,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11896,8 +12424,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a87062d-b6e2-4aa3-9a5d-309e69f55098")
-		(property "Reference" "U3"
-			(at 73.66 27.94 0)
+		(property "Reference" "P1"
+			(at 73.66 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +12433,7 @@
 			)
 		)
 		(property "Value" "rpi pico"
-			(at 73.66 30.48 0)
+			(at 73.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +12496,7 @@
 			)
 		)
 		(property "digikey_part_number" "2648-SC0918CT-ND"
-			(at 73.66 76.2 0)
+			(at 73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12504,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 73.66 76.2 0)
+			(at 73.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12634,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U3")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -12114,15 +12642,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 350.52 203.2 0)
+		(at 243.84 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3c2ee8-0c24-4c96-b3e9-03886deb72cb")
-		(property "Reference" "#PWR039"
-			(at 350.52 207.01 0)
+		(property "Reference" "#PWR025"
+			(at 243.84 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12131,7 +12659,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 351.79 199.644 0)
+			(at 245.11 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 203.2 0)
+			(at 243.84 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 203.2 0)
+			(at 243.84 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 350.52 203.2 0)
+			(at 243.84 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12699,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR039")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12186,7 +12714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70baca89-8cf1-47c7-87dc-b418b42a4ece")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR05"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -12236,7 +12764,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR061")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12251,7 +12779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77744c0b-ebcb-49ff-9a05-6b3971cf7c8c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR09"
 			(at 123.19 62.23 0)
 			(effects
 				(font
@@ -12301,7 +12829,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR046")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12309,7 +12837,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 317.5 207.01 270)
+		(at 210.82 209.55 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12318,7 +12846,7 @@
 		(dnp no)
 		(uuid "78afe7d4-75c0-475d-b3b3-5c37f0be2ab9")
 		(property "Reference" "Q2"
-			(at 319.278 198.374 90)
+			(at 212.598 200.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12854,7 @@
 			)
 		)
 		(property "Value" "PSMN1R2-25YLDX"
-			(at 317.5 200.66 90)
+			(at 210.82 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +12862,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 320.04 201.93 0)
+			(at 213.36 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12871,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/PSMN1R2-25YLDX/5973595"
-			(at 304.8 207.01 0)
+			(at 198.12 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12880,7 @@
 			)
 		)
 		(property "Description" "nmos"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12889,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12898,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PSMN1R2-25YLDX"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12907,7 @@
 			)
 		)
 		(property "digikey_part_number" "1727-2496-1-ND"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12916,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12925,7 @@
 			)
 		)
 		(property "price" ".74"
-			(at 317.5 207.01 0)
+			(at 210.82 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79065539-58c9-4ac6-9216-7be50ca6625c")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -12539,7 +13067,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12555,7 +13083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a07657d-a1ab-4410-95ee-ad15375d0177")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR037"
 			(at 381 52.07 0)
 			(effects
 				(font
@@ -12605,7 +13133,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR07")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12613,15 +13141,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 271.78 152.4 0)
+		(at 280.67 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7b79b33e-bddf-441d-a109-c93da8a4867c")
-		(property "Reference" "#PWR031"
-			(at 271.78 156.21 0)
+		(property "Reference" "#PWR033"
+			(at 280.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,7 +13158,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 274.828 149.86 0)
+			(at 283.718 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +13166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 152.4 0)
+			(at 280.67 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +13175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 152.4 0)
+			(at 280.67 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +13184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 271.78 152.4 0)
+			(at 280.67 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +13198,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12686,7 +13214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "817b2462-c2e7-4495-8425-57816c9c2ab6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR039"
 			(at 381 97.79 0)
 			(effects
 				(font
@@ -12736,7 +13264,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR016")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12751,7 +13279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81d83b42-17d5-4ee9-8f00-ecb1ad0b9994")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -12801,7 +13329,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12817,7 +13345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880ae6d9-cdf2-4643-95ce-b1b2bd45982a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 381 120.65 0)
 			(effects
 				(font
@@ -12867,7 +13395,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12882,7 +13410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e66736f-fa34-45f6-af70-01de3247a95a")
-		(property "Reference" "D12"
+		(property "Reference" "D1"
 			(at 104.394 26.416 90)
 			(effects
 				(font
@@ -12981,7 +13509,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D12")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12996,7 +13524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9081fd80-ba14-46d0-90ca-4da039cee977")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 118.11 50.546 90)
 			(effects
 				(font
@@ -13093,7 +13621,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13101,7 +13629,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 389.89 247.65 0)
+		(at 283.21 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13110,7 +13638,7 @@
 		(fields_autoplaced yes)
 		(uuid "94b3e651-31fb-43ce-b943-115570722550")
 		(property "Reference" "H4"
-			(at 392.43 246.3799 0)
+			(at 285.75 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13647,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 392.43 248.9199 0)
+			(at 285.75 251.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13656,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13665,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13674,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13683,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13164,7 +13692,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +13701,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13182,7 +13710,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,7 +13719,7 @@
 			)
 		)
 		(property "mount_type" ""
-			(at 389.89 247.65 0)
+			(at 283.21 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,15 +13737,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 248.92 0)
+		(at 119.38 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "970f5b4e-1dcb-4fb6-a783-bac772fd8882")
-		(property "Reference" "#PWR065"
-			(at 226.06 255.27 0)
+		(property "Reference" "#PWR08"
+			(at 119.38 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13754,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.822 252.73 0)
+			(at 120.142 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,7 +13762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 248.92 0)
+			(at 119.38 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 248.92 0)
+			(at 119.38 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 248.92 0)
+			(at 119.38 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13794,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR065")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13274,15 +13802,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 278.13 228.6 270)
+		(at 171.45 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "98641ed4-c32c-4af3-8547-40bc18769f34")
-		(property "Reference" "#PWR067"
-			(at 271.78 228.6 0)
+		(property "Reference" "#PWR015"
+			(at 165.1 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13291,7 +13819,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.066 229.87 90)
+			(at 167.386 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 228.6 0)
+			(at 171.45 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 228.6 0)
+			(at 171.45 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 228.6 0)
+			(at 171.45 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,7 +13859,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR067")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13346,7 +13874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99678042-11de-4a58-a3d6-d8ee039eff12")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR03"
 			(at 38.1 67.31 0)
 			(effects
 				(font
@@ -13396,7 +13924,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR051")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13411,7 +13939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a7f4d70-3562-4ab2-86cb-0833d2d5a1d4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -13426,7 +13954,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13462,7 +13989,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13470,15 +13997,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 227.33 0)
+		(at 383.54 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9acb385e-5636-4476-92eb-f48d1a7e2a18")
-		(property "Reference" "#PWR045"
-			(at 161.29 233.68 0)
+		(property "Reference" "#PWR041"
+			(at 383.54 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +14014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.052 231.14 0)
+			(at 384.302 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +14022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 227.33 0)
+			(at 383.54 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +14031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 227.33 0)
+			(at 383.54 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13513,7 +14040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 227.33 0)
+			(at 383.54 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,7 +14054,122 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR045")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aebb0e9-19b4-49c0-9b51-8fdad4f5d23d")
+		(property "Reference" "C6"
+			(at 220.98 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 220.98 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 218.1352 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d253d9c-9ceb-40c1-a627-8e20eb58358c")
+		)
+		(pin "2"
+			(uuid "c551c481-90a4-40ee-96d2-2671c7fcbaa5")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13542,7 +14184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c644d95-a11f-4416-9dde-826bbc443076")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 144.78 81.2799 0)
 			(effects
 				(font
@@ -13647,7 +14289,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13655,7 +14297,7 @@
 	)
 	(symbol
 		(lib_id "library:1017514")
-		(at 294.64 132.08 0)
+		(at 303.53 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13663,8 +14305,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a325e662-4f47-4658-b597-8d46a69f4bf2")
-		(property "Reference" "J4"
-			(at 294.132 128.27 0)
+		(property "Reference" "J9"
+			(at 303.022 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,7 +14314,7 @@
 			)
 		)
 		(property "Value" "1017514"
-			(at 294.132 125.73 0)
+			(at 303.022 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +14322,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PHOENIX_1017514"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,7 +14332,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/1017514/9346594"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +14341,7 @@
 			)
 		)
 		(property "Description" "screwless alternative is 1017521"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13708,7 +14350,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13717,7 +14359,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1017514"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13726,7 +14368,7 @@
 			)
 		)
 		(property "price" ".87"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13735,7 +14377,7 @@
 			)
 		)
 		(property "digikey_part_number" "277-17504-ND"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13744,7 +14386,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 294.64 132.08 0)
+			(at 303.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +14403,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13769,7 +14411,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:OKI-78SR-12_1.0-W36-C")
-		(at 128.27 208.28 0)
+		(at 350.52 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13777,8 +14419,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36680fa-c436-4dcd-8841-7330216c8916")
-		(property "Reference" "U6"
-			(at 128.27 201.93 0)
+		(property "Reference" "IC2"
+			(at 350.52 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13786,7 +14428,7 @@
 			)
 		)
 		(property "Value" "D78B05T-1.0"
-			(at 128.27 204.47 0)
+			(at 350.52 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +14436,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:D78B05T-1.0"
-			(at 129.54 214.63 0)
+			(at 351.79 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +14447,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/diwell-electronics/D78B05T-1-0/16572065"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +14456,7 @@
 			)
 		)
 		(property "Description" "DC DC CONVERTER 5V 1A"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13823,7 +14465,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diwell Electronics"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13832,7 +14474,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "D78B05T-1.0"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,7 +14483,7 @@
 			)
 		)
 		(property "digikey_part_number" "4369-D78B05T-1.0-ND"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,7 +14492,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13859,7 +14501,7 @@
 			)
 		)
 		(property "price" "1.65"
-			(at 128.27 208.28 0)
+			(at 350.52 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +14521,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "U6")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -13894,7 +14536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b16c7df4-5736-4519-89c1-8755fe459e9a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -13944,7 +14586,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13959,7 +14601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3787900-f29c-4d5e-9d6c-76192c05aa61")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 135.89 81.28 0)
 			(effects
 				(font
@@ -14009,7 +14651,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14024,7 +14666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3aa7828-79ae-4bdc-8b89-179550942b30")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 200.66 45.72 0)
 			(effects
 				(font
@@ -14074,7 +14716,122 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR04")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b619577d-e8fc-42f3-b184-b282123e69bb")
+		(property "Reference" "C7"
+			(at 228.6 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 228.6 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 225.7552 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 224.79 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ff30064-6cef-439a-9978-d5ec7a515ddd")
+		)
+		(pin "2"
+			(uuid "adef1ead-0b24-4f93-8ac3-cfb8005d03bc")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14200,15 +14957,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 99.06 208.28 0)
+		(at 321.31 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b7ff6adc-8963-4265-846d-4710cb0ffbf2")
-		(property "Reference" "#PWR034"
-			(at 99.06 212.09 0)
+		(property "Reference" "#PWR035"
+			(at 321.31 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +14974,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 98.806 204.724 0)
+			(at 321.056 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +14982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 208.28 0)
+			(at 321.31 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,7 +14991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 208.28 0)
+			(at 321.31 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +15000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 99.06 208.28 0)
+			(at 321.31 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14257,7 +15014,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -14273,7 +15030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8bde797-6a9b-4414-b18b-7ff2ccd43e36")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 294.64 44.4499 0)
 			(effects
 				(font
@@ -14373,7 +15130,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14381,15 +15138,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 158.75 0)
+		(at 270.51 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ba8e11f3-74d7-450d-9662-89a07d33030a")
-		(property "Reference" "#PWR050"
-			(at 260.35 165.1 0)
+		(property "Reference" "#PWR032"
+			(at 270.51 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +15155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.112 162.56 0)
+			(at 271.272 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +15163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 158.75 0)
+			(at 270.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +15172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 158.75 0)
+			(at 270.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +15181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 158.75 0)
+			(at 270.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,7 +15195,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR050")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14453,7 +15210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb317a4d-1f64-4fe6-aa2d-04b04c371cf9")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR030"
 			(at 270.51 45.72 0)
 			(effects
 				(font
@@ -14503,7 +15260,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR05")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14511,15 +15268,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 341.63 219.71 0)
+		(at 234.95 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cc76a714-a081-4fe5-a5a2-3c37f6f86034")
-		(property "Reference" "R4"
-			(at 346.964 219.71 90)
+		(property "Reference" "R2"
+			(at 240.284 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +15284,7 @@
 			)
 		)
 		(property "Value" "2.74k"
-			(at 344.424 219.71 90)
+			(at 237.744 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14535,7 +15292,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 339.852 219.71 90)
+			(at 233.172 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14544,7 +15301,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP1206FTD2K74/2240349"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14553,7 +15310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +15319,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +15328,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RNCP1206FTD2K74"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +15337,7 @@
 			)
 		)
 		(property "price" "0.019"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14589,7 +15346,7 @@
 			)
 		)
 		(property "digikey_part_number" "RNCP1206FTD2K74CT-ND"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,7 +15355,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 341.63 219.71 0)
+			(at 234.95 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14615,7 +15372,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14623,7 +15380,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 341.63 209.55 90)
+		(at 234.95 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14632,7 +15389,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6a5c38-ec9c-48f2-b64b-5eeba20ed18a")
 		(property "Reference" "VBat1"
-			(at 345.44 209.8674 90)
+			(at 238.76 212.4074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14641,7 +15398,7 @@
 			)
 		)
 		(property "Value" "green"
-			(at 345.44 212.4074 90)
+			(at 238.76 214.9474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,7 +15407,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14659,7 +15416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/333-2SYGT-S530-E2-DGK/2691746"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14668,7 +15425,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +15434,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Everlight Electronics Co Ltd"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,7 +15443,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "333-2SYGT/S530-E2(DGK)"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,7 +15452,7 @@
 			)
 		)
 		(property "price" ".18"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +15461,7 @@
 			)
 		)
 		(property "digikey_part_number" "1080-333-2SYGT/S530-E2(DGK)-ND"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,7 +15470,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 341.63 209.55 0)
+			(at 234.95 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,15 +15495,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 212.09 0)
+		(at 146.05 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d20a2316-78a8-4d95-a773-10240516f2b5")
-		(property "Reference" "#PWR066"
-			(at 252.73 218.44 0)
+		(property "Reference" "#PWR012"
+			(at 146.05 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14755,7 +15512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 253.492 215.9 0)
+			(at 146.812 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14763,7 +15520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 212.09 0)
+			(at 146.05 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14772,7 +15529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 212.09 0)
+			(at 146.05 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14781,7 +15538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 212.09 0)
+			(at 146.05 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,7 +15552,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR066")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14803,15 +15560,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 179.07 208.28 0)
+		(at 401.32 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2e62acb-c2ed-41df-8763-4350c84bc0d9")
-		(property "Reference" "#PWR063"
-			(at 179.07 212.09 0)
+		(property "Reference" "#PWR043"
+			(at 401.32 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14820,7 +15577,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 180.594 204.724 0)
+			(at 402.844 204.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14828,7 +15585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 208.28 0)
+			(at 401.32 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14837,7 +15594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 208.28 0)
+			(at 401.32 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14846,7 +15603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 208.28 0)
+			(at 401.32 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14860,7 +15617,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR063")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14868,15 +15625,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 359.41 215.9 0)
+		(at 252.73 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d33681c0-90b3-4fa9-b2a3-c3ea1b4f8612")
-		(property "Reference" "J9"
-			(at 359.664 211.836 0)
+		(property "Reference" "J6"
+			(at 252.984 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14884,7 +15641,7 @@
 			)
 		)
 		(property "Value" "screw terminal"
-			(at 359.41 212.09 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +15650,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:CONN_OSTTC022162_OST"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +15659,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC022162/614558"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +15668,7 @@
 			)
 		)
 		(property "Description" "12V power"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +15677,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "On Shore Technology Inc."
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,7 +15686,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "OSTTC022162"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +15695,7 @@
 			)
 		)
 		(property "price" ".43"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +15704,7 @@
 			)
 		)
 		(property "digikey_part_number" "ED2609-ND"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,7 +15713,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 359.41 215.9 0)
+			(at 252.73 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14973,7 +15730,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -14981,15 +15738,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 354.33 226.06 0)
+		(at 247.65 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d50a08f4-1a8f-4c1b-91f6-f2f6b24ef11f")
-		(property "Reference" "#PWR043"
-			(at 354.33 232.41 0)
+		(property "Reference" "#PWR026"
+			(at 247.65 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +15755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 355.092 229.87 0)
+			(at 248.412 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15006,7 +15763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 226.06 0)
+			(at 247.65 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,7 +15772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 226.06 0)
+			(at 247.65 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,7 +15781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 354.33 226.06 0)
+			(at 247.65 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15795,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR043")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15046,7 +15803,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 231.14 245.11 0)
+		(at 124.46 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15054,8 +15811,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5ed4738-3a62-4cf9-b239-ff02cd8f77bf")
-		(property "Reference" "J7"
-			(at 233.68 243.8399 0)
+		(property "Reference" "J2"
+			(at 127 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15064,7 +15821,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 233.68 246.3799 0)
+			(at 127 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15073,7 +15830,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:TestPoint_Bridge_Pitch3.81mm_Drill1.3mm"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15082,7 +15839,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15091,7 +15848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15100,7 +15857,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15109,7 +15866,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15118,7 +15875,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15127,7 +15884,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15136,7 +15893,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 231.14 245.11 0)
+			(at 124.46 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,7 +15907,122 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J7")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d960c943-a38a-4216-b68a-1dc8b98a4fff")
+		(property "Reference" "C8"
+			(at 232.41 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22 uF"
+			(at 232.41 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 229.5652 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226KAHNNNE/3888705"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL31A226KAHNNNE"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey_part_number" "1276-3047-1-ND"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mount_type" "smd"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "price" ".1"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c14f8fa2-1c5e-4b9f-933e-f416e833f628")
+		)
+		(pin "2"
+			(uuid "fc20decc-da59-4e03-b3df-9bb3a3068834")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15166,7 +16038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98b1b34-895f-44df-adf5-ad08dfa3c87c")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 266.7 68.5799 90)
 			(effects
 				(font
@@ -15262,7 +16134,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15270,7 +16142,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 128.27 270)
+		(at 270.51 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15278,8 +16150,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de810fbc-e16b-4393-84c3-dbc9ed2dcd5e")
-		(property "Reference" "TP3"
-			(at 266.7 126.9999 90)
+		(property "Reference" "TP4"
+			(at 275.59 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15288,7 +16160,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 266.7 129.5399 90)
+			(at 275.59 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15297,7 +16169,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 133.35 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15306,7 +16178,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 261.62 133.35 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,7 +16187,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15324,7 +16196,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,7 +16205,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15342,7 +16214,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15351,7 +16223,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15360,7 +16232,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 261.62 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15374,7 +16246,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15382,15 +16254,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 208.28 180)
+		(at 146.05 210.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "df90ef73-dd05-4659-a1a1-fe457cc58825")
-		(property "Reference" "C4"
-			(at 251.714 210.058 0)
+		(property "Reference" "C1"
+			(at 145.034 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,7 +16271,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 252.476 206.248 0)
+			(at 145.796 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +16280,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 251.7648 204.47 0)
+			(at 145.0848 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +16289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B224KBFNNNE/3886764"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +16298,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +16307,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15444,7 +16316,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL31B224KBFNNNE"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15452,8 +16324,8 @@
 				(hide yes)
 			)
 		)
-		(property "price" "0.03"
-			(at 252.73 208.28 0)
+		(property "price" ".03"
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15462,7 +16334,7 @@
 			)
 		)
 		(property "digikey_part_number" "1276-1106-1-ND"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15471,7 +16343,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 252.73 208.28 0)
+			(at 146.05 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15488,7 +16360,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15496,15 +16368,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 149.86 0)
+		(at 214.63 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e1e71d24-4326-44ed-ae65-60eb9efd23c6")
-		(property "Reference" "#PWR030"
-			(at 205.74 156.21 0)
+		(property "Reference" "#PWR020"
+			(at 214.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15513,7 +16385,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.502 153.67 0)
+			(at 215.392 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +16393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,7 +16402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +16411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 149.86 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +16425,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR030")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15561,7 +16433,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 375.92 215.9 0)
+		(at 269.24 218.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15570,8 +16442,8 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e7513d00-32bb-47fc-854e-9a89aedac356")
-		(property "Reference" "J8"
-			(at 377.19 215.8999 0)
+		(property "Reference" "J7"
+			(at 270.51 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +16452,7 @@
 			)
 		)
 		(property "Value" "2 2.54mm pitch header pins"
-			(at 377.19 218.4399 0)
+			(at 270.51 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +16461,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 375.92 215.9 0)
+			(at 269.24 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +16470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 375.92 215.9 0)
+			(at 269.24 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15607,7 +16479,7 @@
 			)
 		)
 		(property "Description" "2 2.54mm pitch header pins"
-			(at 375.92 215.9 0)
+			(at 269.24 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +16488,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 375.92 215.9 0)
+			(at 269.24 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,7 +16505,72 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "J8")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 218.44 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e83e6236-8b64-429d-af36-a2c1844eb0a6")
+		(property "Reference" "#PWR022"
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 221.488 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968b6b1d-e338-4ae9-8462-d28622c4b609")
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15641,7 +16578,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 260.35 154.94 270)
+		(at 269.24 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15649,8 +16586,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e908bdb9-2370-4c96-8747-f01deee5982e")
-		(property "Reference" "TP4"
-			(at 265.43 153.6699 90)
+		(property "Reference" "TP3"
+			(at 274.32 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,7 +16596,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 265.43 156.2099 90)
+			(at 274.32 156.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15668,7 +16605,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 160.02 0)
+			(at 269.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15677,7 +16614,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 260.35 160.02 0)
+			(at 269.24 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +16623,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15695,7 +16632,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +16641,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,7 +16650,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15722,7 +16659,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +16668,7 @@
 			)
 		)
 		(property "mount_type" "DNP"
-			(at 260.35 154.94 0)
+			(at 269.24 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +16682,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -15753,15 +16690,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 227.33 0)
+		(at 401.32 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "eae766af-5eec-4e86-bdb4-9bf0f16374c8")
-		(property "Reference" "#PWR062"
-			(at 179.07 233.68 0)
+		(property "Reference" "#PWR044"
+			(at 401.32 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15770,7 +16707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.832 231.14 0)
+			(at 402.082 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,7 +16715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 227.33 0)
+			(at 401.32 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15787,7 +16724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 227.33 0)
+			(at 401.32 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15796,7 +16733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 227.33 0)
+			(at 401.32 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15810,7 +16747,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR062")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -15936,7 +16873,7 @@
 	)
 	(symbol
 		(lib_id "library:IFX007TAUMA1")
-		(at 219.71 64.77 0)
+		(at 222.25 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15945,7 +16882,7 @@
 		(fields_autoplaced yes)
 		(uuid "eede49d7-913c-4377-97b5-0c796a85a129")
 		(property "Reference" "U2"
-			(at 240.03 54.61 0)
+			(at 242.57 54.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15953,7 +16890,7 @@
 			)
 		)
 		(property "Value" "IFX007TAUMA1"
-			(at 240.03 57.15 0)
+			(at 242.57 57.15 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15961,7 +16898,7 @@
 			)
 		)
 		(property "Footprint" "kicad libraries:PG-TO263-7-1_INF"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15971,7 +16908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/infineon-technologies/IFX007TAUMA1/9586755"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +16918,7 @@
 			)
 		)
 		(property "Description" "half bridge driver"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15990,7 +16927,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon Technologies"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +16936,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IFX007TAUMA1"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +16945,7 @@
 			)
 		)
 		(property "price" "2.6"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +16954,7 @@
 			)
 		)
 		(property "digikey_part_number" "IFX007TAUMA1CT-ND"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16963,7 @@
 			)
 		)
 		(property "mount_type" "smd"
-			(at 219.71 64.77 0)
+			(at 222.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16076,7 +17013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f596c565-6649-4f80-845b-afdc0f8ba770")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 135.89 92.71 0)
 			(effects
 				(font
@@ -16126,7 +17063,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16134,7 +17071,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 389.89 241.3 0)
+		(at 283.21 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16143,7 +17080,7 @@
 		(fields_autoplaced yes)
 		(uuid "f959bb47-768d-4bef-834c-b9d6214d6412")
 		(property "Reference" "H3"
-			(at 392.43 240.0299 0)
+			(at 285.75 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16152,7 +17089,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 392.43 242.5699 0)
+			(at 285.75 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16161,7 +17098,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,7 +17107,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +17116,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +17125,7 @@
 			)
 		)
 		(property "price" "0"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,7 +17134,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DNP"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16206,7 +17143,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DNP"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,7 +17152,7 @@
 			)
 		)
 		(property "digikey_part_number" "DNP"
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16224,7 +17161,7 @@
 			)
 		)
 		(property "mount_type" ""
-			(at 389.89 241.3 0)
+			(at 283.21 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16242,15 +17179,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 132.08 0)
+		(at 270.51 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f98a4def-307f-419e-8011-29500cc867c1")
-		(property "Reference" "#PWR047"
-			(at 261.62 138.43 0)
+		(property "Reference" "#PWR031"
+			(at 270.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16259,7 +17196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.382 135.89 0)
+			(at 271.272 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,7 +17204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 132.08 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +17213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 132.08 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +17222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 132.08 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16299,7 +17236,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR047")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16314,7 +17251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1a2e3c-008b-4d9b-b21f-9e5b2fa9dd36")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR028"
 			(at 262.89 54.61 0)
 			(effects
 				(font
@@ -16364,7 +17301,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR048")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
