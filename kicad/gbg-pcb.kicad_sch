@@ -8586,7 +8586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097afbec-245a-4e04-a48b-0d055f68e407")
-		(property "Reference" "D2"
+		(property "Reference" "5V1"
 			(at 165.1 213.6774 90)
 			(effects
 				(font
@@ -8685,7 +8685,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D2")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -10594,7 +10594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4791acf3-c977-4116-bcf8-cc32c386a151")
-		(property "Reference" "D3"
+		(property "Reference" "3V1"
 			(at 182.88 213.6774 90)
 			(effects
 				(font
@@ -10693,7 +10693,7 @@
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D3")
+					(reference "3V1")
 					(unit 1)
 				)
 			)
@@ -14631,7 +14631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6a5c38-ec9c-48f2-b64b-5eeba20ed18a")
-		(property "Reference" "D1"
+		(property "Reference" "VBat1"
 			(at 345.44 209.8674 90)
 			(effects
 				(font
@@ -14730,7 +14730,7 @@
 		(instances
 			(project ""
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "D1")
+					(reference "VBat1")
 					(unit 1)
 				)
 			)
