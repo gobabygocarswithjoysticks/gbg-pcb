@@ -1,4 +1,4 @@
-24770437528505288
+24772192556985440
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99616,6 +99616,13 @@ PHOENIX_1715721
 0
 2
 2
+kicad libraries
+SK 675 100 AL
+heatsink
+
+0
+0
+0
 kicad libraries
 SOT95P280X110-6N
 

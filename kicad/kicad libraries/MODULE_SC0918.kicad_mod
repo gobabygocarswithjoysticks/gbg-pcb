@@ -1024,46 +1024,6 @@
 		(uuid "4bdf187d-e764-472a-939e-e3512ab69ffe")
 	)
 	(fp_line
-		(start -7 16.5)
-		(end 7 16.5)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "77649eaa-5748-4836-805a-1be1a5df978b")
-	)
-	(fp_line
-		(start -7 25.5)
-		(end -7 16.5)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "58e5274c-a68b-4473-a655-2f0779e68c93")
-	)
-	(fp_line
-		(start 7 16.5)
-		(end 7 25.5)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "19aa8179-0f9f-42f2-933f-2b4681af083b")
-	)
-	(fp_line
-		(start 7 25.5)
-		(end -7 25.5)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "0c6814e5-fe94-4256-9957-c01ab8d0d695")
-	)
-	(fp_line
 		(start -11.54 -27.05)
 		(end -11.54 25.75)
 		(stroke

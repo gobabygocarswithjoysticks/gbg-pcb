@@ -5899,12 +5899,6 @@
 		(uuid "5d52bae1-c4df-4378-ade3-484080cb7a92")
 	)
 	(junction
-		(at 381 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e906c32-15ef-4c4c-b730-6a9ff53baeed")
-	)
-	(junction
 		(at 381 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5975,12 +5969,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9511b72-4fbc-43be-8274-abf7958d2748")
-	)
-	(junction
-		(at 381 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab3aee45-c5bf-4ff6-90f5-0d64b573eaac")
 	)
 	(junction
 		(at 99.06 109.22)
@@ -7454,16 +7442,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 157.48) (xy 381 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1caaf14-aed7-4919-a53e-135634c6db08")
-	)
-	(wire
-		(pts
 			(xy 99.06 208.28) (xy 109.22 208.28)
 		)
 		(stroke
@@ -7784,16 +7762,6 @@
 	)
 	(wire
 		(pts
-			(xy 381 134.62) (xy 381 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee89030e-cebd-4ae0-9279-05859eafe8cf")
-	)
-	(wire
-		(pts
 			(xy 194.31 135.89) (xy 194.31 154.94)
 		)
 		(stroke
@@ -8002,28 +7970,6 @@
 			)
 		)
 	)
-	(global_label "bt6"
-		(shape input)
-		(at 48.26 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35a5ec73-17bc-4f3b-9201-ca6e16fcbd73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.1906 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "bt1"
 		(shape input)
 		(at 48.26 58.42 180)
@@ -8108,50 +8054,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "bt5"
-		(shape input)
-		(at 381 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5daa43f5-b83e-487d-8157-907ae625c4d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.0694 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "bt6"
-		(shape input)
-		(at 381 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bb3368c-de45-444e-8739-4d28265f8d71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.0694 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8284,28 +8186,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "bt5"
-		(shape input)
-		(at 48.26 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "adf539a6-5302-41e7-8fa9-ea2c865afc2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.1906 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9017,124 +8897,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:STX-3000")
-		(at 381 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d0daf3-973f-4d4d-88f4-2b264b7d1a7c")
-		(property "Reference" "B5"
-			(at 360.68 121.92 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "STX-3000"
-			(at 360.68 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:STX-3000_KYC"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/8\" audio jack"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.6"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kycon, Inc."
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STX-3000"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "2092-STX-3000-ND"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 381 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6a841a98-40d0-4d16-a05f-452520f2b391")
-		)
-		(pin "1"
-			(uuid "82938fca-5f95-47d7-ace3-2e0bf6e76be6")
-		)
-		(pin "2"
-			(uuid "45dda9c8-9f4e-4438-b95d-9408359cef3d")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "B5")
 					(unit 1)
 				)
 			)
@@ -15179,72 +14941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 381 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc094524-cd71-4121-911e-1abe5722b874")
-		(property "Reference" "#PWR032"
-			(at 381 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 381 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 381 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeb5bdfc-4565-4552-ada7-d9ec53d36a7e")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 60.96 0)
 		(unit 1)
@@ -16119,124 +15815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "library:STX-3000")
-		(at 381 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9fb7da6-657c-4b27-abb9-344b39164ad0")
-		(property "Reference" "B6"
-			(at 360.68 144.78 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "STX-3000"
-			(at 360.68 147.32 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "kicad libraries:STX-3000_KYC"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kycon-inc/STX-3000/9975995"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/8\" audio jack"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.6"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kycon, Inc."
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STX-3000"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey_part_number" "2092-STX-3000-ND"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mount_type" "tht"
-			(at 381 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0fb1baf0-da97-45f8-9614-eb484e5f2ed4")
-		)
-		(pin "1"
-			(uuid "78fa01e0-067a-4bc4-8f0b-1a4bd6b93c62")
-		)
-		(pin "2"
-			(uuid "fce996be-87ee-43e7-8222-88fe2279b102")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "B6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 261.62 128.27 270)
 		(unit 1)
@@ -16522,72 +16100,6 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 381 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e64d60f5-ec02-4378-919b-321f4d523f2d")
-		(property "Reference" "#PWR028"
-			(at 381 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 381 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 381 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88e52a01-5125-4b81-b366-0e7d34e5318f")
-		)
-		(instances
-			(project "gbg-pcb"
-				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)

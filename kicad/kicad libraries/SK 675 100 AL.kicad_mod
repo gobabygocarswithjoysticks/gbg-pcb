@@ -1,0 +1,105 @@
+(footprint "SK 675 100 AL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "heatsink")
+	(property "Reference" "heatsink**"
+		(at 15 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e0f981a-b634-4e07-ad56-16ce017e00b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK 675 100 AL"
+		(at 15 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e649e84e-fe91-44b7-9540-269b18575e60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/fischer-elektronik/SK-675-100-AL/25828853"
+		(at 15 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73c87cc2-ac8e-43b9-9412-f00b8d83bf34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "heatsink"
+		(at 15 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd1268d7-fd55-49cc-a878-3cb90cb5052f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files)
+	(fp_rect
+		(start 0 -9.5)
+		(end 100 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "35fa4bbe-5212-40a3-82dc-7a30dc78bd1d")
+	)
+	(fp_rect
+		(start 0 -9.5)
+		(end 100 9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bf8b1a5c-0853-47eb-80c7-2a2b8b193501")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 15 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "712990ce-beba-4bb2-ae9e-e55eaa0549dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad libraries/sk_675_100_al.stp"
+		(opacity 0.4200)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
