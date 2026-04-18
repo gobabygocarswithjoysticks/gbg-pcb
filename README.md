@@ -16,6 +16,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ![schematic](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 ### [instructions specifically for the Aosom Jeep](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
 [![Photo of jeep](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/aosom-038-jeep/photos/jeep_photo.jpg)](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
+### [instructions specifically for the Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (Instructions are complete through all electrical steps but don't cover how to add a backrest, harness or joystick holder).
 ---
 
 # [schematic of PCB](/schematic.pdf)
