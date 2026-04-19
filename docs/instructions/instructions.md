@@ -30,15 +30,20 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 ## [Schematic of GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [List Of Components to build a GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
+# New in V2: Weelye control box compatible
+
+Ride on cars frequently come with a control box labeled "weelye." The GBG-PCB can be configured with plugs that match the weelye box so that some models of cars can be modified without cutting any wires.
+
+The plug carrying signal wires to the box can be plugged into J11 with the usually-red wire plugged into the pin labeled bat+ and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the PCB unused.
+
+A GBG-PCB can be assembled with alternate motor and battery connectors that are compatible with the plugs on weelye boxes.
+[See notes here about what components to change.](https://github.com/gobabygocarswithjoysticks/gbg-pcb-2/tree/main/PCB_production#alternate-battery-and-motor-connectors-weelye-mode)
+
 ---
 
 # Choose a Car
-## 12 volts
-The GBG-PCB won't run on 6 volts because the motor driver ICs need at least 8 volts.
-
-The GBG-PCB hasn't been tested above 12 Volts.
-
-The PCB was only designed for 12 Volt ride on cars. Feel free to email if you are interested in trying it at other voltages. The motor drivers can easily handle 24 volts, but the 5V regulator and some of the resistors would need to be changed.
+## 6 to 24 volts
+While V1 boards required 12 volts, V2 GBG-PCBs can be used with 6 volt, 12 volt, or 24 volt cars.
 
 ## Two motors
 ### The car will be steered by controlling the two back wheels separately, so the car needs to have a motor for each wheel.
@@ -152,7 +157,7 @@ The wifi range is unreliable (sometimes measured as 10 feet sometimes as 100 fee
 For more information, see the remote control page linked above.
 
 # Troubleshooting
-## If you would like help troubleshooting your car or if you have any questions, please email gobabygocarswithjoysticks@gmail.com
+## If you would like help troubleshooting your car or if you have any questions, please email gbg-pcb@googlegroups.com
 # The car doesn't drive in the direction the joystick is pointing in
 #### follow these steps to reprogram the car if it drives in the wrong direction:
 ### 0. Connect the programmer website and calibrate the joystick
@@ -161,7 +166,7 @@ For more information, see the remote control page linked above.
 ### 3. If the car spins the opposite direction from the direction that the joystick is pointed, use the website to swap the motors, then repeat the 3 steps starting at step 1
 # The car doesn't drive
 ## if the blue light blinks quickly
-#### that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
+#### that means the joystick needs to be left centered for a few seconds before trying to move or that the joystick may need to be recalibrated
 ## if none of the green lights on the PCB turn on,
 #### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
 #### the on/off switch might not be making a connection
