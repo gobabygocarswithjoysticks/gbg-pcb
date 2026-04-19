@@ -9,7 +9,8 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 ## questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
 ## Want one?
-### [see this page!](https://gobabygocarswithjoysticks.github.io/gbg-pcb/how-to-get-boards)
+* Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
+* Or feel free to use these [files](/PCB_production) and get boards yourself.
 
 # instructions for using this PCB to modify a car
 ## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
