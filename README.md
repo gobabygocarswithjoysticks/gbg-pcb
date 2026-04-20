@@ -10,6 +10,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 ## Want one?
 * Email gobabygocarswithjoysticks@gmail.com. We may have a small number of assembled boards to sell or donate to you.
+* Use this PCBWay link: https://www.pcbway.com/project/shareproject/Go_Baby_Go_Printed_Circuit_Board_v1_2_ebb91d3a.html (link has not been tested)
 * Or feel free to use these [files](/PCB_production) and get boards yourself.
 
 # instructions for using this PCB to modify a car
