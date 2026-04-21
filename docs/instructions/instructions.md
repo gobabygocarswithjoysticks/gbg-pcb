@@ -37,7 +37,7 @@ Ride on cars frequently come with a control box labeled "weelye." The GBG-PCB ca
 The plug carrying signal wires to the box can be plugged into J11 with the usually-red wire plugged into the pin labeled bat+ and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the PCB unused.
 
 A GBG-PCB can be assembled with alternate motor and battery connectors that are compatible with the plugs on weelye boxes.
-[See notes here about what components to change.](https://github.com/gobabygocarswithjoysticks/gbg-pcb-2/tree/main/PCB_production#alternate-battery-and-motor-connectors-weelye-mode)
+[See section titled "alternate battery and motor connectors weelye mode" for what components to change.](https://github.com/gobabygocarswithjoysticks/gbg-pcb-2/tree/main/PCB_production#alternate-battery-and-motor-connectors-weelye-mode)
 
 ---
 
