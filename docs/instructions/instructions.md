@@ -30,7 +30,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 ## [Schematic of GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [List Of Components to build a GBG-PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
-# New in V2: Weelye control box compatible
+## New in V2: Weelye control box compatible
 
 Ride on cars frequently come with a control box labeled "weelye." The GBG-PCB can be configured with plugs that match the weelye box so that some models of cars can be modified without cutting any wires.
 
