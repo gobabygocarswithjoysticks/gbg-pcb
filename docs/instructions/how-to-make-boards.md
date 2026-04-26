@@ -58,7 +58,7 @@ Make sure you have the boards, tweezers, and a heat resistant surface to put boa
 
 Carefully pick up the PCB with tweezers.
 
-Use the tweezers to hold the PCB about a centimeter (half inch) above the hot plate for 1 minute so that the PCB can slowly heat up.
+Use the tweezers to hold the PCB as close to the hot plate as you can without touching or tilting the PCB. Hold the PCB there for 1 minute so that the PCB can slowly heat up.
 
 Gently set the PCB on the hotplate. Slide the PCB fully on the hotplate.
 
@@ -85,3 +85,6 @@ Make sure there's no water on the board before powering it on and testing it for
 
 ## Test
 
+## Solder joystick PCB
+
+Use a soldering iron to solder the two connectors to the PCB as show in the image on this page https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb 
