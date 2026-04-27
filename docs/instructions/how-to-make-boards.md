@@ -23,6 +23,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * fume extractor
 * paper towels
 * isopropyl alcohol
+* brush
+* container that can hold the PCB
 * (optional) hairdryer or hot air tool
 * (optional) magnifying glass or microscope
 
@@ -74,6 +76,16 @@ Put the PCB on a heat resistant surface so it can cool.
 
 If you have more boards you can repeat this process while the hotplate is already at the right temperature.
 
+## Clean SMD soldering
+To remove solder flux residue wash your board in hot running water. (yes, really) 
+According to the solder paste datasheet the water should be above 60 degrees Celsius
+
+Shake the board dry as well as you can then either leave it to air dry or gently dry it with warm air from a hairdryer.
+
+Make sure there's no water on the board before powering it on and testing it for the first time.
+
+Alternatively, fill a container with isopropyl alcohol and then brush the solder flux residue away
+
 ## Hand solder through-hole components
 Solder the through-hole (marked tht in the BOM) components using solder wire and a soldering iron. Place and solder the shortest components first and end with the tallest components so that the parts don't fall out when you flip the board upside down to solder.
 
@@ -81,13 +93,9 @@ Solder the through-hole (marked tht in the BOM) components using solder wire and
 
 Use a soldering iron to solder the two connectors to the PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
 
-## Clean
-To remove solder flux residue wash your board in hot running water. (yes, really) 
-According to the solder paste datasheet the water should be above 60 degrees Celsius
+## Clean THT soldering
 
-Shake the board dry as well as you can then either leave it to air dry or gently dry it with warm air from a hairdryer.
 
-Make sure there's no water on the board before powering it on and testing it for the first time.
 
 ## Test
 
