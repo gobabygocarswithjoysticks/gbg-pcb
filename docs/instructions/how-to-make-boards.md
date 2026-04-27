@@ -16,7 +16,7 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * soldering iron
 * solder paste squeegee, ideally it's as wide as the PCB (a metal or plastic scraper, or a plastic card all work well)
 * masking tape
-* metal tweezers
+* metal tweezers, or needle nose pliers
 * sink with hot water
 * heat resistant surface for setting boards on to cool
 * gloves
@@ -47,7 +47,7 @@ Lift the PCB out and set it aside. You can repeat the process to add solder past
 ## Place components
 Placing components on multiple boards saves time compared to making each board one at a time.
 
-Use tweezers to place all the surface-mount components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Try to avoid touching or smearing the solder paste.
+Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Try to avoid touching or smearing the solder paste.
 
 ## Reflow solder
 You can put a fume extractor near the hot plate to catch the smoke that will be made when the solder paste melts.
@@ -75,16 +75,22 @@ Put the PCB on a heat resistant surface so it can cool.
 If you have more boards you can repeat this process while the hotplate is already at the right temperature.
 
 ## Hand solder through-hole components
+Solder the through-hole (marked tht in the BOM) components using solder wire and a soldering iron. Place and solder the shortest components first and end with the tallest components so that the parts don't fall out when you flip the board upside down to solder.
+
+## Solder joystick PCB
+
+Use a soldering iron to solder the two connectors to the PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
 
 ## Clean
-To remove solder flux residue wash your board in hot running water. (yes, really) According to the solder paste datasheet the water should be above 60 degrees Celsius
+To remove solder flux residue wash your board in hot running water. (yes, really) 
+According to the solder paste datasheet the water should be above 60 degrees Celsius
 
-Shake the board dry as well as you can then either leave it to air dry or gently dry it with a warm air from a hairdryer.
+Shake the board dry as well as you can then either leave it to air dry or gently dry it with warm air from a hairdryer.
 
 Make sure there's no water on the board before powering it on and testing it for the first time.
 
 ## Test
 
-## Solder joystick PCB
+Connect power, motors (even small ones can help you test), and a switch to the GBG-PCB.
 
-Use a soldering iron to solder the two connectors to the PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
+Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
