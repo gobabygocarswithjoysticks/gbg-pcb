@@ -87,4 +87,4 @@ Make sure there's no water on the board before powering it on and testing it for
 
 ## Solder joystick PCB
 
-Use a soldering iron to solder the two connectors to the PCB as show in the image on this page https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb 
+Use a soldering iron to solder the two connectors to the PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
