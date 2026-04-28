@@ -97,7 +97,8 @@ Use a soldering iron to solder the two connectors to the PCB as shown in the ima
 
 ## Clean THT soldering
 
-
+## Final touches
+Stick the heatsinks to the back of the board
 
 ## Test
 
