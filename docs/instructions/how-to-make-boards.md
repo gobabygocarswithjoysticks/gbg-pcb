@@ -51,7 +51,7 @@ Placing components on multiple boards saves time compared to making each board o
 
 Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Try to avoid touching or smearing the solder paste.
 
-[https://gobabygocarswithjoysticks.github.io/gbg-pcb-2/ibom/ibom.html](https://gobabygocarswithjoysticks.github.io/gbg-pcb-2/ibom/ibom.html)
+[https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
 
 ## Reflow solder
 You can put a fume extractor near the hot plate to catch the smoke that will be made when the solder paste melts.
