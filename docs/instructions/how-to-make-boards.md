@@ -16,7 +16,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * soldering iron
 * solder paste squeegee, ideally it's as wide as the PCB (a metal or plastic scraper, or a plastic card all work well)
 * masking tape
-* metal tweezers, or needle nose pliers
+* metal tweezers
+* needle nose pliers
 * sink with hot water
 * heat resistant surface for setting boards on to cool
 * gloves
@@ -30,19 +31,19 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 
 
 ## Add solder paste
-You can wear gloves so you don't get solder paste on your hands
-
 Secure the PCB to the table (I like to use other PCBs to make a frame around the board but any method like maybe a 3D printed jig could work)
 
 Align the solder stencil so the holes in the stencil are perfectly aligned with the shiny pads of the PCB. 
 
 Tape the top edge of the solder stencil to the table so that the stencil can be flipped up and down. Make sure that when the stencil is on the PCB it lays flat (this is why using PCBs of the same height work so well as a frame).
 
+You can wear gloves so you don't get solder paste on your hands
+
 Make a line of solder paste across the top of the solder stencil. Close the solder paste container as soon as you get paste out of it so that it does not dry out.
 
 Squeegee the solder paste across the stencil
 
-Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad and no large bridges or uncovered spots. Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry.
+Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad. Some bridging of pads is ok (especially on the rpi pico (P1) since when it melts it will separate. Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry.
 
 Lift the PCB out and set it aside. You can repeat the process to add solder paste to multiple boards. You can often scrape unused paste off the stencil and collect it on your squeegee and reuse it for a few boards.
 
@@ -51,7 +52,9 @@ Placing components on multiple boards saves time compared to making each board o
 
 Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Try to avoid touching or smearing the solder paste.
 
-[https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
+[here's an interactive site where you can check off parts as you place them in an image](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
+
+_thank you [qu1ck](https://github.com/openscopeproject/InteractiveHtmlBom) for this amazing tool_
 
 ## Reflow solder
 You can put a fume extractor near the hot plate to catch the smoke that will be made when the solder paste melts.
