@@ -12,7 +12,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * 3 foot length of 4 wire electrical cable
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
 * 
-* 3d printed parts
+* 3d printed parts (consider the [heatset insert version of the joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/main#joystick-holder-for-adjustible-arms)
 
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
