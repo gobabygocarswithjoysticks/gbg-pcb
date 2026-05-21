@@ -157,7 +157,7 @@ The wifi range is unreliable (sometimes measured as 10 feet sometimes as 100 fee
 For more information, see the remote control page linked above.
 
 # Troubleshooting
-## If you would like help troubleshooting your car or if you have any questions, please email gbg-pcb@googlegroups.com
+## If you would like help troubleshooting your car or if you have any questions, please email [gbg-pcb@googlegroups.com](gbg-pcb@googlegroups.com)
 # The car doesn't drive in the direction the joystick is pointing in
 #### follow these steps to reprogram the car if it drives in the wrong direction:
 ### 0. Connect the programmer website and calibrate the joystick
@@ -167,7 +167,7 @@ For more information, see the remote control page linked above.
 # The car doesn't drive
 ## if the blue light blinks quickly
 #### that means the joystick needs to be left centered for a few seconds before trying to move or that the joystick may need to be recalibrated
-## if none of the green lights on the PCB turn on,
+## if the green light doesn't turn on
 #### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
 #### the on/off switch might not be making a connection
 #### the battery might be low
