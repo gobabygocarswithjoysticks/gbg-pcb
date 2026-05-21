@@ -1,0 +1,44 @@
+### Footprint positions - created on 2026-05-21T18:46:31 ###
+### Printed by KiCad version 10.0.2
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val              Package                                              PosX       PosY       Rot  Side
+C1        0.1uF            C_0603_1608Metric                                  3.4642    -2.1943   90.0000  top
+C2        0.1uF            C_0603_1608Metric                                  4.6700    -2.1948   90.0000  top
+C3        10uF             C_1210_3225Metric                                  5.0579    -3.2798   90.0000  top
+C4        0.1uF            C_0603_1608Metric                                  4.9310    -2.9130  180.0000  top
+C6        0.1uF            C_0603_1608Metric                                  5.2750    -3.1250  -90.0000  top
+C7        56pF             C_0603_1608Metric                                  5.3470    -3.2770  -90.0000  top
+C8        47uF             C_1210_3225Metric                                  5.0750    -3.1150    0.0000  top
+D1        D_Schottky       D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
+D2        D_Schottky       D_SOD-123F                                         2.6860    -2.5750    0.0000  top
+D3        18V_zener        D_SOD-123F                                         4.0241    -2.6331  180.0000  top
+FID1      1                Fiducial_1mm_Mask3mm                               2.5750    -3.9650    0.0000  top
+FID2      2                Fiducial_1mm_Mask3mm                               2.9590    -1.8310  180.0000  top
+FID3      3                Fiducial_1mm_Mask3mm                               5.5450    -1.8150  180.0000  top
+J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2891    -2.6659   90.0000  top
+L1        12uH             IND_SRR6038-120Y                                   4.8294    -3.2580   90.0000  top
+P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
+Q1        PSMN1R2-25YLDX   LFPAK56                                            4.2605    -2.4531    0.0000  top
+Q2        PSMN1R2-25YLDX   LFPAK56                                            3.9357    -2.4533  180.0000  top
+R1        220              R_0805_2012Metric                                  5.5210    -3.5230  -90.0000  top
+R2        220              R_0805_2012Metric                                  4.3970    -3.4670   90.0000  top
+R3        3.3k             R_0805_2012Metric                                  4.2050    -2.6250  180.0000  top
+R4        13.7k            R_0805_2012Metric                                  4.0791    -2.2781  180.0000  top
+R5        100k             R_0805_2012Metric                                  5.2750    -3.4630  -90.0000  top
+R6        8.2k             R_0805_2012Metric                                  4.7793    -1.9850    0.0000  top
+R7        8.2k             R_0805_2012Metric                                  3.4500    -2.3790   90.0000  top
+R8        100k             R_0805_2012Metric                                  5.3594    -3.1100  -90.0000  top
+R9        13.7k            R_0805_2012Metric                                  5.3710    -3.4630  -90.0000  top
+R10       220k             YC248-JR                                           2.8250    -3.9811   90.0000  top
+R11       604              R_0805_2012Metric                                  4.9670    -2.7950   90.0000  top
+R12       604              R_0805_2012Metric                                  5.1044    -2.5350    0.0000  top
+R13       100k             R_0805_2012Metric                                  4.8750    -2.7950   90.0000  top
+R14       8.2k             R_0805_2012Metric                                  4.9870    -2.6150   90.0000  top
+R15       3.3k             R_0805_2012Metric                                  5.3000    -2.8950   90.0000  top
+R16       3.3k             R_0805_2012Metric                                  5.2080    -2.8950   90.0000  top
+U1        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   3.2150    -2.1950  -90.0000  top
+U2        DRV8245HQPWPRQ1  HTSSOP28_PWP_TEX                                   4.9150    -2.1950   90.0000  top
+U3        TPS54202HDDCR    SOT95P280X110-6N_tps54202HDDCR                     5.2136    -3.2653    0.0000  top
+U4        TLA2024IRUGR     IC_TLA2024IRUGR                                    5.1109    -2.8068  180.0000  top
+## End
