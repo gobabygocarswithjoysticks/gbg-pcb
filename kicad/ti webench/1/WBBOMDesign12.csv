@@ -1,9 +1,0 @@
-﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
-U1,Texas Instruments,TPS54202DDCR,1,0.32,10.47,
-Cin,TDK,C3216X5R1V226M160AC,1,0.32,10.92,Cap: 22 µF  Total Derated Cap: 8.2 µF  VDC: 35 V  ESR: 2.4 mΩ  Package: 1206_180  
-L1,TDK,VLP8040T-100M,1,0.22,113.42,L: 10 µH  DCR: 38 mΩ  IDC: 3.2 A  
-Rfbb,Vishay-Dale,CRCW120622K1FKEA,1,0.01,10.92,Resistance: 22.1 kΩ  Tolerance: 1.0%  Power: 250 mW  
-Cbst,Kemet,C1206C104K5RACTU,1,0.01,10.92,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 59 mΩ  Package: 1206  
-Cout,TDK,C3216X7S1A226M160AC,3,0.23,10.92,Cap: 22 µF  Total Derated Cap: 44 µF  VDC: 10 V  ESR: 2.4 mΩ  Package: 1206_180  
-Rfbt,Vishay-Dale,CRCW1206100KFKEA,1,0.01,10.92,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 250 mW  
-Cff,Samsung Electro-Mechanics,CL31C470JBCNNNC,1,0.02,10.92,Cap: 47 pF  Total Derated Cap: 47 pF  VDC: 50 V  ESR: 0 Ω  Package: 1206  

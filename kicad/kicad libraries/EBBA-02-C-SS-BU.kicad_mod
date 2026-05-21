@@ -1,0 +1,175 @@
+(footprint "EBBA-02-C-SS-BU"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<a href = https://app.adam-tech.com/products/download/data_sheet/204164/ebba-xx-c-ss-bu-data-sheet.pdf>Datasheet</a><br>2-position screw terminal block")
+	(property "Reference" "REF**"
+		(at -0.254 4.844 0)
+		(layer "F.SilkS")
+		(uuid "bdc9e5ef-a260-4ffc-8a1c-59f9bdbbe9d3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EBBA-02-C-SS-BU"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6341446d-9473-4117-aac1-8d04fd01874a")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8be3dee-fbf3-4d82-9faf-a1c406150a38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef05d28f-84c5-4d28-b4e6-d2c900e3a64c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.75 -3.8)
+		(end 7.75 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83976550-80c0-41d6-b25d-cd5b3afa1abe")
+	)
+	(fp_line
+		(start -2.75 3.8)
+		(end -2.75 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99bd934d-09e1-46a3-942d-5c4d4bcf55ca")
+	)
+	(fp_line
+		(start 7.75 -3.8)
+		(end 7.75 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c582bce0-ebeb-4058-8475-dc4112c0cdf8")
+	)
+	(fp_line
+		(start 7.75 3.8)
+		(end -2.75 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "815f635b-e6ce-4f97-8776-336ee2d912d1")
+	)
+	(fp_circle
+		(center 0 -4.304)
+		(end 0.25 -4.304)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "05d33d0b-d4ed-45f8-8b5d-bb15032a80f9")
+	)
+	(fp_line
+		(start -3.048 -4.064)
+		(end 8.001 -4.064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6418c344-2a2b-43ef-9462-468ca6d2f2ce")
+	)
+	(fp_line
+		(start -3.048 4.064)
+		(end -3.048 -4.064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89cdda3b-790a-4cad-9e72-e2453f32263f")
+	)
+	(fp_line
+		(start 8.001 -4.064)
+		(end 8.001 4.064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b85cf30-96d1-41c3-83cd-490e371037c1")
+	)
+	(fp_line
+		(start 8.001 4.064)
+		(end -3.048 4.064)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c63d80e-b7e3-4ced-ab4d-88a12acbf2d5")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4213 2.4213)
+		(drill 1.6142)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "84e766f7-d019-4eaf-9c85-5ba23edbf6fa")
+	)
+	(pad "2" thru_hole rect
+		(at 5 0)
+		(size 2.4213 2.4213)
+		(drill 1.6142)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2d6257a3-d992-4676-b325-506e3a5e000a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad libraries/EBBA-02-C-SS-BU--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

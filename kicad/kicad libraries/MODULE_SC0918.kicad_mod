@@ -1183,7 +1183,7 @@
 		(drill 0.9
 			(offset -1 0)
 		)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(options
 			(clearance outline)

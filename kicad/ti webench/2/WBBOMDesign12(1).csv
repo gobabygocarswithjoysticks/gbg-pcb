@@ -1,9 +1,0 @@
-﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
-U1,Texas Instruments,TPS54202DDCR,1,0.32,10.47,
-Cin,TDK,C3216X5R1V226M160AC,1,0.32,10.92,Cap: 22 µF  Total Derated Cap: 8.2 µF  VDC: 35 V  ESR: 2.4 mΩ  Package: 1206_180  
-L1,Coilcraft,MSS1260T-153MLB,1,0.89,204.49,L: 15 µH  DCR: 27 mΩ  IDC: 3.5 A  
-Rfbb,Vishay-Dale,CRCW040222K1FKED,1,0.01,3,Resistance: 22.1 kΩ  Tolerance: 1.0%  Power: 63 mW  
-Cbst,Kemet,C0805C104M5RACTU,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 64 mΩ  Package: 0805  
-Cout,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 39 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
-Rfbt,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
-Cff,MuRata,GRM0335C1E560JA01D,1,0.01,2.08,Cap: 56 pF  Total Derated Cap: 56 pF  VDC: 25 V  ESR: 0 Ω  Package: 0201  
