@@ -70,7 +70,7 @@ If you know that you will not install a speed adjustment knob you can omit
 
 J4
 
-#### [consider an alternate voltage regulator](https://github.com/gobabygocarswithjoysticks/gbg-pcb-2/blob/main/PCB_production/README.md#alternate-voltage-regulator-u5)
+#### [consider an alternate voltage regulator](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/README.md#alternate-voltage-regulator-u5)
 
 Using a THT module might not be significantly cheaper but it could save you time during assembly.
 
