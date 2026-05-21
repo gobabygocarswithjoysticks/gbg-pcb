@@ -1,3 +1,6 @@
+# Moved to https://github.com/gobabygocarswithjoysticks/gbg-pcb
+
+
 # GBG PCB
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
