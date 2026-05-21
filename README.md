@@ -1,5 +1,3 @@
-# Moved to https://github.com/gobabygocarswithjoysticks/gbg-pcb
-
 
 # GBG PCB
 
