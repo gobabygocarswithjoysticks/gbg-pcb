@@ -165,9 +165,9 @@ For more information, see the remote control page linked above.
 ### 2. If moving the joystick forwards makes the car drive backwards, use the website to reverse both motors
 ### 3. If the car spins the opposite direction from the direction that the joystick is pointed, use the website to swap the motors, then repeat the 3 steps starting at step 1
 # The car doesn't drive
-## if the blue light blinks quickly
+## if the large round blue light blinks quickly
 #### that means the joystick needs to be left centered for a few seconds before trying to move or that the joystick may need to be recalibrated
-## if the green light doesn't turn on
+## if the small round green light doesn't turn on
 #### the battery might have been connected backwards. A backwards connection does not damage the board; the board just doesn't turn on.
 #### the on/off switch might not be making a connection
 #### the battery might be low
