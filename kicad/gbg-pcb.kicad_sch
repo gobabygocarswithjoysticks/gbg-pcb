@@ -5,6 +5,8 @@
 	(uuid "3bb9adb4-655f-45ab-af84-44b563241ee2")
 	(paper "A3")
 	(title_block
+		(title "GBG-PCB")
+		(rev "v2.1")
 		(company "https://github.com/gobabygocarswithjoysticks gobabygocarswithjoysticks@gmail.com")
 	)
 	(lib_symbols
