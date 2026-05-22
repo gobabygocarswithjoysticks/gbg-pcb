@@ -6,7 +6,7 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 ## parts
 * components ([see BOM and notes on this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production))
 * GBG-PCB circuit boards
-* components and boards for joystick adapter boards
+* components and boards for joystick adapter boards [see this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 
 ## tools
 * GBG-PCB solder stencil
@@ -25,7 +25,7 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * paper towels
 * isopropyl alcohol
 * brush
-* container that can hold the PCB
+* (optional) container that can hold the PCB
 * (optional) hairdryer or hot air tool
 * (optional) magnifying glass or microscope
 
@@ -61,13 +61,13 @@ You can put a fume extractor near the hot plate to catch the smoke that will be 
 
 Set the hotplate to 240C 480F and wait for it to reach temperature
 
-Make sure you have the boards, tweezers, and a heat resistant surface to put boards on to cool.
+Make sure you have the boards, tweezers (or needle nose pliers), and a heat resistant surface to put boards on to cool.
 
-Carefully pick up the PCB with tweezers.
+Carefully pick up the PCB with tweezers or needle nose pliers (needle nose pliers can be easier to hold for multiple minutes).
 
-Use the tweezers to hold the PCB as close to the hot plate as you can without touching or tilting the PCB. Hold the PCB there for 1 minute so that the PCB can slowly heat up.
+Hold the PCB as close to the hot plate as you can without touching or tilting the PCB. Hold the PCB there for 1 minute so that the PCB can slowly warm up.
 
-Gently set the PCB on the hotplate. Slide the PCB fully on the hotplate.
+Gently set the PCB on the hotplate. Slide the PCB fully onto the hotplate.
 
 The following steps shouldn't take more than about 15 seconds.
 
@@ -75,7 +75,7 @@ The solder paste should melt and become shiny.
 
 The board will slighly warp away from the hotplate so use the tweezers to push the edges down one at a time so every part of the board gets hot and all the solder paste has a chance to melt.
 
-Watch all the components and when all of the solder paste has melted, gently slide the PCB slightly off the hotplate then grab it with the tweezers and lift it off the hotplate. While you're lifting it the solder is liquid so move it slowly.
+Watch all the components and when all of the solder paste has melted, gently slide the PCB slightly off the hotplate then grab it with the tweezers or pliers and lift it off the hotplate. While you're lifting it the solder is liquid so move it slowly.
 
 Put the PCB on a heat resistant surface so it can cool. 
 
@@ -89,22 +89,25 @@ Shake the board dry as well as you can then either leave it to air dry or gently
 
 Make sure there's no water on the board before powering it on and testing it for the first time.
 
-Alternatively, fill a container with isopropyl alcohol and then brush the solder flux residue away
+Alternatively, fill a container with isopropyl alcohol, submerge the board, and brush the solder flux residue away
 
 ## Hand solder through-hole components
-Solder the through-hole (marked tht in the BOM) components using solder wire and a soldering iron. Place and solder the shortest components first and end with the tallest components so that the parts don't fall out when you flip the board upside down to solder.
+Solder the through-hole (marked tht in the BOM) components using solder wire and a soldering iron. Place and solder the shortest components first and end with the tallest components so that the parts don't fall out when you flip the board upside down on the table to solder.
 
 ## Solder joystick PCB
 
-Use a soldering iron to solder the two connectors to the PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
+Use a soldering iron to solder the two connectors to the joystick PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
 
 ## Clean THT soldering
+Use hot water and/or isopropyl alcohol.
+
+Make sure there's no water on the board before powering it on and testing it for the first time.
 
 ## Final touches
-Stick the heatsinks to the back of the board
+Stick the heatsinks to the back of the board. Make sure the heatsinks are centered in the marked boxes so they don't touch any of the pins.
 
 ## Test
 
-Connect power, motors (even small ones can help you test), and a switch to the GBG-PCB.
+Connect power, a joystick, motors (even small ones can help you test), and a power switch to the GBG-PCB.
 
 Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
