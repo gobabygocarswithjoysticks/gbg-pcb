@@ -26,7 +26,7 @@
 "R4,R9","13.7k","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW080513K7FKEA","541-13.7KCCT-ND","smd","2"
 "R5,R8,R13","100k","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW0805100KFKEA","541-100KCCT-ND","smd","3"
 "R6,R7,R14","8.2k","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW08058K20JNEA","541-8.2KACT-ND","smd","3"
-"R10","220k","kicad libraries:YC248-JR","YAGEO","YC248-JR-07220KL","13-YC248-JR-07220KLCT-ND","smd","1"
+"R10","4.7k","kicad libraries:YC248-JR","YAGEO","YC248-JR-074K7L","13-YC248-JR-074K7LCT-ND","smd","1"
 "R11,R12","604","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW0805604RFKEA","541-604CCT-ND","smd","2"
 "U1,U2","DRV8245HQPWPRQ1","kicad libraries:HTSSOP28_PWP_TEX","Texas Instruments","DRV8245HQPWPRQ1","296-DRV8245HQPWPRQ1CT-ND","smd","2"
 "U3","TPS54202HDDCR","kicad libraries:SOT95P280X110-6N tps54202HDDCR","Texas Instruments","TPS54202HDDCR","296-44396-1-ND","smd","1"
