@@ -158,7 +158,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "4.7k"
 			(at 13.49 3.115 90)
 			(layer "F.Fab")
 			(uuid "af010643-ce48-470f-8ffb-655fdb8595de")
@@ -169,7 +169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-07220KL/1005253"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-074K7L/1005233"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YC248-JR-07220KL"
+		(property "Manufacturer_Part_Number" "YC248-JR-074K7L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -282,7 +282,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "13-YC248-JR-07220KLCT-ND"
+		(property "digikey_part_number" "13-YC248-JR-074K7LCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7814,6 +7814,12 @@
 		(path "/ee84bd97-5f84-4dce-9179-d7586478aa35")
 		(sheetname "/")
 		(sheetfile "gbg-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "4" "3" "6" "2" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27327,14 +27333,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "018a3c25-7df4-4649-8691-1fa8f7c83e9f")
 		(at 86.233 97.663 90)
-		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
-		(tags "net tie solder jumper bridged")
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
 		(property "Reference" "NT6"
-			(at 2.286 -0.254 180)
+			(at 2.2606 -0.0254 0)
 			(layer "B.SilkS")
 			(uuid "eaac3323-323a-41ba-bab9-c68eb2a24f36")
 			(effects
@@ -27346,7 +27352,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.9 90)
+			(at 0 -1.9 270)
 			(layer "B.Fab")
 			(uuid "9a153107-323b-4ba2-b223-32f6f10188ed")
 			(effects
@@ -27386,11 +27392,11 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3728fed2-3ead-41a0-828d-08fe734bf805")
+			(uuid "77f03b96-d10d-446f-a892-18850dbf5f18")
 			(effects
 				(font
 					(size 1 1)
@@ -27400,11 +27406,11 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "82d3c68a-3a47-40f1-b8cd-533b246ba9fa")
+			(uuid "c9114ec0-5022-4d49-83ab-0631f2cd205d")
 			(effects
 				(font
 					(size 1 1)
@@ -27414,11 +27420,11 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "82d9bec8-b55f-438b-bd05-1c31a76447d6")
+			(uuid "70c2a008-b3f5-444d-adb1-69084f7bf218")
 			(effects
 				(font
 					(size 1 1)
@@ -27428,11 +27434,11 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cf0193f5-2a0b-4f44-a9be-35d8b8c7aef5")
+			(uuid "0506a623-0199-47f4-b2c9-ae0a5425c479")
 			(effects
 				(font
 					(size 1 1)
@@ -27446,7 +27452,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3a253699-d424-4796-8d57-827443439120")
+			(uuid "dfa40780-e0b0-4ac7-8e3c-5b92940873e3")
 			(effects
 				(font
 					(size 1 1)
@@ -27460,7 +27466,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "11a8fff3-4e12-445d-b70e-dc308ba0a1e0")
+			(uuid "eeeef2cd-c39f-4342-be45-65a712c04dba")
 			(effects
 				(font
 					(size 1 1)
@@ -27474,7 +27480,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "36c30388-b071-4dd8-b469-e9079e7383f4")
+			(uuid "58a8baad-b802-47d2-99a2-ef65a5e2060d")
 			(effects
 				(font
 					(size 1 1)
@@ -27488,7 +27494,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3e9ecd2b-63c8-4aad-981f-6d258545eeff")
+			(uuid "e97b6842-0efc-4094-88e5-bec2cd6b9fd5")
 			(effects
 				(font
 					(size 1 1)
@@ -27502,7 +27508,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "967f6299-be67-40cf-8101-a6a14a57335e")
+			(uuid "62fb7790-0b0a-4b44-84c5-b440329ff1ac")
 			(effects
 				(font
 					(size 1 1)
@@ -27523,20 +27529,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy 0.25 0.3) (xy -0.25 0.3) (xy -0.25 -0.3) (xy 0.25 -0.3)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Cu")
-			(uuid "9f775911-12e3-4f8a-ad75-5e8e4d603b75")
-		)
 		(fp_rect
 			(start -0.15 0.75)
 			(end 0.15 -0.75)
@@ -28394,14 +28387,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "3ed43508-648a-4142-b70e-fb8b19a60698")
 		(at 88.773 97.678 90)
-		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
-		(tags "net tie solder jumper bridged")
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
 		(property "Reference" "NT7"
-			(at 2.301 0.2032 180)
+			(at 2.2502 0.1524 0)
 			(layer "B.SilkS")
 			(uuid "77f6dfaa-e34a-4a74-8181-33d5253301c2")
 			(effects
@@ -28413,7 +28406,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.9 90)
+			(at 0 -1.9 270)
 			(layer "B.Fab")
 			(uuid "88cddd29-80cb-4897-90e3-2204b0d526a0")
 			(effects
@@ -28453,11 +28446,11 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3cd8fc50-88d0-4e68-9193-bca7733c1e4d")
+			(uuid "fe7b6a2f-8a8f-4679-95bd-d0b68787d94c")
 			(effects
 				(font
 					(size 1 1)
@@ -28467,11 +28460,11 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9e60fb94-3f3b-4604-a544-6fda2b400452")
+			(uuid "230cac29-921d-4e46-92ec-4fb06e2be7aa")
 			(effects
 				(font
 					(size 1 1)
@@ -28481,11 +28474,11 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db0ba6b3-470d-451c-8d91-1fad5a65d881")
+			(uuid "f0358217-a562-4417-b6ac-42feec32ea03")
 			(effects
 				(font
 					(size 1 1)
@@ -28495,11 +28488,11 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "01e7ef40-bd78-499c-ae5b-e1fff5ebde29")
+			(uuid "2ca3013b-f064-466b-85d6-f0723805e1dc")
 			(effects
 				(font
 					(size 1 1)
@@ -28513,7 +28506,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "68ee9321-98ba-48c1-91d8-2b70e99bf7e0")
+			(uuid "ceb1a1d9-2f64-4df0-88a2-e814162d9d38")
 			(effects
 				(font
 					(size 1 1)
@@ -28527,7 +28520,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "29d6ce20-347f-4e47-86d3-1aeeb24c7c83")
+			(uuid "7e887f72-d070-4f2c-8a0d-24b5ce16adfd")
 			(effects
 				(font
 					(size 1 1)
@@ -28541,7 +28534,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "430cb212-2380-463d-a5bd-54952cb3c3ce")
+			(uuid "533f426d-7459-4626-badc-cde2148e420a")
 			(effects
 				(font
 					(size 1 1)
@@ -28555,7 +28548,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08258267-d963-4830-8544-4a802b35610f")
+			(uuid "a21733f4-56f7-40c0-a1b9-4567f80cb217")
 			(effects
 				(font
 					(size 1 1)
@@ -28569,7 +28562,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cc2d6b9c-dbab-4af0-975a-2c23723ce36f")
+			(uuid "a655491d-0e35-418f-a0b4-b4ef64efec03")
 			(effects
 				(font
 					(size 1 1)
@@ -28590,20 +28583,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy 0.25 0.3) (xy -0.25 0.3) (xy -0.25 -0.3) (xy 0.25 -0.3)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Cu")
-			(uuid "1d7eef94-9137-4560-8278-436a2c661c01")
-		)
 		(fp_rect
 			(start -0.15 0.75)
 			(end 0.15 -0.75)
@@ -28990,14 +28970,14 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "5d5ff228-73b5-4194-8b4a-1cb718cfbea8")
 		(at 83.693 97.648 90)
-		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
-		(tags "net tie solder jumper bridged")
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
 		(property "Reference" "NT5"
-			(at 2.271 -0.7112 180)
+			(at 2.2456 -0.2286 0)
 			(layer "B.SilkS")
 			(uuid "c59bb8f4-98d1-4edc-a732-5b0583c75002")
 			(effects
@@ -29009,7 +28989,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.9 90)
+			(at 0 -1.9 270)
 			(layer "B.Fab")
 			(uuid "6dfc84dc-ca5d-4abc-ae32-2999ec5050d7")
 			(effects
@@ -29049,11 +29029,11 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec9fbf04-3783-4e3d-b268-263c3c542201")
+			(uuid "d682db80-261f-4c65-b9b4-d0f8a7882e1a")
 			(effects
 				(font
 					(size 1 1)
@@ -29063,11 +29043,11 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec01b520-8c39-4cd4-a7d8-c2c42d09775e")
+			(uuid "247d4b41-fb9f-495c-939d-8d7924926644")
 			(effects
 				(font
 					(size 1 1)
@@ -29077,11 +29057,11 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1848a14a-c68d-48d3-9de1-41db548e6d65")
+			(uuid "34acc76b-a50f-4bbc-8b6b-44c4ce21a69c")
 			(effects
 				(font
 					(size 1 1)
@@ -29091,11 +29071,11 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1796bbd2-5948-460f-8fe3-a39d2929a89b")
+			(uuid "804d431c-b3b3-4dd6-b3c6-120cd7d8e1b8")
 			(effects
 				(font
 					(size 1 1)
@@ -29109,7 +29089,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "116b69ee-3c26-4a95-a33f-560627e68f21")
+			(uuid "333194ee-1653-46c5-9e33-b86eaef5bdf4")
 			(effects
 				(font
 					(size 1 1)
@@ -29123,7 +29103,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d4923072-783e-4dc9-b0cc-a92ec429f717")
+			(uuid "64ea9403-a6af-40de-b7ea-5c4f26c79c7a")
 			(effects
 				(font
 					(size 1 1)
@@ -29137,7 +29117,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "157caefb-7a82-4343-a7e9-d9533cce892e")
+			(uuid "13a6fc18-32eb-4e60-8922-ccc680f781ae")
 			(effects
 				(font
 					(size 1 1)
@@ -29151,7 +29131,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a22b628d-5676-425c-b8e1-c04174bf34ea")
+			(uuid "a5723b0a-d55d-41b0-ac0d-faef0a14ab1c")
 			(effects
 				(font
 					(size 1 1)
@@ -29165,7 +29145,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "df531e0d-706c-42ef-9256-a39ebb43304e")
+			(uuid "757c234f-b925-40c8-9041-b8c9225854ff")
 			(effects
 				(font
 					(size 1 1)
@@ -29186,20 +29166,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy 0.25 0.3) (xy -0.25 0.3) (xy -0.25 -0.3) (xy 0.25 -0.3)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Cu")
-			(uuid "3264151a-55bd-4649-b560-2f7891667e45")
-		)
 		(fp_rect
 			(start -0.15 0.75)
 			(end 0.15 -0.75)
@@ -31828,14 +31795,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "b1b64a00-6544-45bb-99fc-51b057807802")
 		(at 91.313 97.678 90)
-		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
-		(tags "net tie solder jumper bridged")
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
 		(property "Reference" "NT8"
-			(at 2.301 0.6604 180)
+			(at 2.1994 0.3302 0)
 			(layer "B.SilkS")
 			(uuid "44409565-6de8-4351-bbff-dcafc2c8e84e")
 			(effects
@@ -31847,7 +31814,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 0 -1.9 90)
+			(at 0 -1.9 270)
 			(layer "B.Fab")
 			(uuid "42f73efd-ce4d-4ac3-a5fc-64be82ef6bef")
 			(effects
@@ -31887,11 +31854,11 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1ec49e88-8ead-4ed8-8e6b-b01aa70b2f22")
+			(uuid "8fb92c3e-afdf-482f-9c7d-df56dd0ab86f")
 			(effects
 				(font
 					(size 1 1)
@@ -31901,11 +31868,11 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b49b17ee-cfff-45f1-84e3-621dc8b5fa54")
+			(uuid "0694c45a-d554-41b6-82c8-fd3337210c80")
 			(effects
 				(font
 					(size 1 1)
@@ -31915,11 +31882,11 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d7e0dc88-d1ac-4418-9ce9-143c27560ae9")
+			(uuid "3e22ea4c-d781-42e6-ace8-a065f4f34ae9")
 			(effects
 				(font
 					(size 1 1)
@@ -31929,11 +31896,11 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0e8074e9-e7de-4497-91aa-7ad03acffb7f")
+			(uuid "806a0530-27a4-4905-840e-51f81832cf25")
 			(effects
 				(font
 					(size 1 1)
@@ -31947,7 +31914,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a3e236af-5e79-4dab-aa49-909010ebf1d8")
+			(uuid "dc84e6e5-cf77-465c-907f-c97e1b6e3308")
 			(effects
 				(font
 					(size 1 1)
@@ -31961,7 +31928,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6f48a7f3-747c-42d1-9066-2ae6352cadd3")
+			(uuid "404c7980-02e6-4da7-9aef-74411f25a641")
 			(effects
 				(font
 					(size 1 1)
@@ -31975,7 +31942,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d993b25a-2a60-416c-acde-305eb84c8791")
+			(uuid "3f9d2b08-bb90-4f1f-903f-2a8480fd515b")
 			(effects
 				(font
 					(size 1 1)
@@ -31989,7 +31956,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e9af0298-5eff-4518-9696-d29b85c53054")
+			(uuid "605f5cda-d875-487e-9c59-1accb8916152")
 			(effects
 				(font
 					(size 1 1)
@@ -32003,7 +31970,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1f77d211-5618-4a12-bf74-be5c7f7ba888")
+			(uuid "cb0af4e2-d6ef-4a22-95bb-c99c1612c486")
 			(effects
 				(font
 					(size 1 1)
@@ -32024,20 +31991,7 @@
 		)
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
-		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_poly
-			(pts
-				(xy 0.25 0.3) (xy -0.25 0.3) (xy -0.25 -0.3) (xy 0.25 -0.3)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Cu")
-			(uuid "d90775fb-a8ce-4b2b-a5d7-a9d333fe5c2a")
-		)
 		(fp_rect
 			(start -0.15 0.75)
 			(end 0.15 -0.75)
@@ -33293,57 +33247,38 @@
 		(uuid "cce9d48d-5b4e-4617-852f-46ab1adea8cc")
 	)
 	(gr_line
-		(start 82.693 97.648)
-		(end 70.231 97.663)
+		(start 81.3562 98.7044)
+		(end 82.3976 100.076)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "cd83ba1d-483a-4aa0-ace6-785a086d7240")
+		(uuid "2c592337-08fd-4233-8c1b-019779a819c2")
 	)
 	(gr_line
-		(start 85.233 97.663)
-		(end 84.693 97.648)
+		(start 81.3816 96.5454)
+		(end 82.3214 97.028)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "111ea4bd-c5cc-4588-9228-cdffc5573eab")
-	)
-	(gr_line
-		(start 87.773 97.678)
-		(end 87.249 97.678)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "68fa904e-df36-4d9c-a3c1-03c0ac4458aa")
-	)
-	(gr_line
-		(start 90.297 97.678)
-		(end 89.773 97.678)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "80a19dd4-ff89-4603-a797-24fb5a39c015")
-	)
-	(gr_line
-		(start 92.583 97.663)
-		(end 93.599 97.663)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "775f03f6-a347-4a94-99fa-1fc8383c82e0")
+		(uuid "54db56df-8134-407b-bd35-34279cbeb8c0")
 	)
 	(gr_rect
-		(start 118.237 75.184)
+		(start 82.55 99.2378)
+		(end 92.5068 102.1334)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "fb77e748-2663-471f-88e3-4228a6625b7d")
+	)
+	(gr_rect
+		(start 118.237 74.7268)
 		(end 141.211205 87.1474)
 		(radius 0.1)
 		(stroke
@@ -33564,7 +33499,7 @@
 		)
 	)
 	(gr_text "I2C"
-		(at 134.6454 64.135 0)
+		(at 135.6614 65.3542 0)
 		(layer "F.SilkS")
 		(uuid "18f87720-9d30-4917-919e-d1fd9ff91019")
 		(effects
@@ -33908,10 +33843,21 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "cut to activate\nvoltage dividers"
-		(at 82.3214 99.06 0)
+	(gr_text "solder to deactivate voltage\ndividers and enable output"
+		(at 81.3054 97.663 0)
 		(layer "B.SilkS")
 		(uuid "326078d7-87c9-43d8-9fc3-0ea195ff5012")
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5V tolerant if NTx open"
+		(at 81.3308 99.2378 0)
+		(layer "B.SilkS")
+		(uuid "21e3ceff-da9b-4f0a-8c69-c15108efa3b1")
 		(effects
 			(font
 				(size 1 1)
@@ -34240,14 +34186,6 @@
 		(uuid "1fe76ee3-4684-4154-ada2-e8885816ec43")
 	)
 	(segment
-		(start 123.063 74.7014)
-		(end 123.7612 74.7014)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "296961ab-fa5e-45e8-b2c7-22f932249283")
-	)
-	(segment
 		(start 89.916 93.853)
 		(end 89.916 96.472867)
 		(width 0.3)
@@ -34280,14 +34218,6 @@
 		(uuid "44e09716-f5fb-4bba-b2d9-e8bea5e06c11")
 	)
 	(segment
-		(start 124.2314 74.2312)
-		(end 124.2314 73.9902)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "4690ca43-75f4-454e-a1fd-4ad530df7d0f")
-	)
-	(segment
 		(start 64.548312 79.850688)
 		(end 64.548312 77.125179)
 		(width 0.3)
@@ -34302,6 +34232,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "5011ae38-2dc7-4ef4-9dc9-6c227da5ad0f")
+	)
+	(segment
+		(start 123.5202 73.9902)
+		(end 124.2314 73.9902)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "6689f59a-11d9-48dc-859a-0e381b7878f1")
 	)
 	(segment
 		(start 73.58 102.75275)
@@ -34470,14 +34408,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "e0636760-beb2-40dd-bb87-4f3b7a83e160")
-	)
-	(segment
-		(start 123.7612 74.7014)
-		(end 124.2314 74.2312)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e932ee06-e5da-4aa9-a318-93754658fee3")
 	)
 	(segment
 		(start 137.922 88.519)
@@ -35933,7 +35863,7 @@
 		(uuid "78462238-3acb-438f-86d9-116cd1eae2c7")
 	)
 	(via
-		(at 123.063 74.7014)
+		(at 123.5202 73.9902)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -41665,28 +41595,28 @@
 		(uuid "2fb87c50-39c5-474a-b31f-dd0f19469aba")
 	)
 	(segment
-		(start 85.558982 59.817)
-		(end 85.235923 59.493941)
+		(start 87.2396 59.817)
+		(end 85.598 59.817)
 		(width 0.2036)
 		(layer "F.Cu")
 		(net "Net-(U1-MODE)")
-		(uuid "2b6e866f-fa4c-410e-82ef-ff7bc7a1178f")
+		(uuid "9e1381ac-9534-4f74-9b22-5541c723f77a")
 	)
 	(segment
-		(start 85.235923 59.493941)
+		(start 85.598 59.817)
+		(end 85.235923 59.454923)
+		(width 0.2036)
+		(layer "F.Cu")
+		(net "Net-(U1-MODE)")
+		(uuid "d3424fab-3fe2-4234-b90d-a9dd50d81afd")
+	)
+	(segment
+		(start 85.235923 59.454923)
 		(end 85.235923 58.70575)
 		(width 0.2036)
 		(layer "F.Cu")
 		(net "Net-(U1-MODE)")
-		(uuid "3dcd47f6-7d78-4f20-b7f6-99baed142564")
-	)
-	(segment
-		(start 87.2396 59.817)
-		(end 85.558982 59.817)
-		(width 0.2036)
-		(layer "F.Cu")
-		(net "Net-(U1-MODE)")
-		(uuid "c5e660cc-4bed-4d1b-8491-c76de7b5f565")
+		(uuid "e1eb23dd-0897-4f74-90ad-d523076cd5f7")
 	)
 	(segment
 		(start 135.8127 84.0994)
@@ -45695,10 +45625,15 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 67.821203 68.606754) (xy 69.430085 69.376219) (xy 69.43607 69.38288) (xy 69.435851 69.391241)
-				(xy 69.090562 70.227215) (xy 69.084236 70.233553) (xy 69.084215 70.233562) (xy 68.248241 70.578851)
-				(xy 68.239286 70.578842) (xy 68.233219 70.573085) (xy 67.849631 69.771038) (xy 67.463753 68.964202)
-				(xy 67.463276 68.955261) (xy 67.466034 68.950884) (xy 67.807883 68.609035) (xy 67.816155 68.605609)
+				(xy 67.819753 68.606425) (xy 67.819853 68.606447) (xy 67.822377 68.607315) (xy 69.427987 69.375215)
+				(xy 69.431644 69.377954) (xy 69.432958 69.379418) (xy 69.435947 69.387537) (xy 69.435907 69.389076)
+				(xy 69.435025 69.393239) (xy 69.091449 70.225065) (xy 69.088915 70.228864) (xy 69.085887 70.231897)
+				(xy 69.082074 70.234445) (xy 68.250391 70.577962) (xy 68.245912 70.578848) (xy 68.243945 70.578846)
+				(xy 68.235905 70.575633) (xy 68.234784 70.57457) (xy 68.232286 70.571135) (xy 68.07126 70.234445)
+				(xy 67.849631 69.771038) (xy 67.464755 68.966297) (xy 67.463629 68.961881) (xy 67.463473 68.958968)
+				(xy 67.46524 68.952144) (xy 67.465319 68.952017) (xy 67.466418 68.950637) (xy 67.466457 68.950529)
+				(xy 67.466534 68.950492) (xy 67.466957 68.94996) (xy 67.806239 68.610678) (xy 67.810034 68.608144)
+				(xy 67.81272 68.607032) (xy 67.819707 68.606415)
 			)
 		)
 	)
@@ -46772,10 +46707,14 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 73.152914 68.85826) (xy 74.557194 69.476309) (xy 74.563386 69.482778) (xy 74.56319 69.491731)
-				(xy 74.562831 69.492474) (xy 74.17329 70.231396) (xy 74.168396 70.23629) (xy 73.429474 70.625831)
-				(xy 73.420558 70.626658) (xy 73.413668 70.620937) (xy 73.413309 70.620194) (xy 72.79526 69.215914)
-				(xy 72.795064 69.206961) (xy 72.797694 69.20293) (xy 73.139929 68.860695) (xy 73.148201 68.857269)
+				(xy 73.154014 68.858744) (xy 74.555066 69.475372) (xy 74.558806 69.477993) (xy 74.560033 69.479276)
+				(xy 74.560035 69.479277) (xy 74.560035 69.479278) (xy 74.560037 69.47928) (xy 74.563079 69.48711)
+				(xy 74.563279 69.487624) (xy 74.563248 69.489037) (xy 74.561901 69.494236) (xy 74.174115 70.22983)
+				(xy 74.172038 70.232647) (xy 74.169647 70.235038) (xy 74.16683 70.237115) (xy 73.431532 70.624745)
+				(xy 73.42716 70.626045) (xy 73.425386 70.62621) (xy 73.416832 70.623564) (xy 73.415738 70.622655)
+				(xy 73.412506 70.61837) (xy 73.242742 70.232647) (xy 72.796196 69.218042) (xy 72.795209 69.213587)
+				(xy 72.795143 69.210586) (xy 72.798387 69.20224) (xy 72.798522 69.202102) (xy 73.138285 68.862338)
+				(xy 73.142078 68.859805) (xy 73.144852 68.858656) (xy 73.153806 68.858656)
 			)
 		)
 	)

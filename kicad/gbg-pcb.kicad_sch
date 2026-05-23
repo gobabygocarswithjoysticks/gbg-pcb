@@ -9731,7 +9731,7 @@
 	)
 	(rectangle
 		(start 313.69 175.26)
-		(end 368.3 198.12)
+		(end 368.3 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -9853,6 +9853,16 @@
 		)
 		(uuid "ad54f252-bce6-4315-956a-db7eff71d369")
 	)
+	(text "5*\n6*\n7*\n8*\n9\n10\n11\n12"
+		(exclude_from_sim no)
+		(at 25.654 78.74 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "d9d5d8f5-effa-4bd3-8636-4d840b498541")
+	)
 	(text "8.2k +-10% LVL2 INDEPENDENT\n"
 		(exclude_from_sim no)
 		(at 367.538 41.148 0)
@@ -9873,6 +9883,17 @@
 		)
 		(uuid "e8efe862-258f-4899-ac10-25ff9ce2d281")
 	)
+	(text "* these pins are 5V tolerant inputs. \n   The input is divided down from 5v to a safe level.\n   If you want to use this pin as a 3.3v input or as an output, \n   solder the NetTie pads on the back of the board.\n   "
+		(exclude_from_sim no)
+		(at 28.194 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f878a7b1-cd1a-4c60-847b-20d6a972096d")
+	)
 	(text_box "3mm diameter bolt holes\n3.35in x 2.2in\n85.09mm x 55.88mm"
 		(exclude_from_sim no)
 		(at 186.69 240.03 0)
@@ -9892,6 +9913,26 @@
 			(justify left top)
 		)
 		(uuid "3d44308c-049d-4d25-899c-6fb1d840bd2b")
+	)
+	(text_box "left motor"
+		(exclude_from_sim no)
+		(at 236.22 100.33 0)
+		(size 165.1 97.79)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "63ac14eb-5754-43c8-8c7f-59fc5da3200d")
 	)
 	(text_box "ADC (for measuring battery voltage and motor current)"
 		(exclude_from_sim no)
@@ -15557,7 +15598,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "4.7k"
 			(at 82.55 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15579,7 +15620,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-07220KL/1005253"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-074K7L/1005233"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15667,7 +15708,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YC248-JR-07220KL"
+		(property "Manufacturer_Part_Number" "YC248-JR-074K7L"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15678,7 +15719,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "13-YC248-JR-07220KLCT-ND"
+		(property "digikey_part_number" "13-YC248-JR-074K7LCT-ND"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -17330,7 +17371,7 @@
 		(dnp no)
 		(uuid "321de2fc-a420-47e0-a981-1d74df0c8955")
 		(property "Reference" "J1"
-			(at 27.432 90.424 0)
+			(at 27.686 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19714,7 +19755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -21027,7 +21068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 85.09 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -26558,7 +26599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 85.09 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -29896,7 +29937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
