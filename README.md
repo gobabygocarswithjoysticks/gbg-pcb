@@ -25,7 +25,7 @@ Controls two motors: one for each wheel so that the car can turn in place.
 
 # Want one?
 * Email pnwassistivetech@gmail.com<!--  or visit the [PNW Assistive Technology website](TODO/gbg-pcb) -->. Thank you to PNWAT for supporting this project and being a supplier of these boards.
-* Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_0_a8fd7fa3.html)
+* Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GoBabyGo_PCB_V2_1_82f6b610.html)
 * Email gobabygocarswithjoysticks@gmail.com. I may have a small number of assembled V1 and V2 boards to sell or donate to you.
 * Or please feel free to use these [files](/PCB_production) and get boards yourself. Instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards)
 
