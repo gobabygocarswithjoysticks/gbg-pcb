@@ -8,7 +8,7 @@ Options for How To Get Boards:
 
   a. Email [pnwassistivetech@gmail.com](pnwassistivetech@gmail.com)<!--  or visit the [PNW Assistive Technology website](TODO/gbg-pcb) -->. Thank you to PNWAT for supporting this project and being a supplier of these boards.
 
-  b. Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_0_a8fd7fa3.html)
+  b. Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GoBabyGo_PCB_V2_1_82f6b610.html)
 
   c. Email [gobabygocarswithjoysticks@gmail.com](gobabygocarswithjoysticks@gmail.com). I may have a small number of assembled V1 and V2 boards to sell or donate to you.
 
