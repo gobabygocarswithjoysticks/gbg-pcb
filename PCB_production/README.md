@@ -13,7 +13,7 @@ please email gbg-pcb@googlegroups.com if components are out of stock and you nee
 
 [BOM-with-DNP.csv](/PCB_production/BOM-with-DNP.csv) includes alternative parts that you could choose some of, for other configurations of the board.
 
-Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/1ZSY7GGAFQ)
+Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/YNHDBTPCAP)
 
 ## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 This keeps you from needing to solder the joystick wires to a 4 wire cable.
