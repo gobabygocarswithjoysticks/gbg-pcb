@@ -148,7 +148,7 @@
 		(uuid "01a6a50a-dd0e-4d46-95ce-8683e8896bcc")
 		(at 71.755 101.120687 90)
 		(property "Reference" "R10"
-			(at -2.308113 -0.1524 180)
+			(at -2.409713 -0.254 180)
 			(layer "F.SilkS")
 			(uuid "66a82048-faba-4b54-a8c3-83648183f5c6")
 			(effects
@@ -321,17 +321,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center -1.85 -1.825)
-			(end -1.75 -1.825)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "2f02086c-b99a-4756-9544-ff2587dbd57c")
-		)
 		(fp_line
 			(start 1.585 -2.28)
 			(end 1.585 2.28)
@@ -25125,30 +25114,6 @@
 			(layer "F.Fab")
 			(uuid "2e48555a-e0f4-4c6c-b7ea-65c233248e09")
 		)
-		(fp_text user "USB Cable"
-			(at 0 -38.735 90)
-			(unlocked yes)
-			(layer "Cmts.User")
-			(uuid "41091fe1-d2a3-4588-bd8c-2c8e899ff8f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "Keep Out"
-			(at 0 -36.195 90)
-			(unlocked yes)
-			(layer "Cmts.User")
-			(uuid "b3485399-1d7d-49c7-ab76-5bfae228f03c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "Exposed"
 			(at 0 -24.6175 90)
 			(unlocked yes)
@@ -27135,69 +27100,6 @@
 						(mid 106.791205 88.648072)
 						(end 106.498312 89.355179)
 					)
-				)
-			)
-		)
-		(zone
-			(layer "Edge.Cuts")
-			(uuid "24fadda9-98d7-49e1-82a6-98de98fd0628")
-			(name "Board Keep Out USB Cable")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.254)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.508)
-				(thermal_bridge_width 0.508)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 35.948312 93.015179) (xy 35.948312 80.615179) (xy 56.348312 80.615179) (xy 56.348312 93.015179)
-				)
-			)
-		)
-		(zone
-			(layer "F.CrtYd")
-			(uuid "73562549-732e-46ad-8245-ccf5b2a5d622")
-			(name "USB Cable Keep Out")
-			(hatch full 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.254)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour allowed)
-				(footprints not_allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.508)
-				(thermal_bridge_width 0.508)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 55.898312 92.565179) (xy 55.898312 90.755179) (xy 56.298312 90.755179) (xy 56.298312 82.875179)
-					(xy 55.898312 82.875179) (xy 55.898312 81.065179) (xy 36.398312 81.065179) (xy 36.398312 92.565179)
 				)
 			)
 		)
@@ -45249,7 +45151,7 @@
 		(net "bat-")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45868,7 +45770,7 @@
 		(net "bat-")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30010)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46757,10 +46659,14 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 73.152914 68.85826) (xy 74.557194 69.476309) (xy 74.563386 69.482778) (xy 74.56319 69.491731)
-				(xy 74.562831 69.492474) (xy 74.17329 70.231396) (xy 74.168396 70.23629) (xy 73.429474 70.625831)
-				(xy 73.420558 70.626658) (xy 73.413668 70.620937) (xy 73.413309 70.620194) (xy 72.79526 69.215914)
-				(xy 72.795064 69.206961) (xy 72.797694 69.20293) (xy 73.139929 68.860695) (xy 73.148201 68.857269)
+				(xy 73.154014 68.858744) (xy 74.555066 69.475372) (xy 74.558806 69.477993) (xy 74.560033 69.479276)
+				(xy 74.560035 69.479277) (xy 74.560035 69.479278) (xy 74.560037 69.47928) (xy 74.563079 69.48711)
+				(xy 74.563279 69.487624) (xy 74.563248 69.489037) (xy 74.561901 69.494236) (xy 74.174115 70.22983)
+				(xy 74.172038 70.232647) (xy 74.169647 70.235038) (xy 74.16683 70.237115) (xy 73.431532 70.624745)
+				(xy 73.42716 70.626045) (xy 73.425386 70.62621) (xy 73.416832 70.623564) (xy 73.415738 70.622655)
+				(xy 73.412506 70.61837) (xy 73.242742 70.232647) (xy 72.796196 69.218042) (xy 72.795209 69.213587)
+				(xy 72.795143 69.210586) (xy 72.798387 69.20224) (xy 72.798522 69.202102) (xy 73.138285 68.862338)
+				(xy 73.142078 68.859805) (xy 73.144852 68.858656) (xy 73.153806 68.858656)
 			)
 		)
 	)
