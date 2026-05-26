@@ -148,7 +148,7 @@
 		(uuid "01a6a50a-dd0e-4d46-95ce-8683e8896bcc")
 		(at 71.755 101.120687 90)
 		(property "Reference" "R10"
-			(at -2.638313 -1.397 180)
+			(at -2.308113 -0.1524 180)
 			(layer "F.SilkS")
 			(uuid "66a82048-faba-4b54-a8c3-83648183f5c6")
 			(effects
@@ -2521,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2569,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2582,7 +2582,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2595,7 +2595,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3685,7 +3685,7 @@
 		(pad "1" smd circle
 			(at 0 0 90)
 			(size 0.7 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(net "/MR-")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
@@ -3695,7 +3695,7 @@
 		(pad "2" smd circle
 			(at 3.96 0 90)
 			(size 0.7 0.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(net "/MR+")
 			(pinfunction "Pin_2_2")
 			(pintype "passive")
@@ -9974,7 +9974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10022,7 +10022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10035,7 +10035,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10048,7 +10048,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11631,7 +11631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11666,7 +11666,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11679,7 +11679,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11705,7 +11705,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22889,7 +22889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22937,7 +22937,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22950,7 +22950,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22963,7 +22963,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45186,7 +45186,7 @@
 		(net "Net-(J1-Pin_2)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30016)
+		(priority 30017)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45208,13 +45208,10 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 101.530409 100.113037) (xy 101.724247 100.182013) (xy 101.728166 100.184353) (xy 101.7296 100.185648)
-				(xy 101.733427 100.193475) (xy 101.733543 100.195057) (xy 101.733059 100.199347) (xy 101.485273 101.006384)
-				(xy 101.483109 101.010401) (xy 101.480911 101.013062) (xy 101.475127 101.016854) (xy 100.689446 101.243061)
-				(xy 100.684896 101.243443) (xy 100.68285 101.243213) (xy 100.675317 101.239244) (xy 100.67439 101.238173)
-				(xy 100.672294 101.234658) (xy 100.589849 101.016854) (xy 100.177376 99.927185) (xy 100.176625 99.922688)
-				(xy 100.176721 99.919587) (xy 100.180141 99.911679) (xy 100.379138 99.712682) (xy 100.382931 99.710148)
-				(xy 100.385831 99.708948) (xy 100.394227 99.708736)
+				(xy 100.392971 99.708289) (xy 101.530409 100.113037) (xy 101.72644 100.182794) (xy 101.733086 100.188796)
+				(xy 101.733703 100.197251) (xy 101.484591 101.008609) (xy 101.478887 101.015512) (xy 101.476643 101.016418)
+				(xy 100.68721 101.243705) (xy 100.678312 101.242701) (xy 100.673031 101.236605) (xy 100.176554 99.925013)
+				(xy 100.17683 99.916062) (xy 100.17922 99.912601) (xy 100.380782 99.711039) (xy 100.389054 99.707613)
 			)
 		)
 	)
@@ -45554,7 +45551,7 @@
 		(net "Net-(J1-Pin_3)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30017)
+		(priority 30016)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45576,13 +45573,18 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 97.885794 99.675917) (xy 98.410097 99.880101) (xy 99.187123 100.182705) (xy 99.193588 100.1889)
-				(xy 99.194148 100.196747) (xy 98.9771 100.97589) (xy 98.971579 100.98294) (xy 98.969351 100.983907)
-				(xy 98.14771 101.24326) (xy 98.138789 101.242483) (xy 98.13313 101.235924) (xy 98.017441 100.901032)
-				(xy 98.0168 100.897212) (xy 98.0168 100.377893) (xy 98.016799 100.377891) (xy 98.003482 100.328189)
-				(xy 97.99269 100.287913) (xy 97.992689 100.287909) (xy 97.946113 100.207238) (xy 97.946109 100.207233)
-				(xy 97.690824 99.951948) (xy 97.688038 99.947495) (xy 97.668934 99.892194) (xy 97.669472 99.883256)
-				(xy 97.671717 99.880104) (xy 97.873276 99.678545) (xy 97.881548 99.675119)
+				(xy 98.410097 99.880101) (xy 99.184956 100.181861) (xy 99.188802 100.184314) (xy 99.190033 100.185494)
+				(xy 99.190336 100.185784) (xy 99.193908 100.193394) (xy 99.194003 100.194722) (xy 99.193604 100.198697)
+				(xy 98.977724 100.973647) (xy 98.975666 100.977719) (xy 98.973539 100.980436) (xy 98.967848 100.984381)
+				(xy 98.14993 101.242559) (xy 98.14539 101.243057) (xy 98.145067 101.243029) (xy 98.143523 101.242895)
+				(xy 98.135682 101.238881) (xy 98.134596 101.237622) (xy 98.132396 101.2338) (xy 98.044871 100.980436)
+				(xy 98.017757 100.901948) (xy 98.017279 100.900066) (xy 98.016961 100.898167) (xy 98.0168 100.896235)
+				(xy 98.0168 100.377893) (xy 98.01659 100.377005) (xy 98.016493 100.37675) (xy 98.003482 100.328189)
+				(xy 97.992716 100.28801) (xy 97.992689 100.287907) (xy 97.946113 100.207238) (xy 97.946105 100.207229)
+				(xy 97.691766 99.95289) (xy 97.690119 99.95082) (xy 97.688742 99.948618) (xy 97.687603 99.946235)
+				(xy 97.682333 99.930982) (xy 97.669692 99.894389) (xy 97.669073 99.889873) (xy 97.669263 99.886717)
+				(xy 97.672668 99.879152) (xy 97.871632 99.680188) (xy 97.875423 99.677655) (xy 97.878271 99.676475)
+				(xy 97.886993 99.676384)
 			)
 		)
 	)
@@ -45590,7 +45592,7 @@
 		(net "bat-")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30012)
+		(priority 30013)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45612,13 +45614,10 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 75.964749 69.835721) (xy 75.966031 69.835749) (xy 75.971232 69.837095) (xy 76.706832 70.224884)
-				(xy 76.709647 70.22696) (xy 76.712038 70.229351) (xy 76.714115 70.232168) (xy 77.101745 70.967466)
-				(xy 77.103045 70.971838) (xy 77.10321 70.973612) (xy 77.100564 70.982167) (xy 77.10056 70.982172)
-				(xy 77.099657 70.983259) (xy 77.09537 70.986492) (xy 75.695043 71.602801) (xy 75.690587 71.603789)
-				(xy 75.687586 71.603855) (xy 75.67924 71.600611) (xy 75.679056 71.600431) (xy 75.339341 71.260716)
-				(xy 75.336805 71.25692) (xy 75.335656 71.254146) (xy 75.335656 71.245192) (xy 75.335732 71.24501)
-				(xy 75.952373 69.84393) (xy 75.95499 69.840195) (xy 75.95628 69.83896) (xy 75.964616 69.835719)
+				(xy 75.968731 69.835809) (xy 75.969466 69.836164) (xy 76.708396 70.225709) (xy 76.71329 70.230603)
+				(xy 77.102831 70.969525) (xy 77.103658 70.978441) (xy 77.097937 70.985331) (xy 77.097194 70.98569)
+				(xy 75.692914 71.603739) (xy 75.683961 71.603935) (xy 75.679928 71.601303) (xy 75.337696 71.259071)
+				(xy 75.334269 71.250798) (xy 75.33526 71.246085) (xy 75.953309 69.841805) (xy 75.959778 69.835613)
 			)
 		)
 	)
@@ -46736,7 +46735,7 @@
 		(net "Net-(D2-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30013)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -47065,7 +47064,7 @@
 		(net "Net-(J1-Pin_8)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30008)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -50292,7 +50291,7 @@
 		(net "Net-(J1-Pin_7)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30010)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -50624,7 +50623,7 @@
 		(net "Net-(J1-Pin_9)")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30008)
 		(attr
 			(teardrop
 				(type padvia)

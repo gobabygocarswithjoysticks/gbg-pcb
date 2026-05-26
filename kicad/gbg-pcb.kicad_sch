@@ -19083,7 +19083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19127,7 +19127,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19138,7 +19138,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19149,7 +19149,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23660,7 +23660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 347.98 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -23693,7 +23693,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 347.98 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -23704,7 +23704,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 347.98 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -23726,7 +23726,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 347.98 214.63 90)
 			(hide yes)
 			(show_name no)
@@ -24689,7 +24689,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 285.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -24733,7 +24733,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 285.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -24744,7 +24744,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 285.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -24755,7 +24755,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 285.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -29581,7 +29581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1H104K080AA/2443144"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
 			(at 285.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -29625,7 +29625,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
 			(at 285.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -29636,7 +29636,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5666-1-ND"
+		(property "digikey_part_number" "445-12561-1-ND"
 			(at 285.75 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -29647,7 +29647,7 @@
 				)
 			)
 		)
-		(property "price" ".044"
+		(property "price" ".05"
 			(at 285.75 135.89 0)
 			(hide yes)
 			(show_name no)
