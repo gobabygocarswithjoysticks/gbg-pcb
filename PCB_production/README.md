@@ -1,4 +1,4 @@
-## instructions for how to make GBG-PCBs by hand are [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards)
+## instructions for how to make GBG-PCBs by hand are [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
 
 ## send [gerbers.zip](/PCB_production/gerbers.zip) to a PCB fabrication company
 
