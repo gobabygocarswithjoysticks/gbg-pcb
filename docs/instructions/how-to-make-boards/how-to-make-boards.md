@@ -25,11 +25,11 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * isopropyl alcohol
 * brush
 * container that can hold the PCB
+* (optional) 3D printed [stencil jig](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/stencil-jig.stl)
 * (optional) magnifying glass or microscope
 
-
 ## Add solder paste
-Secure the PCB to the table (you can use other PCBs to make a frame around the board and tape the frame to the table, or 3D print this [stencil jig](/PCB_production/stencil-jig.stl) that the PCB fits into and tape the 3d printed frame to the table).
+Secure the PCB to the table (you can use other PCBs to make a frame around the board and tape the frame to the table, or use a 3D printed jig that the PCB fits into).
 
 Align the solder stencil so the holes in the stencil are perfectly aligned with the shiny pads of the PCB. 
 
