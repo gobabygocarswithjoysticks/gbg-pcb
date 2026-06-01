@@ -111,4 +111,4 @@ Stick the heatsinks to the back of the board. Make sure the heatsinks are center
 
 Connect power, a joystick, motors (even small ones can help you test), and a power switch to the GBG-PCB.
 
-Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car.
+Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Make sure to select the PCB_gbg_program.
