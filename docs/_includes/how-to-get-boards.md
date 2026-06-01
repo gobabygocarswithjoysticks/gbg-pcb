@@ -12,4 +12,4 @@ Options for How To Get Boards:
 
   c. Email [gobabygocarswithjoysticks@gmail.com](gobabygocarswithjoysticks@gmail.com). I may have a small number of assembled V1 and V2 boards to sell or donate to you.
 
-  d. Or please feel free to use these [files](/PCB_production) and get boards yourself. Instructions for how to make your own boards are [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
+  d. Or please feel free to use these [files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production) and get boards yourself. Instructions for how to make your own boards are [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
