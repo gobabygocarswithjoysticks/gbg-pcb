@@ -22,7 +22,7 @@ difference() {
     // Rounded rectangle cutout
     translate([
         (block_width - cutout_width) / 2,
-        (block_height - cutout_height) / 2,
+        (block_height - cutout_height) / 2 + 10,
         block_thickness-cutout_thickness
     ]){
         linear_extrude(height = block_thickness){
