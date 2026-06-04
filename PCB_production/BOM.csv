@@ -19,7 +19,7 @@
 "J7,J8","1017491","kicad libraries:CONN_1017491","Phoenix Contact","1017491","277-17493-ND","tht","2"
 "J11","Conn_01x10_Pin","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","Any Manufacturer","PH1-10-UA","2057-PH1-10-UA-ND","tht","1"
 "L1","12uH","kicad libraries:IND_SRR6038-120Y","Bourns","SRR6038-120Y","SRR6038-120YCT-ND","smd","1"
-"P1","rpi pico 1","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0915","2648-SC0915CT-ND","tht","1"
+"P1","rpi pico 1","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0915","2648-SC0915CT-ND","smd","1"
 "Q1,Q2","PSMN1R2-25YLDX","Package_TO_SOT_SMD:LFPAK56","Nexperia USA Inc.","PSMN1R2-25YLDX","1727-2496-1-ND","smd","2"
 "R1,R2","220","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW0805220RJNEA","541-220ACT-ND","smd","2"
 "R3,R15,R16","3.3k","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW08053K30FKEA","541-3.30KCCT-ND","smd","3"
