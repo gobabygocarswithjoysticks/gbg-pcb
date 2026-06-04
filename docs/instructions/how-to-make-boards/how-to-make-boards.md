@@ -39,13 +39,17 @@ Make sure that when the stencil is on the PCB it lays flat.
 
 Make sure that the holes in the stencil are still perfectly aligned with the pads on the PCB.
 
+![stencil-flipped-up.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/stencil-flipped-up.jpg)
+
+![stencil-aligned.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/stencil-aligned.jpg)
+
 You can wear gloves so you don't get solder paste on your hands
 
 Make a line of solder paste across the top of the solder stencil. Close the solder paste container as soon as you get paste out of it so that it does not dry out.
 
 Squeegee the solder paste across the stencil
 
-Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad. Some bridging of pads is ok (especially on the rpi pico (P1) since when it melts it will separate). Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry.
+Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad. Some bridging of pads is ok (especially on the rpi pico (P1) since when it melts it will separate). Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry. Pay special attention to R10 and U4.
 
 Lift the PCB out of the frame and set it aside. You can repeat the process to add solder paste to multiple boards. You can scrape unused paste off the stencil and collect it on your squeegee and reuse it for a few boards.
 
