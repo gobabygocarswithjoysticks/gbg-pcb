@@ -14,9 +14,9 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * solder paste (I used Chip Quik WS991SNL500T4)
 * solder wire
 * soldering iron
-* solder paste squeegee (a metal or plastic scraper, or a plastic card all work well)
+* solder paste squeegee (a metal or plastic scraper, or a plastic card all work well, search "putty knife")
 * masking tape
-* metal tweezers
+* fine tip tweezers
 * needle nose pliers
 * heat resistant surface for setting boards on to cool
 * gloves
@@ -29,6 +29,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * (optional) magnifying glass or microscope
 
 ## Add solder paste
+[video here](https://youtu.be/dTn8IFIFuZ0)
+
 Secure the PCB to the table (you can use other PCBs to make a frame around the board and tape the frame to the table, or use a 3D printed jig that the PCB fits into).
 
 Align the solder stencil so the holes in the stencil are perfectly aligned with the shiny pads of the PCB. 
@@ -56,13 +58,17 @@ Lift the PCB out of the frame and set it aside. You can repeat the process to ad
 ## Place components
 Placing components on multiple boards saves time compared to making each board one at a time.
 
-Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Try to avoid touching or smearing the solder paste.
+Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Avoid touching or smearing the solder paste.
 
 ### [here's an interactive site where you can check off parts as you place them in an image](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
 
 _thank you [qu1ck](https://github.com/openscopeproject/InteractiveHtmlBom) for this amazing tool_
 
+[video here](https://youtu.be/dwlZY8XkFCM)
+
 ## Reflow solder
+[video here](https://youtu.be/GeIxBO7Buhc)
+
 You can put a fume extractor near the hot plate to catch the smoke that will be made when the solder paste melts.
 
 Set the hotplate to 240C 480F and wait for it to reach temperature
@@ -75,7 +81,7 @@ Hold the PCB as close to the hot plate as you can without touching or tilting th
 
 Gently set the PCB on the hotplate. Slide the PCB fully onto the hotplate.
 
-The following steps shouldn't take more than about 15 seconds.
+The following steps shouldn't take more than about 20 seconds.
 
 The solder paste should melt and become shiny.
 
@@ -88,7 +94,6 @@ Put the PCB on a heat resistant surface so it can cool.
 If you have more boards you can repeat this process while the hotplate is already at the right temperature.
 
 ## Clean SMD soldering
-
 Fill a container with isopropyl alcohol to a level that allows you to submerge the PCB.
 
 Submerge the PCB in the isopropyl alcohol and use the brush to scrub the board around all soldered components. Take a minute of brushing to make sure you get all the solder flux off the board.
@@ -100,7 +105,6 @@ According to the solder paste datasheet the water should be above 60 degrees Cel
 Solder the through-hole (marked tht in the BOM) components using solder wire and a soldering iron. Place and solder the shortest components first and end with the tallest components so that the parts don't fall out when you flip the board upside down on the table to solder.
 
 ## Solder joystick PCB
-
 Use a soldering iron to solder the two connectors to the joystick PCB as shown in the image on this page [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb).
 
 ## Clean THT soldering
