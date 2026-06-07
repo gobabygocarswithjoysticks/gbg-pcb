@@ -46,9 +46,11 @@ The GBG-PCB includes pads for adding connectors that match the connectors on som
 * J104 OR J105 replaces J8 (choose the plug that matches your control box)
 
 J104:
+
 <img src="https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/j104.jpg" width="15%" alt="two-pin shrouded connector 23-2159151002-ND">
 
 J105:
+
 <img src="https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/j105.jpg" width="15%" alt="two-pin connector A111830-ND">
 
 ### other models of Raspberry Pi Pico (P1)
