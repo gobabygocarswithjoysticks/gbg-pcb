@@ -123,6 +123,10 @@ Connect power, a joystick, motors (even small ones can help you test), and a pow
 Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Make sure to select the PCB_gbg_program.
 
 ### Test the 5v tolerant pins
-On the programmer website, show all the settings, and check "use rc." Use a multimeter to measure the voltage between ground and pins 5,6,7,8 on the Pico. The voltage should read as approximately 0.25 volts. If a pin reads as 3.3 volts or 0 volts, there is a problem with that pin and the soldering of R10 should be checked. Then, uncheck "use rc."
+* On the programmer website, show all the settings, and check "use rc." 
+* Use a multimeter to measure the voltage between ground and pins 5,6,7,8 on the Pico. 
+* The voltages should read as approximately 0.25 volts. 
+* If a pin reads as 3.3 volts or 0 volts, there is a problem with that pin and the soldering of R10 should be checked. 
+* Then, uncheck "use rc."
 
 ![five-volt-test.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/five-volt-test.png)
