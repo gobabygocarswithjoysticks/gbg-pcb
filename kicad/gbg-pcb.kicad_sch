@@ -28584,7 +28584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "wellye RX25 style"
+		(property "Value" "wellye style"
 			(at 327.914 191.262 90)
 			(show_name no)
 			(do_not_autoplace no)
