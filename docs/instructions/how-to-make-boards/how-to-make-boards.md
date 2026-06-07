@@ -123,6 +123,7 @@ Connect power, a joystick, motors (even small ones can help you test), and a pow
 Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Make sure to select the PCB_gbg_program.
 
 ### Test the 5v tolerant pins
+Pins 5,6,7, and 8 on the GBG-PCB are connected to a resistor voltage divider that allows the pico to read 5 volt signals. This is helpful for connecting remote control receivers that output 5 volt signals.
 * On the programmer website, show all the settings, and check "use rc." 
 * Use a multimeter to measure the voltage between ground and pins 5,6,7,8 on the Pico. 
 * The voltages should read as approximately 0.25 volts. 
