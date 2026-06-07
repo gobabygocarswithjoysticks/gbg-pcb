@@ -45,7 +45,7 @@ The GBG-PCB includes pads for adding connectors that match the connectors on som
 * J100 and J101 replace J7
 * J104 OR J105 replaces J8 (choose the plug that matches your control box)
 
-J104: ![j104.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/j104.jpg) 
+J104:
 <img src="https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/j104.jpg" width="15%" alt="two-pin shrouded connector 23-2159151002-ND">
 
 J105:
