@@ -2,7 +2,7 @@
 
 ## send [gerbers.zip](/PCB_production/gerbers.zip) to a PCB fabrication company
 
-## [F_SolderPasteMask.dxf](/PCB_production/F_SolderPasteMask.dxf) can be used to get a solder stencil
+### [F_SolderPasteMask.dxf](/PCB_production/F_SolderPasteMask.dxf) might help you get a solder stencil (but most suppliers prefer to receive the gerber files when ordering a solder stencil).
 
 ## The [position.csv](/PCB_production/position.csv) file has the locations for the surface mount components
 
@@ -12,6 +12,8 @@ please email gbg-pcb@googlegroups.com if components are out of stock and you nee
 [BOM.csv](/PCB_production/BOM.csv) is the normal list of parts (using screw terminals for connections).
 
 [BOM-with-DNP.csv](/PCB_production/BOM-with-DNP.csv) includes alternative parts that you could choose some of, for other configurations of the board.
+
+[BOM-without-motor-battery-button-connectors.csv](/PCB_production/BOM-without-motor-battery-button-connectors.csv) is a list of parts without the motor, battery, and button connectors that can be used to get assembled boards that can be customized with either screw terminals or weelye-style tabs by doing just a little bit of through-hole soldering.
 
 Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/K4M1JBI1QQ)
 
