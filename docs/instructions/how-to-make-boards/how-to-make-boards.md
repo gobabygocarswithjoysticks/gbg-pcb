@@ -138,3 +138,10 @@ Pins 5,6,7, and 8 on the GBG-PCB are connected to a resistor voltage divider tha
 
 ## Assemble the case
 
+Assemble top and bottom 3D printed covers around the GBG-PCB using 4 ??mm M3 bolts and 4 M3 nuts.
+
+To add fans, add the 3D printed fan-funnel part, the two cooling fans, and assemble using 4??mm M4 bolts and 4??mm M4 nuts. Note that the fans should be oriented so that they blow air onto the board, not pull air away from the board, so make sure the fans are oriented as shown in the image below.
+
+TODO: add image of fan orientation
+
+Connect the red wire from each fan to the + side of the J6 "BATT" screw terminal and the black wire from each fan to the - side of the J6 "BATT" screw terminal so that the fans will turn on when the board turns on.

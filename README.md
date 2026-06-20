@@ -3,17 +3,19 @@
 
 # A PCB for controlling the motors in a [go baby go car with joystick control](https://gobabygocarswithjoysticks.github.io/index/)
 
+## Questions? Please email our support line at gbg-pcb@googlegroups.com
+
 https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
 V2.1
 
-This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
+### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
-Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries, absolute maximum 4.6V-28V)
+### Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries, absolute maximum 4.6V-28V)
 
-Controls two motors: one for each wheel so that the car can turn in place.
+### Controls two motors: one for each wheel so that the car can turn in place.
 
 ## V2 vs V1
 * V2 GBG-PCBs can run from 6 to 24 volt batteries. 
@@ -22,13 +24,11 @@ Controls two motors: one for each wheel so that the car can turn in place.
 * For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 * Version 1 GBG-PCBs had a higher, 10 amp current capacity and a lower part count but only runs on 12 volts.
 
-## Questions? Please email our support line at gbg-pcb@googlegroups.com
-
 # Want one?
 Here's a few options:
-* Email pnwassistivetech@gmail.com<!--  or visit the [PNW Assistive Technology website](TODO/gbg-pcb) -->. Thank you to PNWAT for supporting this project and being a supplier of these boards.
+* Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/). Thank you to PNWAT for supporting this project and being a supplier of these boards.
 * Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_50f76f82.html)
-* Email gobabygocarswithjoysticks@gmail.com. I may have a small number of assembled V1 and V2 boards to sell or donate to you.
+* Email gobabygocarswithjoysticks@gmail.com. We may have a spare V1 or V2 GBG-PCB that we can donate to you.
 * Or please feel free to use these [files](/PCB_production) and get boards yourself. Instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
 
 # Software
@@ -71,9 +71,9 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 # credits
 
-## Prototype boards sponsored by PNW Assistive Technology
+## Prototype boards sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
 
 ## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powerwheels cars for kids with disabilities
 
-## Copyright: gobabygocarswithjoysticks and Joshua Phelps, MIT License
+## Copyright: [gobabygocarswithjoysticks](https://github.com/gobabygocarswithjoysticks/index) and Joshua Phelps, MIT License
 
