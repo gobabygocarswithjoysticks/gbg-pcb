@@ -1,5 +1,6 @@
 To protect your GBG-PCB, print the top and bottom parts. 
-`Assemble using 4 ??mm M3 bolts and 4 M3 nuts.
+
+Assemble using 4 ??mm M3 bolts and 4 M3 nuts.
 
 To add fans (fans can be used to cool the boards and increase the maximum current that the boards can supply), add the following parts:
 * print the fan-funnel part
