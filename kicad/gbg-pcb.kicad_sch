@@ -4005,6 +4005,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Motor:Fan"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M1"
+				(at 5.08 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan"
+				(at 5.08 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fan"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr PN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier PN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Fan Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fan_0_1"
+				(arc
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
+					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LT1963AxST-1.5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9894,6 +10075,26 @@
 		)
 		(uuid "f878a7b1-cd1a-4c60-847b-20d6a972096d")
 	)
+	(text_box "\n\n\n\n\n\noptional cooling fans\nwire to J6\nMF40200V1-1000U-A99 (5V, 3.5-6)\nMF40201V1-1000U-A99 (12V, 4.5-13.8)\nMF40202V1-1000U-A99 (24V, 8-27.6V)"
+		(exclude_from_sim no)
+		(at 229.87 254 0)
+		(size 44.45 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0cff71de-c9a8-46a6-b8e0-8d62382cc431")
+	)
 	(text_box "3mm diameter bolt holes\n3.35in x 2.2in\n85.09mm x 55.88mm"
 		(exclude_from_sim no)
 		(at 186.69 240.03 0)
@@ -10016,7 +10217,7 @@
 	)
 	(text_box "alternative voltage regulator\n\nInstead of the voltage regulator circuit, you could get a single THT module that outputs 5V.\nMake sure the pinout matches.\nMake sure the min and max input voltage are compatible with your battery."
 		(exclude_from_sim no)
-		(at 229.87 200.66 0)
+		(at 229.87 203.2 0)
 		(size 40.64 45.72)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -11324,7 +11525,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 229.87) (xy 241.3 229.87)
+			(xy 238.76 232.41) (xy 241.3 232.41)
 		)
 		(stroke
 			(width 0)
@@ -12064,7 +12265,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 229.87) (xy 261.62 229.87)
+			(xy 262.89 232.41) (xy 261.62 232.41)
 		)
 		(stroke
 			(width 0)
@@ -16987,7 +17188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 240.03 0)
+		(at 251.46 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16997,7 +17198,7 @@
 		(dnp no)
 		(uuid "2fe1b755-5ec7-4b39-898f-0e60a0e02e4a")
 		(property "Reference" "#PWR047"
-			(at 251.46 246.38 0)
+			(at 251.46 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +17209,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.222 243.84 0)
+			(at 252.222 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17018,7 +17219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 240.03 0)
+			(at 251.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17029,7 +17230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 240.03 0)
+			(at 251.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17040,7 +17241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 240.03 0)
+			(at 251.46 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21216,6 +21417,181 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor:Fan")
+		(at 236.22 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "60e27b8c-7c5d-40c8-885a-d16151898814")
+		(property "Reference" "M1"
+			(at 241.3 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99"
+			(at 241.3 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 261.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971"
+			(at 236.22 261.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "optional cooling fan"
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Sunon Fans"
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   "
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   "
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "9"
+			(at 236.22 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 292.1 125.73 0)
 		(unit 1)
@@ -21859,6 +22235,181 @@
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Fan")
+		(at 251.46 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6e47b314-ed0b-4b7d-838a-f9ceca3227a9")
+		(property "Reference" "M2"
+			(at 256.54 260.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99"
+			(at 256.54 262.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 261.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971"
+			(at 251.46 261.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "optional cooling fan"
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr" ""
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr PN" ""
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Sunon Fans"
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   "
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "digikey_part_number" "[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   "
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mount_type" "tht"
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "9"
+			(at 251.46 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "gbg-pcb"
+				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -22909,7 +23460,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LT1963AxST-1.5")
-		(at 251.46 232.41 0)
+		(at 251.46 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22919,16 +23470,6 @@
 		(dnp yes)
 		(uuid "7cdaed16-c855-46ae-8df7-652d31d81a4d")
 		(property "Reference" "U5"
-			(at 249.682 219.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D78B05T, RBT05W24S05, pololu5593"
 			(at 249.682 222.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22938,9 +23479,8 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:D78B05T-1.0"
-			(at 251.46 243.84 0)
-			(hide yes)
+		(property "Value" "D78B05T, RBT05W24S05, pololu5593"
+			(at 249.682 225.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22949,7 +23489,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "alternate 5V voltage regulator"
+		(property "Footprint" "kicad libraries:D78B05T-1.0"
 			(at 251.46 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -22960,8 +23500,19 @@
 				)
 			)
 		)
+		(property "Datasheet" "alternate 5V voltage regulator"
+			(at 251.46 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "alternate 5V voltage regulator"
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22972,7 +23523,7 @@
 			)
 		)
 		(property "Mfr" ""
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22983,7 +23534,7 @@
 			)
 		)
 		(property "Mfr PN" ""
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22994,7 +23545,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23005,7 +23556,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23016,7 +23567,7 @@
 			)
 		)
 		(property "mount_type" "tht"
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23027,7 +23578,7 @@
 			)
 		)
 		(property "digikey_part_number" ""
-			(at 251.46 232.41 0)
+			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28308,7 +28859,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 238.76 229.87 0)
+		(at 238.76 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28318,7 +28869,7 @@
 		(dnp no)
 		(uuid "d9f2bde4-1c70-47d8-ae08-286981d4ca6a")
 		(property "Reference" "#PWR048"
-			(at 238.76 233.68 0)
+			(at 238.76 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28329,7 +28880,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 238.506 226.314 0)
+			(at 238.506 228.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28339,7 +28890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 229.87 0)
+			(at 238.76 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28350,7 +28901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 229.87 0)
+			(at 238.76 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28361,7 +28912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 238.76 229.87 0)
+			(at 238.76 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30525,7 +31076,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 262.89 229.87 0)
+		(at 262.89 232.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30536,7 +31087,7 @@
 		(fields_autoplaced yes)
 		(uuid "f01c2a24-63bc-45cb-9ab5-2364f21093f4")
 		(property "Reference" "#PWR046"
-			(at 262.89 233.68 0)
+			(at 262.89 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30547,7 +31098,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 262.89 224.79 0)
+			(at 262.89 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30557,7 +31108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 229.87 0)
+			(at 262.89 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30568,7 +31119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 229.87 0)
+			(at 262.89 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30579,7 +31130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 262.89 229.87 0)
+			(at 262.89 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

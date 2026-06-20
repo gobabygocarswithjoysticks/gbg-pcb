@@ -50,6 +50,9 @@ Here's a few options:
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
 
+# [3D printed case for the GBG-PCB](/case)
+See the above link for notes on how to add cooling fans to the case.
+
 # notes for people working on the KiCAD for this project
 Use KiCAD 10.0
 

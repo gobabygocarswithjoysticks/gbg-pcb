@@ -7,6 +7,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * components ([see BOM and notes on this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production))
 * GBG-PCB circuit boards
 * components and boards for joystick adapter boards [see this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
+* (optional) 3D printed [case](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/case) (top, bottom, 4 ??mm M3 bolts, and 4 ??mm M3 nuts)
+* (optional, fans can be used to cool the boards and increase the maximum current that the boards can supply) 3D printed "[fan funnel](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/case)" 4??mm M4 bolts, 4??mm M4 nuts, and 2 cooling fans (choose voltage compatible with your car) [5V, 3.5-6](https://www.digikey.com/en/products/detail/sunon-fans/MF40200V1-1000U-A99/6198712), [12V, 4.5-13.8](https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971), [24V 8-27.6](https://www.digikey.com/en/products/detail/sunon-fans/MF40202V1-1000U-A99/6198716)
 
 ## tools
 * GBG-PCB solder stencil
@@ -133,3 +135,6 @@ Pins 5,6,7, and 8 on the GBG-PCB are connected to a resistor voltage divider tha
 * Then, uncheck "use rc."
 
 ![five-volt-test.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/five-volt-test.png)
+
+## Assemble the case
+
