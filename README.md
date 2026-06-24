@@ -41,9 +41,10 @@ Here's a few options:
 * [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
 
-![schematic](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
+# Wiring Diagram
+![wiring diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
 
-# [schematic of PCB](/schematic.pdf)
+# [Schematic of PCB](/schematic.pdf)
 
 # [PCB Production files](/PCB_production)
 
@@ -51,12 +52,12 @@ Here's a few options:
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
 
 # [3D printed case for the GBG-PCB](/case)
-See the above link for notes on how to add cooling fans to the case.
+See the above link for notes on how to add cooling fans to the case to increase the current capacity.
 
 # notes for people working on the KiCAD for this project
 Use KiCAD 10.0
 
-Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to any of the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
+Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml) when you push changes to the KiCAD files. The action updates the images of the CAD, the gerber files, the schematic, and other PCB production files. 
 
 # photos
 ![view of assembled PCB from the top](/photos/image0.jpg)
@@ -71,7 +72,7 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 # credits
 
-## Prototype boards sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
+## V2.0 and V2.1 prototype boards sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
 
 ## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powerwheels cars for kids with disabilities
 
