@@ -12,4 +12,4 @@ Options for How To Get Boards:
 
  c. Email gobabygocarswithjoysticks@gmail.com. We may have a spare V1 or V2 GBG-PCB that we can donate to you.
  
- d. Email [pnwassistivetech@gmail.com](pnwassistivetech@gmail.com) or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/plug-and-drive). Thank you to PNWAT for sponsoring V2 GBG-PCB prototyping runs and being a supplier of V1 and V2 GBG-PCBs (called "plug and drive boards" by PNWAT).
+ d. Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/plug-and-drive). Thank you to PNWAT for sponsoring V2 GBG-PCB prototyping runs and being a supplier of V1 and V2 GBG-PCBs (called "plug and drive boards" by PNWAT).
