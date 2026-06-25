@@ -29,7 +29,7 @@ Here's a few options:
 * Please feel free to use these [files](/PCB_production) and get boards yourself. There are instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards) for how to make GBG-PCBs by hand.
 * Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_50f76f82.html)
 * Email gobabygocarswithjoysticks@gmail.com. We may have a spare V1 or V2 GBG-PCB that we can donate to you.
-* Email [pnwassistivetech@gmail.com](pnwassistivetech@gmail.com) or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/plug-and-drive). Thank you to PNWAT for sponsoring V2 GBG-PCB prototyping runs and being a supplier of V1 and V2 GBG-PCBs (called "plug and drive boards" by PNWAT).
+* Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/plug-and-drive). Thank you to PNWAT for sponsoring V2 GBG-PCB prototyping runs and being a supplier of V1 and V2 GBG-PCBs (called "plug and drive boards" by PNWAT).
 
 # Software
 ## The website for uploading software to a GBG-PCB and adjusting settings is here: https://gobabygocarswithjoysticks.github.io/programmer/
