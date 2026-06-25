@@ -7,8 +7,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * components ([see BOM and notes on this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production))
 * GBG-PCB circuit boards
 * components and boards for joystick adapter boards [see this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
-* (optional) 3D printed [case](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/case) (top, bottom, 4 ??mm M3 bolts, and 4 ??mm M3 nuts)
-* (optional, fans can be used to cool the boards and increase the maximum current that the boards can supply) 3D printed "[fan funnel](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/case)" 4??mm M4 bolts, 4??mm M4 nuts, and 2 cooling fans (choose voltage compatible with your car) [5V, 3.5-6](https://www.digikey.com/en/products/detail/sunon-fans/MF40200V1-1000U-A99/6198712), [12V, 4.5-13.8](https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971), [24V 8-27.6](https://www.digikey.com/en/products/detail/sunon-fans/MF40202V1-1000U-A99/6198716)
+* (optional) 3D printed case ([top](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/case/gbg-pcb-case-top.stl), [bottom](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/case/gbg-pcb-case-bottom.stl), 4 12mm M3 bolts, and 4 M3 nuts)
+* (optional, fans can be used to cool the boards and increase the maximum current that the boards can supply) 3D printed "[fan funnel](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/case/gbg-pcb-case-fan-funnel.stl)", "[fan cover](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/case/gbg-pcb-case-fan-cover.stl)" 4 35mm M4 bolts, 4 M4 nuts, and 2 cooling fans (choose voltage compatible with your car) [5V, 3.5-6](https://www.digikey.com/en/products/detail/sunon-fans/MF40200V1-1000U-A99/6198712), [12V, 4.5-13.8](https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971), [24V 8-27.6](https://www.digikey.com/en/products/detail/sunon-fans/MF40202V1-1000U-A99/6198716)
 
 ## tools
 * GBG-PCB solder stencil
@@ -138,9 +138,9 @@ Pins 5,6,7, and 8 on the GBG-PCB are connected to a resistor voltage divider tha
 
 ## Assemble the case
 
-Assemble top and bottom 3D printed covers around the GBG-PCB using 4 ??mm M3 bolts and 4 M3 nuts.
+Assemble top and bottom 3D printed covers around the GBG-PCB using 4 12mm M3 bolts and 4 M3 nuts.
 
-To add fans, add the 3D printed fan-funnel part, the two cooling fans, and assemble using 4??mm M4 bolts and 4??mm M4 nuts. Note that the fans should be oriented so that they blow air onto the board, not pull air away from the board, so make sure the fans are oriented as shown in the image below.
+To add fans, add the 3D printed fan-funnel part, the two cooling fans, and assemble using 4 35mm M4 bolts and 4 M4 nuts. Note that the fans should be oriented so that they blow air onto the board, not pull air away from the board, so make sure the fans are oriented as shown in the image below.
 
 TODO: add image of fan orientation
 
