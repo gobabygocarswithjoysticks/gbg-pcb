@@ -11,7 +11,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 V2.1
 
-### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
+### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick go baby go modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
 ### Voltage input: 5 to 26 volts (6v, 12v, and 24v lead acid batteries, absolute maximum 4.6V-28V)
 
@@ -72,9 +72,8 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 # credits
 
-## V2.0 and V2.1 prototype boards sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
-
 ## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powerwheels cars for kids with disabilities
 
-## Copyright: [gobabygocarswithjoysticks](https://github.com/gobabygocarswithjoysticks/index) and Joshua Phelps, MIT License
+## PCBs and components for the V2.0 and V2.1 prototyping runs were sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
 
+## Copyright: [gobabygocarswithjoysticks](https://github.com/gobabygocarswithjoysticks/index) and Joshua Phelps, MIT License
