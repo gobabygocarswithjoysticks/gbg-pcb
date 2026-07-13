@@ -8,6 +8,6 @@ To add fans (fans can be used to cool the boards and increase the maximum curren
     * [5V, 3.5-6](https://www.digikey.com/en/products/detail/sunon-fans/MF40200V1-1000U-A99/6198712), or 
     * [12V, 4.5-13.8](https://www.digikey.com/en/products/detail/sunon-fans/MF40201V1-1000U-A99/6198971), or 
     * [24V 8-27.6](https://www.digikey.com/en/products/detail/sunon-fans/MF40202V1-1000U-A99/6198716)
-* Assemble using 4 35mm M4 bolts and 4 M4 nuts
+* Assemble using 4 40mm M4 bolts and 4 M4 nuts
 
 case.FCStd is a FreeCAD file
