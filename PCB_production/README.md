@@ -15,6 +15,8 @@ please email gbg-pcb@googlegroups.com if components are out of stock and you nee
 
 [BOM-without-motor-battery-button-connectors.csv](/PCB_production/BOM-without-motor-battery-button-connectors.csv) is a list of parts without the motor, battery, and button connectors that can be used to get assembled boards that can be customized with either screw terminals or weelye-style tabs by doing just a little bit of through-hole soldering.
 
+[BOM-only-smd.csv](/PCB_production/BOM-only-smd.csv) is a list of the surface mount parts that can be used to order boards with surface mount components soldered for you but all of the easier-to-solder through-hole components are left for you to buy and solder.
+
 Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/K4M1JBI1QQ)
 
 ## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
