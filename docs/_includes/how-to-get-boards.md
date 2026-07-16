@@ -8,7 +8,7 @@ Options for How To Get Boards:
 
  a. Please feel free to use these [files](/PCB_production) and get boards yourself. There are instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards) for how to make GBG-PCBs by hand.
 
- b. Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_50f76f82.html) Or, alternative PCBWay links if you want to complete the assembly yourself: [add your own battery, motor, and button plugs](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_without_motor_battery_or_but_d8e51db0.html) or [surface mount components only](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_SMD_only_7448a4cf.html)
+ b. Use this PCBWay link to order fully assembled boards: [PCBWay](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_50f76f82.html). Or, alternative PCBWay links if you want to complete the assembly yourself: [PCBWay can do everything but leave the battery, motor, and button connectors off](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_without_motor_battery_or_but_d8e51db0.html) or, [PCBWay can do the challenging surface mount soldering and leave the through-hole soldering for you](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_1_SMD_only_7448a4cf.html)
 
  c. Email gobabygocarswithjoysticks@gmail.com. We may have a spare V1 or V2 GBG-PCB that we can donate to you.
  
