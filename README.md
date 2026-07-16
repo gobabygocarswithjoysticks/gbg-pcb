@@ -25,6 +25,18 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 # [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 ### This keeps you from needing to solder the joystick wires to a 4 wire cable.
+
+# mechanical dimensions
+### mounting holes
+The mounting holes on the PCB have a 3mm diameter and are on a 93.345mm by 72.390mm (3.675in by 2.850in) rectangle.
+
+### interactive bill of materials to help during hand assembly of PCBs
+[download and open this html file](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/version_1/PCB_production/ibom.html)
+
+### 3D models of the PCB
+* [stl](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/version_1/renders/gbg-pcb-v1.stl)
+* [step](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/version_1/renders/gbg-pcb-v1.step)
+
 ---
 # notes for people working on the KiCAD for this project
 Use KiCAD 9.0
