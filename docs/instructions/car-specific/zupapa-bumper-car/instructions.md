@@ -71,8 +71,22 @@ Make sure both nuts are fully screwed on until the axis sticks out through them 
 
 #### Attach the 2 universal (AKA swivel or caster) wheels with 4 large-head screws each
 
+# Electrical Modifications with GBG-PCB with "weelye mode" connectors
+## Note: If you have a V2 GBG-PCB, you can modify the zupapa bumper car without cutting any wires
 
-# Electrical Modifications
+The right motor port should be J105 (TE AMP 1-1123723-2).
+
+Unplug the two motors, the battery, and the 9 wire plug from the control box. Remove the control box.
+
+Plug the motors, battery, and 9 wire plug into the GBG-PCB.
+
+![weelye-mode.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/weelye-mode.jpg)
+
+Make sure the orientation of the 9 wire plug matches the photo.
+
+Skip ahead in these instructions to wiring the joystick.
+
+# Electrical Modifications with GBG-PCB with screw terminals
 [video instructions](https://www.youtube.com/watch?v=aNX1qpSBgc4)
 
 Turn the car back upright
@@ -87,7 +101,7 @@ Put tape over the red terminal of the battery to prevent accidental short circui
 
 ## Connect the GBG-PCB
 ### Connect the on/off switch wire
-Find the white wire going to the 9 wire plug on the control box. Cut the white wire close to the plug.
+Find the white wire going to the 9 wire plug on the "weelye" control box that comes with the car. Cut the white wire close to the plug.
 
 Strip a quarter inch (6 mm) of insulation off the end of the white wire. 
 
