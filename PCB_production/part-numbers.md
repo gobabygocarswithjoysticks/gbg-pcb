@@ -4,10 +4,12 @@
 
 ### Examples
 GBG-PCB-V2.1-A1-B1-C1-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
-![v2.1a](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/image11.jpg)
+
+![v2.1a](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/image11.JPG)
 
 GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
-![v2.1b](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/image12.jpg)
+
+![v2.1b](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/image12.JPG)
 
 ### A: battery connector
 #### 0: not installed
