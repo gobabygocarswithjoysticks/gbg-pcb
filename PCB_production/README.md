@@ -45,8 +45,8 @@ Consider pololu5593, D78B05T, RBT05W24S05
 ### alternate battery and motor connectors (Weelye mode)
 The GBG-PCB includes pads for adding connectors that match the connectors on some common weelye control boxes like the RX22 and RX7.
 
-* J102 and J103 replace J5
-* J100 and J101 replace J7
+* J102 and J103 replace J5 (battery)
+* J100 and J101 replace J7 (left)
 * J104 OR J105 replaces J8 (choose the plug that matches your control box)
 
 J104:
