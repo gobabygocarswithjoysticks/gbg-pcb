@@ -79,3 +79,46 @@ GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
 ### Q: power terminal
 #### 0: not installed
 #### 1: installed (J6)
+
+## GBG-PCB-V1.1
+## GBG-PCB-V1.2
+
+### Examples
+
+GBG-PCB-V1.2-D1W-F1-J1-K0-M1-P1-Q1
+
+![v1.2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/version_1/photos/image0.jpg)
+
+### V: version
+#### 1.1 - uses a single long heatsink
+#### 1.2 - uses two heatsinks, one for each motor driver
+
+### D: pico
+#### 0: not installed
+#### 1: Pico 1
+#### 2: Pico 2
+#### 1W: Pico 1W (wifi)
+#### 2W: Pico 2W (wifi)
+
+### F: button ports
+#### 0: not installed
+#### 1: soldered (B1, B2, B3, B4)
+
+### J: speed knob
+#### 0: not installed
+#### 1: soldered (J4)
+
+### K: case
+#### 0: no case
+
+### M:  extra GPIO pins
+#### 0: not installed
+#### 1: installed (J1)
+
+### P: switch terminal
+#### 0: not installed
+#### 1: installed (SW1)
+
+### Q: power terminal
+#### 0: not installed
+#### 1: installed (J12)
