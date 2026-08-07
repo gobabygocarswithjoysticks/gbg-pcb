@@ -2,6 +2,8 @@ solderless way to connect the joystick to the 4 wire cable
 
 ## [gerber files](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/joystickpcb/gerbers-joystickpcb-v1.0.zip) (ideally 0.8mm thick)
 
+You can send the gerber files to a PCB manufacturer of your choice, or use this [OSHPARK link](https://oshpark.com/shared_projects/SELEKcav) or this [PCBWAY link](https://www.pcbway.com/project/shareproject/joystickpcb_v1_0_d95f5fa0.html) to order this PCB.
+
 ## Components
 | name                  | description  | manufacturer      | part number | digikey link                                                                       |
 |-----------------------|--------------|-------------------|-------------|------------------------------------------------------------------------------------|
