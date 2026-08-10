@@ -31,6 +31,7 @@ jobs:
             kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number --exclude-dnp
             kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM-with-DNP.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number
           "
+
           cd ${{ github.workspace }}/PCB_production
           cd gerbers
           sudo rm gbg-pcb-job.gbrjob

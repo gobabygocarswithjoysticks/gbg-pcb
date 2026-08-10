@@ -25,7 +25,11 @@ jobs:
           docker run --rm --user root --mount type=bind,source=${{ github.workspace }},target=/workspace kicad/kicad:10.0-full /bin/bash -c "
             kicad-cli sch export pdf --no-background-color --output '/workspace/schematic.pdf' /workspace/kicad/gbg-pcb.kicad_sch
             kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number --exclude-dnp
-            kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM-with-DNP.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number          "
+            kicad-cli sch export bom /workspace/kicad/gbg-pcb.kicad_sch --output /workspace/PCB_production/BOM-with-DNP.csv --fields 'Reference,Value,Footprint,Manufacturer_Name,Manufacturer_Part_Number,digikey_part_number,mount_type,\${QUANTITY}' --group-by Manufacturer_Part_Number
+          "
+
+          grep "smd" /workspace/PCB_production/BOM.csv > /workspace/PCB_production/BOM-only-smd.csv
+          grep -v -E "J7,J8|B1-B4|J5" /workspace/PCB_production/BOM.csv > /workspace/PCB_production/BOM-without-motor-battery-button-connectors.csv
 
           git add .
           git commit . -m "BOT process kicad" --allow-empty
