@@ -1,3 +1,4 @@
+"Reference","Value","Footprint","Manufacturer_Name","Manufacturer_Part_Number","digikey_part_number","mount_type","QUANTITY"
 "C1,C2,C4,C6","0.1uF","Capacitor_SMD:C_0603_1608Metric","TDK Corporation","CGA3E2X7R1H104M080AA","445-12561-1-ND","smd","4"
 "C3","10uF","Capacitor_SMD:C_1210_3225Metric","Taiyo Yuden","MSASU32MSB5106KPNA01","587-MSASU32MSB5106KPNA01CT-ND","smd","1"
 "C7","56pF","Capacitor_SMD:C_0603_1608Metric","Yageo","CC0603JRNPO9BN560 ","311-1066-1-ND","smd","1"
