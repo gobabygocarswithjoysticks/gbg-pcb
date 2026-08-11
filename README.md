@@ -39,7 +39,7 @@ Here's a few options:
 ### [instructions for assembling your own GBG-PCBs](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
 ## Index of Instructions for modifying specific models of cars using GBG-PCBs
 * [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
-* [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions) (instructions are complete through electronics but don't include a backrest or joystick holder)
+* [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions)
 
 # Wiring Diagram
 ![wiring diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/diagrams/circuit_diagram.drawio.png)
