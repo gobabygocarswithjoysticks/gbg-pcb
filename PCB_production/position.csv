@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-05-26T04:25:07 ###
-### Printed by KiCad version 10.0.2
+### Footprint positions - created on 2026-08-11T03:19:48 ###
+### Printed by KiCad version 10.0.5
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val              Package                                              PosX       PosY       Rot  Side
@@ -13,12 +13,12 @@ C8        47uF             C_1210_3225Metric                                  5.
 D1        D_Schottky       D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
 D2        D_Schottky       D_SOD-123F                                         2.6860    -2.5750    0.0000  top
 D3        18V_zener        D_SOD-123F                                         4.0241    -2.6331  180.0000  top
-FID1      1                Fiducial_1mm_Mask3mm                               2.5750    -3.9650    0.0000  top
-FID2      2                Fiducial_1mm_Mask3mm                               2.9590    -1.8310  180.0000  top
-FID3      3                Fiducial_1mm_Mask3mm                               5.5450    -1.8150  180.0000  top
+FID1      Fiducial         Fiducial_1mm_Mask3mm                               2.5130    -3.9470    0.0000  top
+FID2      Fiducial         Fiducial_1mm_Mask3mm                               2.9590    -1.8310  180.0000  top
+FID3      Fiducial         Fiducial_1mm_Mask3mm                               5.4330    -1.7810  180.0000  top
 J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2891    -2.6659   90.0000  top
 L1        12uH             IND_SRR6038-120Y                                   4.8294    -3.2580   90.0000  top
-P1        rpi_pico_1       RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
+P1        rpi_pico_1_W     RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
 Q1        PSMN1R2-25YLDX   LFPAK56                                            4.2605    -2.4531    0.0000  top
 Q2        PSMN1R2-25YLDX   LFPAK56                                            3.9357    -2.4533  180.0000  top
 R1        220              R_0805_2012Metric                                  5.5210    -3.5230  -90.0000  top
@@ -30,7 +30,7 @@ R6        8.2k             R_0805_2012Metric                                  4.
 R7        8.2k             R_0805_2012Metric                                  3.4500    -2.3790   90.0000  top
 R8        100k             R_0805_2012Metric                                  5.3594    -3.1100  -90.0000  top
 R9        13.7k            R_0805_2012Metric                                  5.3710    -3.4630  -90.0000  top
-R10       4.7k             YC248-JR                                           2.8250    -3.9811   90.0000  top
+R10       4.7k             742C163472JP                                       2.7610    -3.9870    0.0000  top
 R11       604              R_0805_2012Metric                                  4.9670    -2.7950   90.0000  top
 R12       604              R_0805_2012Metric                                  5.1044    -2.5350    0.0000  top
 R13       100k             R_0805_2012Metric                                  4.8750    -2.7950   90.0000  top
