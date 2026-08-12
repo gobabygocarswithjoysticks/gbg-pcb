@@ -9,7 +9,7 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
-V2.1
+V2.2
 
 ### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick go baby go modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
@@ -73,8 +73,10 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 # credits
 
-## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powerwheels cars for kids with disabilities
+## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powered ride-on cars for kids with disabilities
 
-## PCBs and components for the V2.0 and V2.1 prototyping runs were sponsored by [PNW Assistive Technology](https://pnwassistivetechnology.org/)
+## Sponsored by [Pacific North West Assistive Technology](https://pnwassistivetechnology.org/)
+
+<img width="300" height="300" alt="PNWAT Logo 3 1 Main CMYK" src="https://github.com/user-attachments/assets/bc17b7cf-fa24-46f8-94ca-ef74696f54de" />
 
 ## Copyright: [gobabygocarswithjoysticks](https://github.com/gobabygocarswithjoysticks/index) and Joshua Phelps, MIT License
