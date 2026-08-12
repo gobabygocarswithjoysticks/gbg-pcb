@@ -11,9 +11,25 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
     * These instructions are written specifically for this model of car. Other cars may have different circuits and require different steps. If you are using a different model, take a look at these [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions). A GBG-PCB can control most cars as long as they are 12 volts.
 * 3 foot length of 4 wire electrical cable
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
-* 
-* 3d printed parts (consider the [heatset insert version of the joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/main#joystick-holder-for-adjustible-arms) )
-
+* 3d printed parts
+    * set of [joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-holder) parts and set of [joystick handles](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-balls)
+    * set of [frame parts](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/frame)
+* 10 feet of 3/4 inch PVC pipe
+    * 2x 19 in
+    * 2x 2.5 in
+    * 2x 10.5 in
+    * 2x 16 in
+    * 1x 7.25 in
+    * 1x 16.25 in
+    * 2x 9.5 in
+* 6 3/4" pvc elbows
+* 2 3/4" pvc tees 
+* 2x 4-40 nut
+* 2x 4-40 1.25 inch machine screw with phillips head
+* 12” of 1/4 split loom plastic wire protector tube
+* [18x m2.2x14mm screws](https://www.mcmaster.com/95893A174/)
+* 2x 1/4-20 nut
+* 2x 1/4-20 3/4 inch hex-head bolt
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
 
@@ -26,6 +42,11 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * large (6mm) flathead screwdriver
 * small (2.0) Phillips screwdriver
 * micro USB cable
+* pvc pipe cutter
+* epoxy
+* ductape
+* t6 torx screwdriver
+* hotglue
 
 ## ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/circuit_diagram.drawio.png)
 
@@ -252,9 +273,21 @@ Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.gith
 ### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
 ### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
-
 # joystick holder
-// TODO
+Cut a 0.75 inch (19mm) by 1.75 inch (45mm) rectangular piece of 1/16” thick rubber gasket sheet.
+
+Put the piece of rubber into the recessed rectangle of the joystick holder clamp. (You may have to trim the piece of rubber to size)
+
+Remove the 4-40 machine screws that are temporarily holding the 4-40 nuts in the joystick holder, taking care not to let the nuts fall out of their slots. Then slide the bolts through the two holes in the 3d printed clamp piece.
+
+Bolt the joystick holder base to the clamp around the PVC crosspiece. It should take almost no force with the screwdriver – if you feel resistance, check the alignment of the nuts and try again. Tighten both bolts similar distances.
+
+Twist the two silver metal pieces off of the joystick threaded shaft and discard.
+
+Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit. 
+_Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
+
+Add some hot glue where the joystick wires enter the dashboard and where the joystick wires enter the joystick holder as additional strain relief.
 
 ## joystick handles
 Twist the two silver metal pieces off of the joystick threaded shaft and discard.
@@ -262,9 +295,8 @@ Twist the two silver metal pieces off of the joystick threaded shaft and discard
 Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don’t over tighten since you’re screwing into plastic. It may help to drill out the hole with a 3/32" drill bit. 
 _Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
 
-# seatbelt and backrest
-// TODO
-
+# frame, backrest, and seatbelt
+Use the 3d printed frame parts and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
 
 # last steps
 
