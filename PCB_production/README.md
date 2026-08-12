@@ -17,7 +17,7 @@ please email gbg-pcb@googlegroups.com if components are out of stock and you nee
 
 [BOM-only-smd.csv](/PCB_production/BOM-only-smd.csv) is a list of the surface mount parts that can be used to order boards with surface mount components soldered for you but all of the easier-to-solder through-hole components are left for you to buy and solder.
 
-Here is BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/K4M1JBI1QQ)
+Here is the v2.2 BOM.csv uploaded to a [Digikey list](https://www.digikey.com/en/mylists/list/17YY9267W9)
 
 ## [joystick to 4 wire cable connector PCB](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb)
 This keeps you from needing to solder the joystick wires to a 4 wire cable.
