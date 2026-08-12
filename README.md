@@ -53,7 +53,7 @@ Here's a few options:
 
 # [3D printed case for the GBG-PCB](/case)
 See the above link for notes on how to add cooling fans to the case to increase the current capacity.
-With fans running, a V2 GBG-PCB has been tested to supply 10+ amps to a motor continuously.
+With fans running, a V2 GBG-PCB has been tested to supply 11 amps.
 
 # notes for people working on the KiCAD for this project
 Use KiCAD 10.0
