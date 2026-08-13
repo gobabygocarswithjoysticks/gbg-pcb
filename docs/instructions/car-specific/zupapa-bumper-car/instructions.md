@@ -289,7 +289,7 @@ Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don
 _Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
 
 # frame, backrest, and seatbelt
-Use the 6 3d printed frame parts and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
+Use the 6 3d printed [frame parts](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/frame) and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
 
 ![frame photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/frame.drawio.png)
 
