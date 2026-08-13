@@ -8,7 +8,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 
 # Parts needed
 * a 12 volt Zupapa bumper car [https://www.amazon.com/dp/B0CLLW3FBG?th=1](https://www.amazon.com/dp/B0CLLW3FBG?th=1)
-    * These instructions are written specifically for this model of car. Other cars may have different circuits and require different steps. If you are using a different model, take a look at these [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions). A GBG-PCB can control most cars as long as they are 12 volts.
+    * These instructions are written specifically for this model of car. Other cars may have different circuits and require different steps. If you are using a different model, take a look at these [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions). A GBG-PCB can control most cars!
 * 3 foot length of 4 wire electrical cable
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
 * 3d printed parts
@@ -30,6 +30,8 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [18x m2.2x14mm screws](https://www.mcmaster.com/95893A174/)
 * 2x 1/4-20 nut
 * 2x 1/4-20 3/4 inch hex-head bolt
+* epoxy that's good for plastic
+* (optional) PVC cement, alternatively just use the epoxy
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
 
