@@ -249,31 +249,24 @@ When you connect the GBG-PCB to your computer to change the settings, click the 
 ## Reconnect the battery
 The cars are sold with a red wire disconnected from the battery to keep the car from turning on during shipping. This also made it safer to work on the electrical system. Now that you're done with the wiring, you can connect the wire to the battery.
 
-# Software and Settings
-## Flash the firmware to the Pico
-If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to Connecting to the car
-
-Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Select the __PCB_gbg_program__ not the standard __gbg_program__.
-
-## Connecting to the car
-### Connect the GBG-PCB to your computer with a micro USB cable
-[video of connecting the usb cable](https://www.youtube.com/watch?v=VGhAat-I-ZU)
-### Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#configure)
-### Follow the instructions pointed to with the magenta arrow to connect to the car
-## Calibrate the joystick and adjust settings
-### Click the "calibrate the joystick the easy way" button and follow the instructions on the screen
-### You can also adjust the speed and acceleration settings for the car.
-
-# Test the car
-## disconnect the car from the computer
-## turn on the car using the on/off button on the dashboard
-### the three green lights on the PCB should turn on
-### you should hear a short beep from the motors
-## the car should drive when you move the joystick
-### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
-### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
-
 # joystick holder
+
+Plug the joystick into the joystick pcb.
+
+Connect the 4 wire cable to the screw terminal on the joystick pcb. Strip 1/4" (6 mm) of insulation off the ends of the wires and connect them to the screw terminal on the joystick pcb.
+
+Hot glue the joystick pcb inside the 3d printed joystick holder so that it can't move around and jam the joystick. Match the position in the photo below.
+
+Add a ziptie to the end of the wire protector, to keep the wires from being pulled out.
+
+![joystick pcb photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/joystick.jpg)
+
+Before closing up the joystick holder, drop a 4-40 nut into the slot for the top hole. This nut will be used to secure the joystick holder to the pvc frame later.
+
+Screw the top of the joystick holder to the bottom of the joystick holder, using 4 m2.2x14mm screws. If the joystick is incorrectly rotated, the 3d printed parts won't fit together. The ziptie and wire protector should be inside the joystick holder.
+
+At the other end of the 4 wire cable, in the space under the seat, strip 1/4" (6 mm) of insulation off the ends of the wires. Connect the wires to the screw terminal on the GBG-PCB labeled "joystick". Make sure that between the GBG-PCB and the joystick pcb, the wires are connected in the same order. "X", "3V", "Y", "GN
+
 Cut a 0.75 inch (19mm) by 1.75 inch (45mm) rectangular piece of 1/16” thick rubber gasket sheet.
 
 Put the piece of rubber into the recessed rectangle of the joystick holder clamp. (You may have to trim the piece of rubber to size)
@@ -296,7 +289,33 @@ Screw one of the 3D printed joystick handles onto the shaft of the joystick. Don
 _Alternatively, you can use the [handle models](https://github.com/gobabygocarswithjoysticks/index/tree/jeep-v1/joystick-balls) modified to use threaded [heat set inserts](https://www.mcmaster.com/94180A333) to connect the joystick handle to the joystick shaft._
 
 # frame, backrest, and seatbelt
-Use the 3d printed frame parts and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
+Use the 6 3d printed frame parts and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
+
+![frame photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/frame.drawio.png)
+
+# Software and Settings
+## Flash the firmware to the Pico
+If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to Connecting to the car
+
+Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Select the __PCB_gbg_program__ not the standard __gbg_program__.
+
+## Connecting to the car
+### Connect the GBG-PCB to your computer with a micro USB cable
+[video of connecting the usb cable](https://www.youtube.com/watch?v=VGhAat-I-ZU)
+### Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#configure)
+### Follow the instructions pointed to with the magenta arrow to connect to the car
+## Calibrate the joystick and adjust settings
+### Click the "calibrate the joystick the easy way" button and follow the instructions on the screen
+### You can also adjust the speed and acceleration settings for the car.
+
+# Test the car
+## disconnect the car from the computer
+## turn on the car using the on/off button on the dashboard
+### the green light on the PCB should turn on
+### you should hear a short beep from the motors
+## the car should drive when you move the joystick
+### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
+### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
 
 # last steps
 
@@ -307,7 +326,7 @@ Label the "on/off" button (the red switch on the control panel)
 ### Congratulations! You're done!
 
 # Check your work
-Check your work with this [inspection checklist]()
+Check your work with this [inspection checklist](https://docs.google.com/document/d/1acum34R3Y5wpNdsrZb1wGhzvqPhuyKvQ18ep_NvletY/edit?usp=sharing)
 
 # Troubleshooting
 
