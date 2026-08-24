@@ -12,8 +12,10 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * 3 foot length of 4 wire electrical cable
 * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
 * 3d printed parts
-    * set of [joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-holder) parts and set of [joystick handles](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-balls)
+    * set of [joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-holder) parts
+    * set of [joystick handles](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/joystick-balls) (either with or without heat set inserts)
     * set of [frame parts](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/frame)
+    * two sets of [PVC tees](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/pvc-tee)
 * 10 feet of 3/4 inch PVC pipe
     * 2x 19 in
     * 2x 2.5 in
@@ -30,7 +32,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * [18x m2.2x14mm screws](https://www.mcmaster.com/95893A174/)
 * 2x 1/4-20 nut
 * 2x 1/4-20 3/4 inch hex-head bolt
-* epoxy that's good for plastic
+* gap-filling epoxy that's good for plastic
 * (optional) PVC cement, alternatively just use the epoxy
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB
@@ -50,13 +52,17 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * t6 torx screwdriver
 * hotglue
 
-## ![circuit diagram](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/circuit_diagram.drawio.png)
+Note: these instructions were originally written for the V1 GBG-PCB but it's even easier with the V2 GBG-PCB.
+
+## ![circuit diagram for V1 GBG-PCB](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/circuit_diagram.drawio.png)
+
+## ![circuit diagram for V2 GBG-PCB](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/circuit_diagram_v2.drawio.png)
 
 
 ## [PCB Schematic](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/schematic.pdf)
 ## [PCB List Of Components](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/BOM.csv)
 
-## Instructions:
+# Instructions:
 
 # Unpack the Car
 ![unpacked_car.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/unpacked_car.jpg)
@@ -292,6 +298,10 @@ _Alternatively, you can use the [handle models](https://github.com/gobabygocarsw
 
 # frame, backrest, and seatbelt
 Use the 6 3d printed [frame parts](https://github.com/gobabygocarswithjoysticks/index/tree/zupapa-bumper-car-v1/frame) and epoxy to assemble the PVC frame and glue it to the car. Use ductape to hold the parts in place as the glue cures.
+
+Assemble the PVC tees, using 10 m2.2x14mm screws. Screw the PVC tees to the 16.25 inch length of PVC using 4 more screws.
+
+Press fit the 1-4-20 handwheel part to the 1/4-20 bolts used with the PVC tees, and add glue if the handwheel is loose.
 
 ![frame photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/frame.drawio.png)
 
