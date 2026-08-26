@@ -5,6 +5,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 # Instructions for specific models of cars
 * [Aosom Jeep](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions)
+* [Flybar Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/flybar-bumper-car/instructions)
 
 # Parts needed
 * a car
@@ -17,8 +18,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * an assembled GBG-PCB
 {% include how-to-get-boards.md %}
 # Tools needed
-* small flathead screwdriver (3mm)
-* large flathead screwdriver (6mm)
+* flathead screwdriver (3mm)
 * small Phillips screwdriver (2.0)
 * wire strippers
 * wire cutters
@@ -34,7 +34,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 
 Ride on cars frequently come with a control box labeled "weelye." The GBG-PCB can be configured with plugs that match the weelye box so that some models of cars can be modified without cutting any wires.
 
-The plug carrying signal wires to the box can be plugged into J11 with the usually-red wire plugged into the pin labeled bat+ and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the PCB unused.
+The plug carrying signal wires to the box can be plugged into J11 with the usually-red wire plugged into the pin labeled bat+ and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the GBG-PCB unused.
 
 A GBG-PCB can be assembled with alternate motor and battery connectors that are compatible with the plugs on weelye boxes.
 [See section titled "alternate battery and motor connectors weelye mode" for what components to change.](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production#alternate-battery-and-motor-connectors-weelye-mode)
@@ -99,6 +99,9 @@ If your car has a switch that can handle the full current of the car, you can us
 ### Current can flow either way through a switch so either wire from the switch can go to either terminal.
 ### An electrical connection between the two terminals of the on/off screw terminal block will turn the PCB on.
 It doesn't matter for a switch (and I recommend just using a regular switch), but in case you're interested, the terminal closer to the battery is connected to the positive wire of the battery and the terminal closer to the left motor should be pulled to 12 Volts to turn the board on. The MOSFETs interrupt the connection to the negative wire of the battery. The instructions specifically for the jeep describe how to use the button on the dashboard to turn the car on, and in that case the dashboard needs to be grounded directly to the battery or the signal from the button on the dashboard floats high and the car can't be turned off. The instructions specifically for the zupapa bumper car describe how to add the GBG-PCB in parallel to the existing control box and that strategy is helpful for cars with more complex wiring for the battery charger.
+
+## V2 GBG-PCB on/off switch
+Many cars have a multiple-wire harness that goes to a plug on the control box that the car comes with. Those wires contain the signal from the car's on/off switch and sometimes also carry power when charging the car. The J11 "weelye" header pins on the GBG-PCB are designed to connect to that plug so that the car can be charged and turned on and off as normal, replacing the control box completely. The usually-red wire from the car's plug goes to the pin labeled bat+ on the GBG-PCB and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the GBG-PCB unused.
 
 # Wire the Joystick
 ![joystick photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/joystick.jpg)
