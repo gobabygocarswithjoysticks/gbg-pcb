@@ -15,6 +15,6 @@ This circuit board replaces the separate ESCs and Arduino with screw terminals f
 
 ## images
 
-![pcb top view 3d render](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/renders/top.jpg)
+![pcb top view 3d render](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/renders/top.jpg)
 
-![pcb photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/image0.jpg)
+![pcb photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/photos/image0.jpg)

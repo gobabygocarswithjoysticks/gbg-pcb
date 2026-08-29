@@ -104,7 +104,7 @@ It doesn't matter for a switch (and I recommend just using a regular switch), bu
 Many cars have a multiple-wire harness that goes to a plug on the control box that the car comes with. Those wires contain the signal from the car's on/off switch and sometimes also carry power when charging the car. The J11 "weelye" header pins on the GBG-PCB are designed to connect to that plug so that the car can be charged and turned on and off as normal, replacing the control box completely. The usually-red wire from the car's plug goes to the pin labeled bat+ on the GBG-PCB and if the plug from the car has fewer than 10 sockets leave the rightmost pins of the GBG-PCB unused.
 
 # Wire the Joystick
-![joystick photo](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/photos/joystick.jpg)
+![joystick photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/photos/joystick.jpg)
 Use a 4 wire cable to connect the GBG-PCB to the joystickpcb.
 
 This picture shows the circuit but for illustration purposes the wires are very short. The wires should be long enough to reach from the PCB to wherever the joystick will be placed on the car and the wires should be long enough to be routed through the frame of the car.

@@ -1,6 +1,6 @@
-Use a GBG-PCB - make a Flybar bumper car controlled by a joystick without needing to solder anything.
+Use a GBG-PCB to make a Flybar bumper car controlled by a joystick without needing to solder anything.
 
-![bumper_car_photo.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/image0.jpg)
+![bumper_car_photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/image0.jpg)
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
@@ -72,14 +72,14 @@ Set the bottom panels aside.
 
 Duct tape the black metal bar that holds the axel, motors, and wheels to the car.so that it doesn't fall out when you flip the car back upright.
 
-![bottom-panels-open.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/bottom-panels-open.jpg)
+![bottom-panels-open.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/bottom-panels-open.jpg)
 
 ### Cut motor wires
 Use wire cutters to cut the red and black right motor wires as close as possible to the switch. The wires that are still attached to the motor needs to be long enough to reach under the seat.
 
 Use wire cutters to cut the blue and grey left motor wires as close as possible to the switch.
 
-![cut-motor-wires.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/cut-motor-wires.jpg)
+![cut-motor-wires.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/cut-motor-wires.jpg)
 
 ### Cut battery wires
 #### ! note !
@@ -91,15 +91,15 @@ Cutting wires connected to a battery can potentially be dangerous, but it's easy
 
 Cut the yellow wire from one of the switches. Put electrical tape on the end of the wire.
 
-![yellow-cut.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/yellow-cut.jpg)
+![yellow-cut.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/yellow-cut.jpg)
 
 Where the yellow wire branches into two, cut the wire that goes to the other switch. Wrap the junction in electrical tape to insulate the end of the stump of the wire.
 
-![yellow-branch-cut.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/yellow-branch-cut.jpg)
+![yellow-branch-cut.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/yellow-branch-cut.jpg)
 
 Cut the red wire from one of the switches.
 
-![red-cut.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/red-cut.jpg)
+![red-cut.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/red-cut.jpg)
 
 Where the red wire branches into two, cut the wire that goes to the other switch. Wrap the junction in electrical tape.
 
@@ -112,7 +112,7 @@ Remove the pair of screws holding each switch to the car and discard the switche
 
 The handles are left, stuck inside the car. 
 
-![handle.png](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/handle.png)
+![handle.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/handle.png)
 
 Use a flush wire cutter to cut one of the plastic pegs off the handle. Then, pull the handle out of the car and discard it. Repeat for the other handle.
 
@@ -120,7 +120,7 @@ Use a flush wire cutter to cut one of the plastic pegs off the handle. Then, pul
 
 Using a short length of wire (you can cut an inch off of a scrap of wire that you have now removed from the car, or use any other wire you have), strip 1/4 of an inch of wire off of each end and connect the two terminals of the switch screw terminal together. In this model of car the GBG-PCB will be turned on and off by the car's main switch connecting and disconnecting the battery, so the internal switching feature of the GBG-PCB is not needed.
 
-![pcb-sw.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/pcb-sw.jpg)
+![pcb-sw.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/pcb-sw.jpg)
 
 Connect the red and black wires from the right motor to the right motor terminals on the GBG-PCB. The red wire goes to the terminal closer to the edge of the board and the black wire goes to the bottom terminal.
 
@@ -174,6 +174,7 @@ Epoxy the mounting plate to the left armrest.
 
 Tape the plate so the epoxy can cure.
 
+![joystick-arm.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/joystick-arm.jpg)
 
 ## Add the backrest
 
@@ -181,20 +182,20 @@ Re-install the seat of the car.
 
 Drill two 28mm holes in the top edge of the car's backrest. The holes should not cut through the wall that the kid will be leaning against but should be as close as possible to that wall. The holes should be a few inches apart. See the picture below for reference.
 
-![frame-holes.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/frame-holes.jpg)
+![frame-holes.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/frame-holes.jpg)
 
 The PVC pipe backrest is a tall rectangle with 4 pipe elbows at the corners.
 
 ### Add the headrest button holders (optional)
 Use a 1/4-20 bolt, washer, and nut to assemble each of the headrest arms, holders, and knobs. Add the holders to the longer PVC pipes of the backrest.
 
-![button-arms.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/button-arms.jpg)
+![button-arms.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/button-arms.jpg)
 
-![headarm.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/headarm.jpg)
+![headarm.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/headarm.jpg)
 
 Use epoxy to glue the two bottom elbows to the back of the car. This can get a bit messy but make sure to keep the epoxy off the vertical pipes since those should be removable. Tape the assembly in place and let the epoxy cure.
 
-![backrest-1.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-1.jpg)
+![backrest-1.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-1.jpg)
 
 ### Wait 24 hours for all the epoxy to cure.
 
@@ -231,7 +232,7 @@ Wrap the straps around the top tube of the backrest
 
 Velcro the bottom of the harness to the seat.
 
-![backrest-2.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-2.jpg)
+![backrest-2.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-2.jpg)
 
 ## Connect the joystick holder to the armrest
 

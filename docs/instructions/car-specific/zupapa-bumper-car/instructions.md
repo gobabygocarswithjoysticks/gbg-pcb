@@ -1,6 +1,6 @@
 Use a GBG-PCB to make a Zupapa bumper car controlled by a joystick without needing to solder anything.
 
-![bumper_car_photo.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/zupapa-bumper-car/photos/image0.jpg)
+![bumper_car_photo.jpg](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/docs/instructions/car-specific/zupapa-bumper-car/photos/image0.jpg)
 
 questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/discussions/categories/questions-and-troubleshooting) or email gobabygocarswithjoysticks@gmail.com 
 
