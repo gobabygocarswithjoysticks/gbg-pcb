@@ -28,7 +28,7 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
     * set of [joystick holder](https://github.com/gobabygocarswithjoysticks/index/tree/flybar-bumper-car-v1/joystick-holder) parts printed in a color that matches the car
     * set of [joystick handles](https://github.com/gobabygocarswithjoysticks/index/tree/flybar-bumper-car-v1/joystick-balls) parts printed in a bright color that contrasts with the car
     * (if you will add a joystick to your car) [joystick holding arm mounting plate](https://github.com/gobabygocarswithjoysticks/index/tree/flybar-bumper-car-v1/joystick-holding-arm-mounting-plate) part printed in a color that matches the car
-    * (if you will add headrest buttons to your car) [headrest button arms](https://github.com/gobabygocarswithjoysticks/index/tree/flybar-bumper-car-v1/headrest-button-arms) parts printed in a color that matches the car
+    * (if you will add headrest buttons to your car) [headrest button arms](https://github.com/gobabygocarswithjoysticks/index/tree/flybar-bumper-car-v1/headrest-button-holder) parts printed in a color that matches the car
     * [GBG-PCB case](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/case) (just top and bottom, fans are not needed for this car)
 * an assembled [joystickpcb](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/joystickpcb) (I'll include these with any GBG-PCBs that I give out)
 * an assembled GBG-PCB (screw terminal version recommended)
