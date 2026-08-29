@@ -8,14 +8,17 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 * a 6 volt Flybar bumper car [https://www.flybar.com/products/flybar-bumper-car?variant=42204280881308](https://www.flybar.com/products/flybar-bumper-car?variant=42204280881308)
     * These instructions are written specifically for this model of car. Other cars may have different circuits and require different steps. If you are using a different model, take a look at these [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions). A GBG-PCB can control most cars!
 * electrical tape
+* PVC pipe
 * 3 foot length of 4 wire electrical cable
-* Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
-* 2 large zipties
 * carseat harness
 * adhesive backed velcro
 * (if the car will have a joystick) 
     * 7 inch 20 pound capacity articulating photo arm
-    * 1/4-20 threaded heat set insert
+    * two 1/4-20 threaded heat set inserts
+    * 4 m2.2x14mm screws
+    * 1 foot length of fabric wire protector
+    * 2 large zipties
+    * Radiolink joystick replacement for RC controllers AT9 and AT10 (get the “back to middle” type that springs back on both axes)
 * (if you will add headrest buttons to your car)
     * two 1 1/2 inch long 1/4-20 bolts with hex heads
     * two washers that fit the bolts
@@ -33,14 +36,14 @@ questions? post [here](https://github.com/gobabygocarswithjoysticks/gbg-pcb/disc
 {% include how-to-get-boards.md %}
 
 # Tools needed
-* wire cutters
+* flush wire cutters
 * wire strippers
 * Phillips screwdriver
 * small (3mm) flathead screwdriver
 * small (2.0) Phillips screwdriver
 * t6 torx screwdriver
 * micro USB cable
-* pvc pipe cutter
+* pvc pipe cutter or saw
 * ductape
 * hotglue
 * JB Weld steel reinforced epoxy, or other gap-filling epoxy for plastic and PVC
@@ -67,7 +70,7 @@ Save all the screws for later.
 
 Set the bottom panels aside.
 
-Duct tape the wheel assembly to the car so it doesn't fall out when you flip the car back upright later.
+Duct tape the black metal bar that holds the axel, motors, and wheels to the car.so that it doesn't fall out when you flip the car back upright.
 
 ![bottom-panels-open.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/bottom-panels-open.jpg)
 
@@ -100,11 +103,18 @@ Cut the red wire from one of the switches.
 
 Where the red wire branches into two, cut the wire that goes to the other switch. Wrap the junction in electrical tape.
 
-The two switches should now be disconnected but may have some wire still attached. Cut the wires off the switch just to clean them up.
-
 At this point there should be two wires from each motor and two wires that come from the battery. All six of these wires need to be long enough to reach under the seat. Stick all the wires under the seat.
 
-Ductape the black metal bar that holds the axel, motors, and wheels to the car.so that it doesn't fall out when you flip the car back upright.
+### Remove the switches
+The two switches should have all their wires cut but may have some wires still hanging from them. 
+
+Remove the pair of screws holding each switch to the car and discard the switches.
+
+The handles are left, stuck inside the car. 
+
+![handle.png](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/handle.png)
+
+Use a flush wire cutter to cut one of the plastic pegs off the handle. Then, pull the handle out of the car and discard it. Repeat for the other handle.
 
 ### Connect the GBG-PCB
 
@@ -118,21 +128,114 @@ Connect the blue and grey wires from the left motor to the left motor terminals 
 
 Connect the red and yellow wires from the battery to the battery terminals on the GBG-PCB. The red wire goes to the left + terminal and the yellow wire goes to the right - terminal.
 
+### Reconnect the battery
+The cars are sold with a red wire disconnected from the battery to keep the car from turning on during shipping. This also made it safer to work on the electrical system. Now that you're done with the high-power wiring, you can make sure the power switch is in the off position then connect the red wire to the battery.
+
+## Joystick
+
 ### Add the Joystick wires
 Connect the 4-wire cable to the joystick terminals on the GBG-PCB. The standard coloring is X=blue, 3V=red, Y=green, gnd=black.
 
-Route the 4-wire cable through the hole 
+Route the 4-wire cable through the hole that the motor wires go through.
 
-### Wire buttons
-Plug up to 4 buttons into the headphone-style jacks on the GBG-PCB.
+In the side of the left armrest, at least an inch from the top of the armrest (so it doesn't interfere with the arm mounting plate), drill a 1/4 inch hole for the 4-wire cable and thread the cable through the hole.
+
+Put a fabric wire protector around the 4-wire cable to protect it from being broken if a kid pulls on the cable. The wire protector should be long enough to reach from the hole in the armrest to the joystick box.
+
+Drill two 1/4 inch holes in the top of the left armrest, one on each side of the hole for the 4-wire cable. Use a ziptie to secure the wires and wire protector to the armrest.
+
+### Assemble the joystick box
+Add a 1/4-20 threaded heat set insert to the 3d printed joystick holder part.
+
+Plug the joystick into the joystick pcb.
+
+Connect the 4 wire cable to the screw terminal on the joystick pcb. Strip 1/4" (6 mm) of insulation off the ends of the wires and connect them to the screw terminal on the joystick pcb.
+
+Hot glue the joystick pcb inside the 3d printed joystick holder so that it can't move around and jam the joystick. Match the position in the photo below.
+
+Add a ziptie to the end of the wire protector, to keep the wires from being pulled out.
+
+![joystick pcb photo](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/car-specific/zupapa-bumper-car/photos/joystick.jpg)
+
+Screw the top of the joystick holder to the bottom of the joystick holder, using 4 m2.2x14mm screws. If the joystick is incorrectly rotated, the 3d printed parts won't fit together. The ziptie and wire protector should be inside the joystick holder.
+
+Use 4 m2.2x14mm screws to assemble the top and bottom of the joystick holder around the joystick.
+
+## Button controls (optional)
+Plug up to 4 buttons into the headphone-style jacks on the GBG-PCB. Route the wires through the hole in the right armrest.
 
 When you connect the GBG-PCB to your computer to change the settings, click the "show all" button and check the box next to "enable button ctrl". Then, you can set what direction each button should make the car move in.
 
-## Reconnect the battery
-The cars are sold with a red wire disconnected from the battery to keep the car from turning on during shipping. This also made it safer to work on the electrical system. Now that you're done with the wiring, you can connect the wire to the battery.
+## Add the printed part that holds the arm that holds the joystick
+
+Add a 1/4-20 threaded heat set insert to the 3d printed joystick holding arm mounting plate
+
+Epoxy the mounting plate to the left armrest.
+
+Tape the plate so the epoxy can cure.
 
 
+## Add the backrest
 
+Re-install the seat of the car.
+
+Drill two 28mm holes in the top edge of the car's backrest. The holes should not cut through the wall that the kid will be leaning against but should be as close as possible to that wall. The holes should be a few inches apart. See the picture below for reference.
+
+![frame-holes.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/frame-holes.jpg)
+
+The PVC pipe backrest is a tall rectangle with 4 pipe elbows at the corners.
+
+### Add the headrest button holders (optional)
+Use a 1/4-20 bolt, washer, and nut to assemble each of the headrest arms, holders, and knobs. Add the holders to the longer PVC pipes of the backrest.
+
+![button-arms.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/button-arms.jpg)
+
+![headarm.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/headarm.jpg)
+
+Use epoxy to glue the two bottom elbows to the back of the car. This can get a bit messy but make sure to keep the epoxy off the vertical pipes since those should be removable. Tape the assembly in place and let the epoxy cure.
+
+![backrest-1.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-1.jpg)
+
+### Wait 24 hours for all the epoxy to cure.
+
+### Re-attach the bottom panels of the car
+Use the screws you saved to re-attach the bottom panels of the car.
+
+# Software and Settings
+## Flash the firmware to the Pico
+If you got your GBG-PCB from someone who already programmed it for you, then you can skip ahead to calibrating the joystick and adjusting settings.
+
+Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Select the __PCB_gbg_program__ not the standard __gbg_program__.
+
+## Connect
+### Connect the GBG-PCB to your computer with a micro USB cable
+### Go to [the go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#configure)
+### Follow the instructions pointed to with the magenta arrow to connect to the car
+## Calibrate the joystick and adjust settings
+### Click the "calibrate the joystick the easy way" button and follow the instructions on the screen
+### You can also adjust the speed and acceleration settings for the car.
+
+# Test the car
+## disconnect the car from the computer
+## turn on the car using the on/off button on the dashboard
+### the three green lights on the PCB should turn on
+### you should hear a short beep from the motors
+## the car should drive when you move the joystick
+### the blue light on the PCB should turn on when the car is moving and turn off when the joystick is centered
+### if the blue light blinks quickly that means the joystick needs to be left centered for a few seconds before trying to move and that the joystick may need to be recalibrated
+
+# final assembly
+
+## Add the harness
+Wrap the straps around the top tube of the backrest
+
+Velcro the bottom of the harness to the seat.
+
+![backrest-2.jpg](https://github.com/gobabygocarswithjoysticks/gbg-pcb/raw/main/docs/instructions/car-specific/flybar-bumper-car/photos/backrest-2.jpg)
+
+## Connect the joystick holder to the armrest
+
+Once the epoxy for the mounting plate has dried, screw the 7 inch articulating photo arm to the mounting plate
 
 # last steps
 
