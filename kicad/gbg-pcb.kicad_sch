@@ -9357,7 +9357,7 @@
 		)
 		(uuid "3d44308c-049d-4d25-899c-6fb1d840bd2b")
 	)
-	(text_box "left motor"
+	(text_box "right motor"
 		(exclude_from_sim no)
 		(at 237.49 100.33 0)
 		(size 165.1 97.79)
