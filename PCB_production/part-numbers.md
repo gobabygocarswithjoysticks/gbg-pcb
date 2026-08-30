@@ -1,6 +1,7 @@
 # GBG-PCB Part Numbers
 
 ## GBG-PCB-V2.1
+## GBG-PCB-V2.2
 
 ### Examples
 GBG-PCB-V2.1-A1-B1-C1-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
@@ -26,6 +27,7 @@ GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
 #### 1: screw terminal
 #### 2: Molex 2159151002 (J104)
 #### 3: TE 1-1123723-2 (J105)
+#### 4: tabs for Weelye mode (J106 J107), V2.2 only
 
 ### D: pico
 #### 0: not installed

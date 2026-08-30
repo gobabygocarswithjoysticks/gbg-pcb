@@ -240,14 +240,14 @@ Once the epoxy for the mounting plate has dried, screw the 7 inch articulating p
 
 # last steps
 
-Print a [user guide](https://docs.google.com/document/d/1Nm6jOH3vKglHpVaZJPOpi3INnZ5qNjXhelSU0B2T-GE/edit?usp=sharing) for the car.
+Print a [user guide](https://docs.google.com/document/d/1Bs-vC-6tTBjuLHyOXnoEMVlxUui_dN44Ry9QZwv9MxY/edit?usp=sharing) for the car.
 
 Label the "on/off" button (the red switch on the control panel)
 
 ### Congratulations! You're done!
 
 # Check your work
-Check your work with this [inspection checklist](https://docs.google.com/document/d/1acum34R3Y5wpNdsrZb1wGhzvqPhuyKvQ18ep_NvletY/edit?usp=sharing)
+Check your work with this [inspection checklist](https://docs.google.com/document/d/1Nm6jOH3vKglHpVaZJPOpi3INnZ5qNjXhelSU0B2T-GE/edit?usp=sharing)
 
 # Troubleshooting
 
