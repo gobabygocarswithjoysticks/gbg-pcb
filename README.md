@@ -38,7 +38,7 @@ Here's a few options:
 ## [general instructions for using this PCB](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions)
 ### [instructions for assembling your own GBG-PCBs](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards)
 ## Index of Instructions for modifying specific models of cars using GBG-PCBs
-* [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions) (car is out of production)
+* [Aosom Jeep - old model](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/aosom-038-jeep/instructions)
 * [Zupapa Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/zupapa-bumper-car/instructions)
 * [Flybar Bumper Car](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/car-specific/flybar-bumper-car/instructions)
 
