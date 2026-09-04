@@ -70,7 +70,7 @@ GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
 #### 0: not installed
 #### 1: installed (J1)
 
-### N: power switch and charging pins
+### N: power switch and charging pins ("J11 weelye connector")
 #### 0: not installed
 #### 1: installed (J11)
 
