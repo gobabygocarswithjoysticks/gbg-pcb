@@ -58,7 +58,7 @@ J105:
 <img src="https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/j105.jpg" width="15%" alt="two-pin connector A111830-ND">
 
 ### other models of Raspberry Pi Pico (P1)
-If you want to be able to change settings and remote override the car over a wifi connection [(see information here)](https://github.com/gobabygocarswithjoysticks/car-code/blob/main/rcdocs/remote_control.md#notes-on-wifiwebsite-remote-control) then you can substitute a Pico 1W or Pico 2W for the standard Pico 1.
+If you want to be able to change settings and remote override the car over a wifi connection [(see information here)](https://github.com/gobabygocarswithjoysticks/car-code/tree/main/rcdocs#notes-on-wifiwebsite-remote-control) choose a Pico 1W or Pico 2W.
 
 ### cost saving by removing optional features
 
