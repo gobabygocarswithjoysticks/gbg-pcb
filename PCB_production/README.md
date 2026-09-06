@@ -7,7 +7,7 @@
 ## The [position.csv](/PCB_production/position.csv) file has the locations for the surface mount components
 
 ## Bill Of Materials (BOM)
-please email gbg-pcb@googlegroups.com if components are out of stock and you need recommendations for alternatives
+### please email gbg-pcb@googlegroups.com if components are out of stock and you need recommendations for alternatives
 
 [BOM.csv](/PCB_production/BOM.csv) is the normal list of parts (using screw terminals for connections).
 
@@ -38,7 +38,7 @@ This keeps you from needing to solder the joystick wires to a 4 wire cable.
 ### alternate voltage regulator (U5)
 Replace U3, C3, R5, C6, L1, C7, R8, R9, C8
 
-Choose a single THT module that outputs 5V. Make sure the pinout matches. Make sure hte min and max input voltage are compatible with your battery. It's ok if the output voltage sags below 5 volts as the input approaches 5 volts but make sure the regulator you choose doesn't start blinking on and off as the input approaches 5 volts, if you plan to use cars with 6 volt batteries.
+Choose a single THT module that outputs 5V. Make sure the pinout matches. Make sure the min and max input voltage are compatible with your battery. It's ok if the output voltage sags below 5 volts as the input approaches 5 volts but make sure the regulator you choose doesn't start blinking on and off as the input approaches 5 volts, if you plan to use cars with 6 volt batteries.
 
 Consider pololu5593, D78B05T, RBT05W24S05
 
