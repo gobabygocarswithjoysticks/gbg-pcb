@@ -20020,7 +20020,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-074K7L/1005233"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/742C163472JP/1124336"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20097,7 +20097,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "CTS Resistor Products"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20108,7 +20108,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YC248-JR-074K7L"
+		(property "Manufacturer_Part_Number" "742C163472JP"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20119,7 +20119,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "13-YC248-JR-074K7LCT-ND"
+		(property "digikey_part_number" "60-742C163472JPCT-ND"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -20130,7 +20130,7 @@
 				)
 			)
 		)
-		(property "price" ".11"
+		(property "price" ".31"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)

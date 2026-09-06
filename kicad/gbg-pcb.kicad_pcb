@@ -171,7 +171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/YC248-JR-074K7L/1005233"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/cts-resistor-products/742C163472JP/1124336"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -258,7 +258,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" "CTS Resistor Products"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -271,7 +271,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YC248-JR-074K7L"
+		(property "Manufacturer_Part_Number" "742C163472JP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -284,7 +284,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "13-YC248-JR-074K7LCT-ND"
+		(property "digikey_part_number" "60-742C163472JPCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -297,7 +297,7 @@
 				)
 			)
 		)
-		(property "price" ".11"
+		(property "price" ".31"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44742,7 +44742,7 @@
 		(net "bat-")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30011)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -44764,13 +44764,10 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 75.964749 69.835721) (xy 75.966031 69.835749) (xy 75.971232 69.837095) (xy 76.706832 70.224884)
-				(xy 76.709647 70.22696) (xy 76.712038 70.229351) (xy 76.714115 70.232168) (xy 77.101745 70.967466)
-				(xy 77.103045 70.971838) (xy 77.10321 70.973612) (xy 77.100564 70.982167) (xy 77.10056 70.982172)
-				(xy 77.099657 70.983259) (xy 77.09537 70.986492) (xy 75.695043 71.602801) (xy 75.690587 71.603789)
-				(xy 75.687586 71.603855) (xy 75.67924 71.600611) (xy 75.679056 71.600431) (xy 75.339341 71.260716)
-				(xy 75.336805 71.25692) (xy 75.335656 71.254146) (xy 75.335656 71.245192) (xy 75.335732 71.24501)
-				(xy 75.952373 69.84393) (xy 75.95499 69.840195) (xy 75.95628 69.83896) (xy 75.964616 69.835719)
+				(xy 75.968731 69.835809) (xy 75.969466 69.836164) (xy 76.708396 70.225709) (xy 76.71329 70.230603)
+				(xy 77.102831 70.969525) (xy 77.103658 70.978441) (xy 77.097937 70.985331) (xy 77.097194 70.98569)
+				(xy 75.692914 71.603739) (xy 75.683961 71.603935) (xy 75.679928 71.601303) (xy 75.337696 71.259071)
+				(xy 75.334269 71.250798) (xy 75.33526 71.246085) (xy 75.953309 69.841805) (xy 75.959778 69.835613)
 			)
 		)
 	)
@@ -45591,7 +45588,7 @@
 		(net "Net-(D2-A)")
 		(layer "F.Cu")
 		(hatch none 0.1)
-		(priority 30012)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
