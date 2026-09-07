@@ -142,6 +142,6 @@ Assemble top and bottom 3D printed covers around the GBG-PCB using 4 12mm M3 bol
 
 To add fans, add the 3D printed fan-funnel part, the two cooling fans, and assemble using 2 40mm M4 bolts and 2 M4 nuts. Note that the fans should be oriented so that they blow air onto the board, not pull air away from the board, so make sure the fans are oriented as shown in the image below.
 
-TODO: add image of fan orientation
+![case](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/case/fan-case.jpg)
 
 Connect the red wire from each fan to the + side of the J6 "BATT" screw terminal and the black wire from each fan to the - side of the J6 "BATT" screw terminal so that the fans will turn on when the board turns on.
