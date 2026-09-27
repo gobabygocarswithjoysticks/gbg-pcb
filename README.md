@@ -9,21 +9,21 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
-V2.2
+V2.3
 
 ### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick go baby go modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
-### Voltage input: 5 to 18 volts (6v, and 12v lead acid batteries, absolute maximum 4.6V-25V)
+### Voltage input: 6V, 12V, or 24V (absolute maximum 4.6V-35V)
 
 ### Controls two motors: one for each wheel so that the car can turn in place.
 
 ## V2 vs V1
-* V2 GBG-PCBs (V2.3+) can run from 6-[TODO] volt batteries.
-* V2 boards can also be [configured](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#new-in-v2-weelye-control-box-compatible) with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires. 
-* Version 2 boards can supply [8 amps](/testing.md) per motor continuously.
-* V2.1 and V2.2 GBG-PCBs can run from 6 to 12 volt batteries. 
-* For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
+* V2 GBG-PCBs (V2.3+) can run from 6-24 volt batteries.
+* V2.1 and V2.2 GBG-PCBs can run from 6 to 12 volt batteries (maximum of 18 volts). 
 * Version 1 GBG-PCBs had a higher, 10+ amp current capacity and a lower part count (easier assembly) but only runs on 12 volts.
+* Version 2 boards can be [configured](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#new-in-v2-weelye-control-box-compatible) with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires. 
+* Version 2 boards can supply [8 amps](/testing.md) per motor continuously.
+* For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
 # Want one?
 Here's a few options:
