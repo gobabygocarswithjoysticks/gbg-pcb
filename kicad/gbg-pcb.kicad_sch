@@ -9954,7 +9954,7 @@
 		(uuid "b9ce38e5-6fe7-4062-8547-e3cdb73a098d")
 	)
 	(junction
-		(at 142.24 257.81)
+		(at 142.24 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc3ad019-6dd1-4965-b171-606c7b03cb56")
@@ -12169,16 +12169,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 255.27) (xy 142.24 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fce1e7a-66a5-416a-bc04-5c433ddc8194")
-	)
-	(wire
-		(pts
 			(xy 101.6 49.53) (xy 101.6 74.93)
 		)
 		(stroke
@@ -12769,6 +12759,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 255.27) (xy 142.24 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd42b20-4a92-4ce1-bcab-50db87694023")
+	)
+	(wire
+		(pts
 			(xy 375.92 217.17) (xy 389.89 217.17)
 		)
 		(stroke
@@ -12986,6 +12986,16 @@
 			(type default)
 		)
 		(uuid "e113dba8-0744-4996-9c77-47322f6c0248")
+	)
+	(wire
+		(pts
+			(xy 152.4 256.54) (xy 152.4 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14dd0a0-e155-4dc7-8f64-1e2b78f4da19")
 	)
 	(wire
 		(pts
@@ -13249,7 +13259,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 257.81) (xy 152.4 257.81)
+			(xy 142.24 256.54) (xy 152.4 256.54)
 		)
 		(stroke
 			(width 0)
@@ -23639,6 +23649,17 @@
 				)
 			)
 		)
+		(property "price" "0"
+			(at 19.05 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "gbg-pcb"
 				(path "/3bb9adb4-655f-45ab-af84-44b563241ee2"
@@ -24837,6 +24858,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 19.05 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "0"
 			(at 19.05 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -26524,6 +26556,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 254 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "0"
 			(at 254 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -31757,6 +31800,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 19.05 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "0"
 			(at 19.05 267.97 0)
 			(hide yes)
 			(show_name no)

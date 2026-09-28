@@ -13,7 +13,7 @@
 
 [BOM-with-DNP.csv](/PCB_production/BOM-with-DNP.csv) includes alternative parts that you could choose some of, for other configurations of the board.
 
-[BOM-without-motor-battery-button-connectors.csv](/PCB_production/BOM-without-motor-battery-button-connectors.csv) is a list of parts without the motor, battery, and button connectors that can be used to get assembled boards that can be customized with either screw terminals or weelye-style tabs by doing just a little bit of through-hole soldering.
+[BOM-without-motor-battery-button-speed-connectors.csv](/PCB_production/BOM-without-motor-battery-button-speed-connectors.csv) is a list of parts without the motor, battery, and button connectors that can be used to get assembled boards that can be customized with either screw terminals or weelye-style tabs by doing just a little bit of through-hole soldering.
 
 [BOM-only-smd.csv](/PCB_production/BOM-only-smd.csv) is a list of the surface mount parts that can be used to order boards with surface mount components soldered for you but all of the easier-to-solder through-hole components are left for you to buy and solder.
 
