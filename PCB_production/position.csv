@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-09-29T01:34:43 ###
+### Footprint positions - created on 2026-09-29T03:21:06 ###
 ### Printed by KiCad version 10.0.6
 ## Unit = inches, Angle = deg.
 ## Side : All
@@ -12,7 +12,7 @@ C7        0.1uF            C_0603_1608Metric                                  4.
 C8        22uF             C_1210_3225Metric                                  4.9650    -3.1600  180.0000  top
 D1        D_Schottky       D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
 D2        D_Schottky       D_SOD-123F                                         2.6860    -2.5750    0.0000  top
-D3        18V_zener        D_SOD-123F                                         3.8791    -2.3950  -90.0000  top
+D3        18V_zener        D_SOD-123F                                         3.8390    -2.4370  180.0000  top
 D4        18V_zener        D_SOD-123F                                         3.8390    -2.5430  180.0000  top
 FID1      Fiducial         Fiducial_1mm_Mask3mm                               2.5130    -3.9470    0.0000  top
 FID2      Fiducial         Fiducial_1mm_Mask3mm                               2.9590    -1.8310  180.0000  top
@@ -20,13 +20,13 @@ FID3      Fiducial         Fiducial_1mm_Mask3mm                               5.
 J2        Conn_01x04       JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     5.2891    -2.6659   90.0000  top
 L1        10uH             IND_SRR6038-120Y                                   5.2200    -3.1950   90.0000  top
 P1        rpi_pico_1_W     RaspberryPi_Pico_Common_SMD                        3.2913    -3.4179   90.0000  top
-Q1        PSMN1R0-40YLDX   LFPAK56                                            4.2770    -2.4897  -90.0000  top
-Q2        PSMN1R0-40YLDX   LFPAK56                                            4.0507    -2.4897  -90.0000  top
+Q1        PSMN1R0-40YLDX   LFPAK56                                            4.3083    -2.4897  -90.0000  top
+Q2        PSMN1R0-40YLDX   LFPAK56                                            4.0867    -2.4897  -90.0000  top
 R1        220              R_0805_2012Metric                                  5.5210    -3.5230  -90.0000  top
 R2        220              R_0805_2012Metric                                  4.3970    -3.4670   90.0000  top
-R3        3.3k             R_0805_2012Metric                                  3.7491    -2.3600  180.0000  top
-R4        22.1k            R_0805_2012Metric                                  3.7491    -2.4500    0.0000  top
-R5        22.1k            R_0805_2012Metric                                  3.8210    -2.2610    0.0000  top
+R3        3.3k             R_0805_2012Metric                                  3.9370    -2.2950  -90.0000  top
+R4        22.1k            R_0805_2012Metric                                  3.8210    -2.3430    0.0000  top
+R5        22.1k            R_0805_2012Metric                                  3.8210    -2.2550    0.0000  top
 R6        8.2k             R_0805_2012Metric                                  4.7793    -1.9850    0.0000  top
 R7        8.2k             R_0805_2012Metric                                  3.4500    -2.3790   90.0000  top
 R8        115k             R_0805_2012Metric                                  4.8200    -3.1600  -90.0000  top
