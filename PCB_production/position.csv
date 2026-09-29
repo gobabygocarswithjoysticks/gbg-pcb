@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-09-28T03:49:50 ###
+### Footprint positions - created on 2026-09-29T01:34:43 ###
 ### Printed by KiCad version 10.0.6
 ## Unit = inches, Angle = deg.
 ## Side : All
@@ -13,7 +13,7 @@ C8        22uF             C_1210_3225Metric                                  4.
 D1        D_Schottky       D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
 D2        D_Schottky       D_SOD-123F                                         2.6860    -2.5750    0.0000  top
 D3        18V_zener        D_SOD-123F                                         3.8791    -2.3950  -90.0000  top
-D4        18V_zener        D_SOD-123F                                         3.8391    -2.5500  180.0000  top
+D4        18V_zener        D_SOD-123F                                         3.8390    -2.5430  180.0000  top
 FID1      Fiducial         Fiducial_1mm_Mask3mm                               2.5130    -3.9470    0.0000  top
 FID2      Fiducial         Fiducial_1mm_Mask3mm                               2.9590    -1.8310  180.0000  top
 FID3      Fiducial         Fiducial_1mm_Mask3mm                               5.4330    -1.7810  180.0000  top
