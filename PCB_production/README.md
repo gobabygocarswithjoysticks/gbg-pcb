@@ -36,7 +36,7 @@ This keeps you from needing to solder the joystick wires to a 4 wire cable.
 ## other configurations
 
 ### alternate voltage regulator (U5)
-Replace U3, C3, R5, C6, L1, C7, R8, R9, C8
+Replace U3, C3, C6, C7, C8, R8, R9, L1
 
 Choose a single THT module that outputs 5V. Make sure the pinout matches. Make sure the min and max input voltage are compatible with your battery. It's ok if the output voltage sags below 5 volts as the input approaches 5 volts but make sure the regulator you choose doesn't start blinking on and off as the input approaches 5 volts, if you plan to use cars with 6 volt batteries.
 
