@@ -28332,7 +28332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad libraries:IND_SRR6038-120Y"
+		(property "Footprint" "kicad libraries:IND_SRR6038"
 			(at 361.95 217.17 0)
 			(hide yes)
 			(show_name no)

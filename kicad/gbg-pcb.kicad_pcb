@@ -2817,7 +2817,7 @@
 			)
 		)
 	)
-	(footprint "kicad libraries:IND_SRR6038-120Y"
+	(footprint "kicad libraries:IND_SRR6038"
 		(layer "F.Cu")
 		(uuid "0c92cc89-f537-435f-a28f-34c86eab84c4")
 		(at 132.588 81.153 90)
