@@ -22,7 +22,7 @@
 "J100-J103,J106,J107","0197054001","kicad libraries:0197054001","Molex","0197054001","WM2982-ND","tht","6"
 "J104","wellye style","kicad libraries:CONN02_2159151002_MOL","Molex","2159151002","23-2159151002-ND","tht","1"
 "J105","wellye style","kicad libraries:TE_1-1123723-2","TE Connectivity AMP Connectors","1-1123723-2","A111830-ND","tht","1"
-"L1","10uH","kicad libraries:IND_SRR6038-120Y","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
+"L1","10uH","kicad libraries:IND_SRR6038","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
 "M1,M2","[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99","","Sunon Fans","[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   ","[5V, 3.5-6] MF40200V1-1000U-A99, or [12V, 4.5-13.8] MF40201V1-1000U-A99, or [24V 8-27.6] MF40202V1-1000U-A99   ","tht","2"
 "P1","rpi pico 1 W","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0918","2648-SC0918CT-ND","smd","1"
 "Q1,Q2","PSMN1R0-40YLDX","Package_TO_SOT_SMD:LFPAK56","Nexperia USA Inc.","PSMN1R0-40YLDX","1727-1856-1-ND","smd","2"

@@ -19,7 +19,7 @@
 "J6,SW1","screw terminal","kicad libraries:EBBA-02-C-SS-BU","Adam Tech","EBBA-02-C-SS-BU","2057-EBBA-02-C-SS-BU-ND","tht","2"
 "J7,J8","1017491","kicad libraries:CONN_1017491","Phoenix Contact","1017491","277-17493-ND","tht","2"
 "J11","Conn_01x10_Pin","Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical","Any Manufacturer","PH1-10-UA","2057-PH1-10-UA-ND","tht","1"
-"L1","10uH","kicad libraries:IND_SRR6038-120Y","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
+"L1","10uH","kicad libraries:IND_SRR6038","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
 "P1","rpi pico 1 W","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0918","2648-SC0918CT-ND","smd","1"
 "Q1,Q2","PSMN1R0-40YLDX","Package_TO_SOT_SMD:LFPAK56","Nexperia USA Inc.","PSMN1R0-40YLDX","1727-1856-1-ND","smd","2"
 "R1,R2","220","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW0805220RJNEA","541-220ACT-ND","smd","2"

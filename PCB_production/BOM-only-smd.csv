@@ -7,7 +7,7 @@
 "D1,D2","D_Schottky","Diode_SMD:D_SOD-123F","Good-Ark Semiconductor","FS26","4786-FS26CT-ND","smd","2"
 "D3,D4","18V zener","Diode_SMD:D_SOD-123F","Vishay General Semiconductor - Diodes Division","MMSZ5248B-E3-18","MMSZ5248B-E3-18GICT-ND","smd","2"
 "J2","Conn_01x04","Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical","JST Sales America Inc.","BM04B-SRSS-TB","455-BM04B-SRSS-TBCT-ND","smd","1"
-"L1","10uH","kicad libraries:IND_SRR6038-120Y","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
+"L1","10uH","kicad libraries:IND_SRR6038","Bourns","SRR6038-100Y","SRR6038-100YCT-ND","smd","1"
 "P1","rpi pico 1 W","Module:RaspberryPi_Pico_Common_SMD","Raspberry Pi","SC0918","2648-SC0918CT-ND","smd","1"
 "Q1,Q2","PSMN1R0-40YLDX","Package_TO_SOT_SMD:LFPAK56","Nexperia USA Inc.","PSMN1R0-40YLDX","1727-1856-1-ND","smd","2"
 "R1,R2","220","Resistor_SMD:R_0805_2012Metric","Vishay Dale","CRCW0805220RJNEA","541-220ACT-ND","smd","2"
