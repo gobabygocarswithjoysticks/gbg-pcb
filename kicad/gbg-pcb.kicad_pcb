@@ -3434,7 +3434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3482,7 +3482,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3495,7 +3495,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11777,7 +11777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11812,7 +11812,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11825,7 +11825,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11838,7 +11838,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13828,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1E104K080AA/2443145"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13850,7 +13850,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13863,7 +13863,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1E104K080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13876,7 +13876,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5667-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28486,7 +28486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -28521,7 +28521,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28534,7 +28534,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28547,7 +28547,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

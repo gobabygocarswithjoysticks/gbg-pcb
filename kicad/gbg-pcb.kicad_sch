@@ -9441,7 +9441,7 @@
 		)
 		(uuid "939c0fca-e102-4081-bd08-555821f6f32a")
 	)
-	(text_box "voltage regulator circuit     https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=FA36C6A68A48DC1D\n"
+	(text_box "voltage regulator circuit     https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=49A4BE669EF8F291 "
 		(exclude_from_sim no)
 		(at 279.4 203.2 0)
 		(size 123.19 38.1)
@@ -19860,7 +19860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19893,7 +19893,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19904,7 +19904,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19915,7 +19915,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 93.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -28875,7 +28875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 287.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28908,7 +28908,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 287.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28919,7 +28919,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 287.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -28930,7 +28930,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 287.02 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -33973,7 +33973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1E104K080AA/2443145"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 316.23 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -33995,7 +33995,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 316.23 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -34006,7 +34006,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1E104K080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 316.23 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -34017,7 +34017,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-5667-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 316.23 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -35747,7 +35747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA3E2X7R1H104M080AA/3949797"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R72A104KA35D/702549"
 			(at 287.02 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35780,7 +35780,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "TDK Corporation"
+		(property "Manufacturer_Name" "Murata Electronics"
 			(at 287.02 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35791,7 +35791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CGA3E2X7R1H104M080AA"
+		(property "Manufacturer_Part_Number" "GRM188R72A104KA35D"
 			(at 287.02 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -35802,7 +35802,7 @@
 				)
 			)
 		)
-		(property "digikey_part_number" "445-12561-1-ND"
+		(property "digikey_part_number" "490-3285-1-ND"
 			(at 287.02 135.89 0)
 			(hide yes)
 			(show_name no)
