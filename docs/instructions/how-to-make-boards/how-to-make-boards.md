@@ -126,15 +126,6 @@ Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.gith
 
 For more detailed instructions see [this page](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#flash-the-firmware-to-the-pico).
 
-### Test the 5v tolerant pins
-Pins 5,6,7, and 8 on the GBG-PCB are connected to a resistor voltage divider that allows the pico to read 5 volt signals. This is helpful for connecting remote control receivers that output 5 volt signals.
-* On the programmer website, show all the settings, and check "use rc." 
-* Use a multimeter to measure the voltage between ground and pins 5,6,7,8 on the Pico. 
-* The voltages should read as approximately 0.25 volts. 
-* If a pin reads as 3.3 volts or 0 volts, there is a problem with that pin and the soldering of R10 should be checked. 
-* Then, uncheck "use rc."
-
-![five-volt-test.png](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/refs/heads/main/docs/instructions/how-to-make-boards/images/five-volt-test.png)
 
 ## Assemble the case
 
