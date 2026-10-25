@@ -27,7 +27,7 @@ This keeps you from needing to solder the joystick wires to a 4 wire cable.
 ## parameters for PCBs:
 * 1oz copper
 * 1.0mm board thickness
-* 5mil/5mil
+* 6mil/6mil
 * 0.25mm holes
 * solder stencils should be 0.12mm
 * solder stencils should be "non-framework"
