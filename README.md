@@ -26,11 +26,11 @@ V2.4
 
 | version |     battery input   |    notes            |
 |------|--------|---------------------|
-| v2.4 | 4.0-28 V | new motor drivers |
-| v2.3 | 4.6-35 V | new mosfets       |
+| **v2.4** | **4.0-28 V** | **new motor drivers** |
+| [v2.3](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/v2.3) | 4.6-35 V | new mosfets       |
 | v2.2 | 4.6-18 V | larger R10        |
 | v2.1 | 4.6-18 V | redesign          |
-| v1.2 | 10-14  V | new heatsinks     |
+| [v1.2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1) | 10-14  V | new heatsinks     |
 | v1.1 | 10-14  V | first functional  |
 # Want one?
 Here's a few options:
