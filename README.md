@@ -84,7 +84,7 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 ## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powered ride-on cars for kids with disabilities
 
-## Sponsored by [Pacific North West Assistive Technology](https://pnwassistivetechnology.org/)
+## [Pacific North West Assistive Technology](https://pnwassistivetechnology.org/plug-and-drive) sponsored prototyping runs and is a user and distributor of these boards!
 
 <img width="300" height="300" alt="PNWAT Logo 3 1 Main CMYK" src="https://github.com/user-attachments/assets/bc17b7cf-fa24-46f8-94ca-ef74696f54de" />
 
