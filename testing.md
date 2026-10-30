@@ -20,7 +20,7 @@ At room temperature and 24 volts I measured 2.4 nanoAmps
 
 I supplied the board with 31 volts and when the board was on, VGS of Q1 and Q2 was 17.8 volts (the mosfets have a VGS max of 20 volts and this shows the mosfets are being protected correctly.
 
-I supplied the board with -31 volts. VGS of both Q1 and Q2 are near 0. VDS of Q2 is 31. The board draws 5mA. V-BATT-GND is 0 (the board stays off and does not get damaged by reverse voltage.
+I supplied the board with -31 volts. VGS of both Q1 and Q2 are near 0. VDS of Q2 is 31. The board draws 5mA. VBATT-GND is 0 (the board stays off and does not get damaged by reverse voltage).
 
 ---
 
