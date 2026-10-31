@@ -50,7 +50,7 @@ GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
 
 ### H: battery and current monitor
 #### 0: not installed
-#### 1: soldered (U4, R11, R12, R13, R14, R15, R16, C4)
+#### 1: soldered (U4, R11, R12, R13, R14, R15, R16, R17, R18, C4)
 
 ### J: speed knob
 #### 0: not installed

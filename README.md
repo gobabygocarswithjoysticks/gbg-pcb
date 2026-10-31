@@ -9,27 +9,34 @@ https://github.com/gobabygocarswithjoysticks/gbg-pcb
 
 [![Process KiCad](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml/badge.svg)](https://github.com/gobabygocarswithjoysticks/gbg-pcb/actions/workflows/process-kicad.yml)
 
-V2.3
+V2.4
 
 ### This board replaces the control box of a car's original electronics or the separate ESCs and Arduino in the [usual joystick go baby go modification](https://gobabygocarswithjoysticks.github.io/index/). The board has screw terminals for connecting to the battery, motors, and the joystick. With this circuit board, a car can be converted to joystick control without any soldering.
 
-### Voltage input: 6V, 12V, or 24V (absolute maximum 4.6V-35V)
+### Voltage input: 6V, 12V, or 24V (maximum 4V-28V)
 
 ### Controls two motors: one for each wheel so that the car can turn in place.
 
-## V2 vs V1
+## Versions
 * V2 GBG-PCBs (V2.3+) can run from 6-24 volt batteries.
-* V2.1 and V2.2 GBG-PCBs can run from 6 to 12 volt batteries (maximum of 18 volts). 
 * Version 1 GBG-PCBs had a higher, 10+ amp current capacity and a lower part count (easier assembly) but only runs on 12 volts.
 * Version 2 boards can be [configured](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#new-in-v2-weelye-control-box-compatible) with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires. 
 * Version 2 boards can supply [8 amps](/testing.md) per motor continuously.
 * For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
+| version |     battery input   |    notes            |
+|------|--------|---------------------|
+| **v2.4** | **4.0-28 V** | **new motor drivers** |
+| [v2.3](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/v2.3) | 4.6-35 V | new mosfets       |
+| v2.2 | 4.6-18 V | larger R10        |
+| v2.1 | 4.6-18 V | redesign          |
+| [v1.2](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1) | 10-14  V | new heatsinks     |
+| v1.1 | 10-14  V | first functional  |
 # Want one?
 Here's a few options:
 * Please feel free to use these [files](/PCB_production) and get boards yourself. There are instructions [here](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/how-to-make-boards/how-to-make-boards) for how to make GBG-PCBs by hand. A board costs approximately $40-$100 depending on what quantity it is built in.
-* [Use this PCBWay link to order fully assembled boards](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_3_standard_e5a44837.html). Or, alternative PCBWay links if you want to complete the assembly yourself: [PCBWay can do everything but leave the battery and motor connectors off](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_3_without_battery_and_motor_co_59a1961e.html) or, [PCBWay can do the challenging surface mount soldering and leave the through-hole soldering for you](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_3_SMD_only_0de9c2fe.html)
-* Email gobabygocarswithjoysticks@gmail.com. We may have a spare V1 or V2 GBG-PCBs that I can sell or donate to you.
+* [Use this PCBWay link to order fully assembled boards](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_4_standard_060a1f50.html). Or, alternative PCBWay links if you want to complete the assembly yourself: [PCBWay can do everything but leave the battery and motor connectors off](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_4_without_battery_and_motor_co_cbe6f029.html) or, [PCBWay can do the challenging surface mount soldering and leave the through-hole soldering for you](https://www.pcbway.com/project/shareproject/GBG_PCB_Go_Baby_Go_Printed_Circuit_Board_V2_4_SMD_only_aa17aff5.html)
+* Email gobabygocarswithjoysticks@gmail.com. I have spare V1 or V2 GBG-PCBs that I can sell or donate to you.
 * Email pnwassistivetech@gmail.com or visit the [PNW Assistive Technology website](https://pnwassistivetechnology.org/plug-and-drive). Thank you to PNWAT for sponsoring V2 GBG-PCB prototyping runs and being a supplier of V1 and V2 GBG-PCBs (called "plug and drive boards" by PNWAT).
 
 # Software
@@ -77,7 +84,7 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 
 ## This project was inspired by the [Go Baby Go project](https://health.oregonstate.edu/gobabygo) that modifies powered ride-on cars for kids with disabilities
 
-## Sponsored by [Pacific North West Assistive Technology](https://pnwassistivetechnology.org/)
+## [Pacific North West Assistive Technology](https://pnwassistivetechnology.org/plug-and-drive) sponsored prototyping runs and is a user and distributor of these boards!
 
 <img width="300" height="300" alt="PNWAT Logo 3 1 Main CMYK" src="https://github.com/user-attachments/assets/bc17b7cf-fa24-46f8-94ca-ef74696f54de" />
 
