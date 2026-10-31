@@ -75,7 +75,7 @@ J2
 #### battery and current monitor
 If you don't need the PCB to be able to detect low battery voltage or how much current the motors are drawing you can omit the following parts:
 
-U4, R11, R12, R13, R14, R20, C4
+U4, R11, R12, R13, R14, R15, R16, C4
 
 #### speed knob
 If you know that you will not install a speed adjustment knob you can omit 
