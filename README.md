@@ -21,7 +21,7 @@ V2.4
 * V2 GBG-PCBs (V2.3+) can run from 6-24 volt batteries.
 * Version 1 GBG-PCBs had a higher, 10+ amp current capacity and a lower part count (easier assembly) but only runs on 12 volts.
 * Version 2 boards can be [configured](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#new-in-v2-weelye-control-box-compatible) with battery, motor, and signal plugs that match the plugs on the common weelye control boxes. This means some cars can be converted to joystick control without cutting any wires. 
-* Version 2 boards can supply [8 amps](/testing.md) per motor continuously.
+* Version 2 boards can supply [7+ amps](/testing.md) per motor continuously.
 * For the previous versions of the GBG-PCB see https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/version_1 
 
 | version |     battery input   |    notes            |

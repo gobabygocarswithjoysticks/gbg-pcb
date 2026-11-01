@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.9144,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -190,15 +190,15 @@
           ""
         ],
         [
-          "silk_over_copper|141081000|59309000|cce9d48d-5b4e-4617-852f-46ab1adea8cc|9360a168-15e4-479e-accc-64cb8c85731d",
-          ""
-        ],
-        [
           "silk_over_copper|141081000|59622955|e4e0a643-dedc-4d73-8650-26e0c97ad551|9360a168-15e4-479e-accc-64cb8c85731d",
           ""
         ],
         [
           "silk_over_copper|141351000|55676800|cce9d48d-5b4e-4617-852f-46ab1adea8cc|58911770-7b0f-48ea-a455-b4fcea29920a",
+          ""
+        ],
+        [
+          "silk_over_copper|141351000|59309000|cce9d48d-5b4e-4617-852f-46ab1adea8cc|9360a168-15e4-479e-accc-64cb8c85731d",
           ""
         ],
         [
@@ -332,7 +332,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2033,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
