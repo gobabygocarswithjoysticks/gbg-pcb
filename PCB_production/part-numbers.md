@@ -2,15 +2,8 @@
 
 ## GBG-PCB-V2.1
 ## GBG-PCB-V2.2
-
-### Examples
-GBG-PCB-V2.1-A1-B1-C1-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
-
-![v2.1a](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/photos/image11.JPG)
-
-GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
-
-![v2.1b](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/main/photos/image12.JPG)
+## GBG-PCB-V2.3
+## GBG-PCB-V2.4
 
 ### A: battery connector
 #### 0: not installed
@@ -84,12 +77,6 @@ GBG-PCB-V2.1-A2-B2-C0-D1-E1-F1-G1-H1-J1-K0-L1-M1-N1-P1-Q1
 
 ## GBG-PCB-V1.1
 ## GBG-PCB-V1.2
-
-### Examples
-
-GBG-PCB-V1.2-D1W-F1-J1-K0-M1-P1-Q1
-
-![v1.2](https://raw.githubusercontent.com/gobabygocarswithjoysticks/gbg-pcb/version_1/photos/image0.jpg)
 
 ### V: version
 #### 1.1 - uses a single long heatsink
