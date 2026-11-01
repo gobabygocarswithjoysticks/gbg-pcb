@@ -72,6 +72,8 @@ Run [this github action](https://github.com/gobabygocarswithjoysticks/gbg-pcb/ac
 # photos
 ![view of assembled PCB from the top](/photos/image0.jpg)
 ![view of assembled PCB](/photos/image1.jpg)
+![view of PCB with only SMD parts](/photos/smd-only.jpg)
+![view of PCB with only SMD parts](/photos/top-unpop.jpg)
 
 # images of CAD
 

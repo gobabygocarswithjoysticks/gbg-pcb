@@ -3,6 +3,8 @@
 
 The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production)
 
+[interactive BOM](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
+
 ## parts
 * components ([see BOM and notes on this page](https://github.com/gobabygocarswithjoysticks/gbg-pcb/tree/main/PCB_production))
 * GBG-PCB circuit boards
