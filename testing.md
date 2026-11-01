@@ -1,3 +1,8 @@
+## V2.4 boards
+
+V2.4 boards can supply 7 amps per motor continuously (94% speed, 12 volts)
+
+With fans running, a V2.4 GBG-PCB has been tested to supply 10 amps continuously (90% speed, 12 volts)
 
 ---
 
