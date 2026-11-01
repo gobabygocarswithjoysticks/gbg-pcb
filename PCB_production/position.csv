@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-10-25T06:37:19 ###
-### Printed by KiCad version 10.0.7
+### Footprint positions - created on 2026-11-01T23:51:05 ###
+### Printed by KiCad version 10.0.8
 ## Unit = inches, Angle = deg.
 ## Side : All
 # Ref     Val             Package                                              PosX       PosY       Rot  Side
@@ -11,7 +11,7 @@ C6        0.1uF           C_0603_1608Metric                                  5.0
 C7        0.1uF           C_0603_1608Metric                                  4.8000    -3.3450   90.0000  top
 C8        22uF            C_1210_3225Metric                                  4.9650    -3.1600  180.0000  top
 D1        D_Schottky      D_SOD-123F                                         4.3898    -3.2086  -90.0000  top
-D2        D_Schottky      D_SOD-123F                                         2.6860    -2.5800    0.0000  top
+D2        D_Schottky      D_SOD-123F                                         2.6860    -2.5950    0.0000  top
 D3        18V_zener       D_SOD-123F                                         3.8390    -2.4370  180.0000  top
 D4        18V_zener       D_SOD-123F                                         3.8390    -2.5430  180.0000  top
 D6        3V_zener        SOT-23                                             4.8970    -2.7230   90.0000  top
