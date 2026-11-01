@@ -20,7 +20,7 @@
 #### 1: screw terminal
 #### 2: Molex 2159151002 (J104)
 #### 3: TE 1-1123723-2 (J105)
-#### 4: tabs for Weelye mode (J106 J107), V2.2 only
+#### 4: tabs for Weelye mode (J106 J107)
 
 ### D: pico
 #### 0: not installed
