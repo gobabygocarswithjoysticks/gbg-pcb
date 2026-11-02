@@ -28,7 +28,7 @@ This keeps you from needing to solder the joystick wires to a 4 wire cable.
 * 1oz copper
 * 1.0mm board thickness
 * 6mil/6mil
-* 0.25mm holes
+* 0.3mm holes
 * solder stencils should be 0.12mm
 * solder stencils should be "non-framework"
 * I suggest lead-free HASL, but match your solder type
