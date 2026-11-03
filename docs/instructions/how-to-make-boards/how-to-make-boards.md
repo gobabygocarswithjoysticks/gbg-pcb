@@ -29,9 +29,10 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * isopropyl alcohol
 * brush
 * container that can hold the PCB
+* 3D printed [stencil jig](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/stencil-jig.stl)
+* magnifying glass or microscope
 * multimeter
-* (optional) 3D printed [stencil jig](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/stencil-jig.stl)
-* (optional) magnifying glass or microscope
+* (optional) hair dryer
 
 ## Add solder paste
 [video here](https://youtu.be/dTn8IFIFuZ0)
@@ -56,20 +57,27 @@ Make a line of solder paste across the top of the solder stencil. Close the sold
 
 Squeegee the solder paste across the stencil
 
-Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad. Some bridging of pads is ok (especially on the rpi pico (P1) since when it melts it will separate). Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry. Pay special attention to R10 and U4.
+Lift the stencil up and inspect the pads of the PCB. There should be solder paste on each pad. Some bridging of pads is ok (especially on the rpi pico (P1) since when it melts it will separate). 
+
+Use a paper towel and isopropyl alcohol to clean the PCB if you need to retry. Pay special attention to R10, U4, U1, and U2. If the solder paste doesn't look perfect it's much easier to wipe the board and retry at this stage than try and fix shorts on an assembled board.
 
 Lift the PCB out of the frame and set it aside. You can repeat the process to add solder paste to multiple boards. You can scrape unused paste off the stencil and collect it on your squeegee and reuse it for a few boards.
 
 ## Place components
+[video here](https://youtu.be/dwlZY8XkFCM)
+
 Placing components on multiple boards saves time compared to making each board one at a time.
 
-Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. The solder paste will hold the components in place. Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment. Avoid touching or smearing the solder paste.
+Use tweezers to place all the surface-mount (marked as "smd" in the BOM) components in their places on the board. 
+The solder paste will hold the components in place.
+
+Consider placing U1, U2, U4, and R10 first since they're the hardest and if the solder paste is smeared and is shorting across pins it's easier to clean and restart now than fix shorts later.
+
+Later, when the solder paste melts surface tension will align the components so it's ok if they're slightly out of alignment, but if there are shorts between pads now's the best time to fix that.
 
 ### [here's an interactive site where you can check off parts as you place them in an image](https://gobabygocarswithjoysticks.github.io/gbg-pcb/ibom/ibom.html)
 
 _thank you [qu1ck](https://github.com/openscopeproject/InteractiveHtmlBom) for this amazing tool_
-
-[video here](https://youtu.be/dwlZY8XkFCM)
 
 ## Reflow solder
 [video here](https://youtu.be/GeIxBO7Buhc)
@@ -85,8 +93,6 @@ Carefully pick up the PCB with tweezers or needle nose pliers (needle nose plier
 Hold the PCB as close to the hot plate as you can without touching or tilting the PCB. Hold the PCB there for 1 minute so that the PCB can slowly warm up.
 
 Gently set the PCB on the hotplate. Slide the PCB fully onto the hotplate.
-
-The following steps shouldn't take more than about 20 seconds.
 
 The solder paste should melt and become shiny.
 
