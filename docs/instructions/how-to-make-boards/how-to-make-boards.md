@@ -32,7 +32,8 @@ The files you need are here: [https://github.com/gobabygocarswithjoysticks/gbg-p
 * 3D printed [stencil jig](https://github.com/gobabygocarswithjoysticks/gbg-pcb/blob/main/PCB_production/stencil-jig.stl)
 * magnifying glass or microscope
 * multimeter
-* (optional) hair dryer
+* power supply with current limit setting
+* hair dryer
 
 ## Add solder paste
 [video here](https://youtu.be/dTn8IFIFuZ0)
@@ -128,12 +129,33 @@ Stick the heatsinks to the back of the board. Make sure the heatsinks are center
 
 ## Test
 
-Connect power, a joystick, motors (even small ones can help you test), and a power switch to the GBG-PCB.
+Connect the GBG-PCB to a power supply that is set to 12 volts and a maximum current of 0.2 amps.
 
-Go to the [go baby go programmer website](https://gobabygocarswithjoysticks.github.io/programmer/#new) and follow the instructions to upload code to a new car. Make sure to select the PCB_gbg_program.
+The power supply should indicate that it is providing zero current.
 
-For more detailed instructions see [this page](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#flash-the-firmware-to-the-pico).
+Connect a switch to the GBG-PCB and turn it on.
 
+The power supply should indicate that it is providing less than 0.2 amps.
+
+The green 3V led should light up.
+
+The 5v pin should supply 5 volts.
+
+The 3v pin should supply 3 volts.
+
+Connect the GBG-PCB to a computer and upload the GBG_gbg_program software.
+
+The programmer website should indicate a measured battery voltage of approximately 12 volts.
+
+Connect a joystick, and motors (even small motors can help you test).
+
+Calibrate the joystick, then press "turn on motors."
+
+Test that both motors work both forwards and backwards.
+
+Test that the programmer website displays current measurements for both motors.
+
+For instructions on uploading code to the car and instructions for using the board see [this page](https://gobabygocarswithjoysticks.github.io/gbg-pcb/instructions/instructions#flash-the-firmware-to-the-pico).
 
 ## Assemble the case
 
